@@ -1,0 +1,58 @@
+CRITICAL - 2021-11-21 01:26:30 --> Undefined variable: title
+#0 C:\wamp64\www\plantandosemillas\app\Views\template\header.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 20, Array)
+#1 C:\wamp64\www\plantandosemillas\system\View\View.php(214): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\plantandosemillas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\plantandosemillas\system\Common.php(1097): CodeIgniter\View\View->render('template/header', Array, true)
+#4 C:\wamp64\www\plantandosemillas\app\Controllers\Page.php(11): view('template/header')
+#5 C:\wamp64\www\plantandosemillas\system\CodeIgniter.php(801): App\Controllers\Page->__construct()
+#6 C:\wamp64\www\plantandosemillas\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#7 C:\wamp64\www\plantandosemillas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\plantandosemillas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\plantandosemillas\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+CRITICAL - 2021-11-21 01:48:43 --> Argument 2 passed to view() must be of the type array, string given, called in C:\wamp64\www\plantandosemillas\app\Controllers\Page.php on line 18
+#0 C:\wamp64\www\plantandosemillas\app\Controllers\Page.php(18): view('template/header', 'home')
+#1 C:\wamp64\www\plantandosemillas\app\Controllers\Page.php(28): App\Controllers\Page->setHeader('home')
+#2 C:\wamp64\www\plantandosemillas\system\CodeIgniter.php(824): App\Controllers\Page->index()
+#3 C:\wamp64\www\plantandosemillas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#4 C:\wamp64\www\plantandosemillas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\plantandosemillas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\plantandosemillas\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#7 {main}
+CRITICAL - 2021-11-21 01:52:57 --> Undefined variable: title
+#0 C:\wamp64\www\plantandosemillas\app\Views\template\header.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 20, Array)
+#1 C:\wamp64\www\plantandosemillas\system\View\View.php(214): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\plantandosemillas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\plantandosemillas\system\Common.php(1097): CodeIgniter\View\View->render('template/header', Array, true)
+#4 C:\wamp64\www\plantandosemillas\app\Controllers\Page.php(11): view('template/header')
+#5 C:\wamp64\www\plantandosemillas\system\CodeIgniter.php(801): App\Controllers\Page->__construct()
+#6 C:\wamp64\www\plantandosemillas\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#7 C:\wamp64\www\plantandosemillas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\plantandosemillas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\plantandosemillas\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+CRITICAL - 2021-11-21 12:52:45 --> syntax error, unexpected 'join' (T_STRING), expecting variable (T_VARIABLE)
+#0 C:\wamp64\www\plantandosemillas\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\p...')
+#1 C:\wamp64\www\plantandosemillas\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\plantandosemillas\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\plantandosemillas\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\plantandosemillas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\plantandosemillas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\plantandosemillas\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#9 {main}
+CRITICAL - 2021-11-21 13:02:37 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\wamp64\www\plantandosemillas\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\wamp64\www\plantandosemillas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\wamp64\www\plantandosemillas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\wamp64\www\plantandosemillas\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#4 {main}
+CRITICAL - 2021-11-21 13:17:29 --> Undefined variable: sectin
+#0 C:\wamp64\www\plantandosemillas\app\Controllers\Page.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 36, Array)
+#1 C:\wamp64\www\plantandosemillas\system\CodeIgniter.php(824): App\Controllers\Page->work('what')
+#2 C:\wamp64\www\plantandosemillas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#3 C:\wamp64\www\plantandosemillas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\plantandosemillas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\plantandosemillas\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#6 {main}

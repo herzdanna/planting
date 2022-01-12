@@ -1,0 +1,9 @@
+CRITICAL - 2021-12-02 08:52:37 --> Invalid file: wheree.php
+#0 /home/om19hoksyuhb/public_html/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('wheree.php')
+#1 /home/om19hoksyuhb/public_html/system/Common.php(1097): CodeIgniter\View\View->render('wheree', Array, true)
+#2 /home/om19hoksyuhb/public_html/app/Controllers/Page.php(36): view('wheree')
+#3 /home/om19hoksyuhb/public_html/system/CodeIgniter.php(824): App\Controllers\Page->work('wheree')
+#4 /home/om19hoksyuhb/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 /home/om19hoksyuhb/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/om19hoksyuhb/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

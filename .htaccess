@@ -1,0 +1,28 @@
+RewriteEngine on
+
+# En el siguiente codigo debe colocar el nombre de su dominio.
+
+RewriteCond %{HTTP_HOST} ^(www.)?plantingseedsinternational.com$
+
+# Debes cambiar 'subdirectory' por el nombre del subdirectorio que desea apuntar.
+
+RewriteCond %{REQUEST_URI} !^/public/
+
+# No hacer ningun cambio en este codigo 
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Volvemos a insertar el nombre del subdirectorio que estamos utilizando.
+
+RewriteRule ^(.*)$ /public/$1
+
+# Cmabia *tudominio por el nombre de tu dominio
+
+# Sustituye 'subdirectory' por el nombre del subdirectorio a utilizar 
+
+RewriteCond %{HTTP_HOST} ^(www.)?plantingseedsinternational.com$
+
+RewriteRule ^(/)?$ public/index.php [L]
+# Luego del subdirectorio se indica el archivo principal del sitio, en esta ocasión index.php.
