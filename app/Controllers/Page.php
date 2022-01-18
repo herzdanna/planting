@@ -39,7 +39,33 @@ class Page extends BaseController
 
     public function index()
     {
-        return $this->setHeader($this->setTitle(1)).view('home').$this->footer;
+        $facebook_page_id           = '523646864415597';
+        $facebook_app_secret        = '4261c10237190039535c5f0b1211b2a5';
+        $facebook_app_id            = '426190352528999';
+        $facebook_graph_version     = 'v12.0';
+
+        $fb = new \Facebook\Facebook([
+            'app_id' => $facebook_app_id,
+            'app_secret' => $facebook_app_secret,
+            'default_graph_version' => $facebook_graph_version
+        ]);
+
+        //$accessToken = "EAAGDniyRtmcBAMaOwgVcrbFm0nvF7cekfjRmnhBWZBA0NFZBXhGdnMlK9hl2NuZAPCuueiQ15DCfvZBVrCxknfX6gFLSg7DmDdJYdMJFA0wb7MW9NYz7ka3WxvtZBGlH1bziRwtWGFAymOy9tUSnabKGY1PYDGGeGXgn5DWjTIS2xKZCg5X8TVFCWZAkqeuBfgJPOZCINsB7VQlpndIT31r4";
+        $accessToken = "426190352528999|hrlBDWS1CwP4guolWcyvb7PeKUs";
+        try{
+            $response = $fb->get( '/'.$facebook_page_id.'/posts?fields=full_picture,message,permalink_url&limit=8', $accessToken);
+        }
+        catch(Facebook\Exceptions\FacebookResponseException $e) {
+            echo 'Graph returned an error: ' . $e->getMessage();
+            exit;
+        } catch(Facebook\Exceptions\FacebookSDKException $e) {
+            echo 'Facebook SDK returned an error: ' . $e->getMessage();
+            exit;
+        }
+
+        $data = $response->getDecodedBody(); 
+
+        return $this->setHeader($this->setTitle(1)).view('home',$data).$this->footer;
     }
 
     public function work(string $section = 'what')

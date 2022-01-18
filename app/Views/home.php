@@ -156,32 +156,27 @@
             <h1 class="h3 text-primary fw-bold mb-0" data-aos="fade-up">What we've been up to</h1>
         </div>
     </div>
+
+    
     <div class="container-fluid">
         <div class="row g-3">
-            <div class="col-4 col-lg-3">
-                <div class="w-100 ratio ratio-4x3 bg-light"></div>
-            </div>
-            <div class="col-4 col-lg-3">
-                <div class="w-100 ratio ratio-4x3 bg-light"></div>
-            </div>
-            <div class="col-4 col-lg-3">
-                <div class="w-100 ratio ratio-4x3 bg-light"></div>
-            </div>
-            <div class="col-4 col-lg-3">
-                <div class="w-100 ratio ratio-4x3 bg-light"></div>
-            </div>
-            <div class="col-4 col-lg-3">
-                <div class="w-100 ratio ratio-4x3 bg-light"></div>
-            </div>
-            <div class="col-4 col-lg-3">
-                <div class="w-100 ratio ratio-4x3 bg-light"></div>
-            </div>
-            <div class="col-4 col-lg-3">
-                <div class="w-100 ratio ratio-4x3 bg-light"></div>
-            </div>
-            <div class="col-4 col-lg-3">
-                <div class="w-100 ratio ratio-4x3 bg-light"></div>
-            </div>
+            
+            <?php 
+				foreach($data as $post){
+					?>
+                        <div class="col-4 col-lg-3">
+                            <a href="<?php echo $post["permalink_url"];?>" target="_blank">
+                                <div class="w-100">
+                                    <img src="<?php echo $post["full_picture"];?>" alt="facebook" class="img-fluid">
+                                </div>
+                            </a>
+
+						</div>
+					<?php
+				}
+			?>
+
+            
         </div>
     </div>
 </section>
