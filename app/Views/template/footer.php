@@ -74,17 +74,17 @@
                                 <li><a href="/join-us#donate" class="link-light text-decoration-none tx-3">Donate</a></li>
                                 <li><a href="/join-us#sponsor" class="link-light text-decoration-none tx-3">Become a sponsor</a></li>
                                 <li><a href="/join-us#friends-circle" class="link-light text-decoration-none tx-3">Join a Friends Circle</a></li>
-                                <li><a href="/join-us" class="link-light text-decoration-none tx-3">Visit us</a></li>
+                                <li><a href="/join-us#exchange-programs" class="link-light text-decoration-none tx-3">Visit us</a></li>
                             </ul>
                         </div>
                         <div class="col-6">
                             <ul class="list-unstyled mb-4">
                                 <div class="fw-bold">Locations</div>
-                                <li><a href="#!" class="link-light text-decoration-none tx-3">Guatemala City</a></li>
-                                <li><a href="#!" class="link-light text-decoration-none tx-3">Sacalá las Lomas</a></li>
-                                <li><a href="#!" class="link-light text-decoration-none tx-3">San Antonio de Tioxja</a></li>
-                                <li><a href="#!" class="link-light text-decoration-none tx-3">San Lucas</a></li>
-                                <li><a href="#!" class="link-light text-decoration-none tx-3">Yepocapa</a></li>
+                                <li><a href="/work/where#guatemala" class="link-light text-decoration-none tx-3">Guatemala City</a></li>
+                                <li><a href="/work/where" class="link-light text-decoration-none tx-3">Sacalá las Lomas</a></li>
+                                <li><a href="/work/where" class="link-light text-decoration-none tx-3">San Antonio de Tioxja</a></li>
+                                <li><a href="/work/where" class="link-light text-decoration-none tx-3">San Lucas</a></li>
+                                <li><a href="/work/where" class="link-light text-decoration-none tx-3">Yepocapa</a></li>
                             </ul>
                             <ul class="list-unstyled mb-4">
                                 <div class="fw-bold">Resources</div>

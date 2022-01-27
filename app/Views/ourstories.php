@@ -29,42 +29,35 @@
             </div>
 
             <div class="row gx-3 gx-xl-5 gy-3">
-                <div class="col-6 col-sm-6 col-md-6 col-lg-3">
-                    <a href="#!" class="post-card link-primary text-center" data-aos="fade-up">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-4">
+                    <a href="/blog#post1" class="post-card link-primary text-center" data-aos="fade-up">
                         <div class="post-card-img ratio ratio-4x3 mb-3 mb-lg-4">
-                            <img class="h-100 w-100 object-cover" src="/assets/img/support-1.jpg">
+                            <img class="h-100 w-100 object-cover" src="/assets/img/story-1.jpg">
                         </div>
-                        <h4 class="tx-3 tx-md-4 mb-0">Name of the publication</h4>
+                        <h4 class="tx-3 tx-md-4 mb-0">Teachers Day - Aleyda Machán</h4>
                     </a>
                 </div>
-                <div class="col-6 col-sm-6 col-md-6 col-lg-3">
-                    <a href="#!" class="post-card link-primary text-center" data-aos="fade-up">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-4">
+                    <a href="/blog#post2" class="post-card link-primary text-center" data-aos="fade-up">
                         <div class="post-card-img ratio ratio-4x3 mb-3 mb-lg-4">
-                            <img class="h-100 w-100 object-cover" src="/assets/img/support-2.jpg">
+                            <img class="h-100 w-100 object-cover" src="/assets/img/story-2.jpg">
                         </div>
-                        <h4 class="tx-3 tx-md-4 mb-0">Name of the publication</h4>
+                        <h4 class="tx-3 tx-md-4 mb-0">Sharing the Love for reading</h4>
                     </a>
                 </div>
-                <div class="col-6 col-sm-6 col-md-6 col-lg-3">
-                    <a href="#!" class="post-card link-primary text-center" data-aos="fade-up">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-4">
+                    <a href="/blog#post3" class="post-card link-primary text-center" data-aos="fade-up">
                         <div class="post-card-img ratio ratio-4x3 mb-3 mb-lg-4">
-                            <img class="h-100 w-100 object-cover" src="/assets/img/support-3.jpg">
+                            <img class="h-100 w-100 object-cover" src="/assets/img/story-3.jpg">
                         </div>
-                        <h4 class="tx-3 tx-md-4 mb-0">Name of the publication</h4>
+                        <h4 class="tx-3 tx-md-4 mb-0">Mentoring Parents and Students</h4>
                     </a>
                 </div>
-                <div class="col-6 col-sm-6 col-md-6 col-lg-3">
-                    <a href="#!" class="post-card link-primary text-center" data-aos="fade-up">
-                        <div class="post-card-img ratio ratio-4x3 mb-3 mb-lg-4">
-                            <img class="h-100 w-100 object-cover" src="/assets/img/support-4.jpg">
-                        </div>
-                        <h4 class="tx-3 tx-md-4 mb-0">Name of the publication</h4>
-                    </a>
-                </div>
+
             </div>
 
             <div class="text-center mt-5 mt-lg-7" data-aos="fade-up">
-                <button type="button" class="btn btn-primary px-4">Load more</button>
+                <a href="/blog" class="btn btn-primary px-4">Go to the blog </a>
             </div>
         </div>
     </section>
@@ -103,7 +96,7 @@
             </div>
 
             <div class="text-center mt-5 mt-lg-7" data-aos="fade-up">
-                <button type="button" class="btn btn-primary px-4">Load more</button>
+                <a href="https://www.youtube.com/channel/UCqm1YqvHZcTkf-ClFNroHlA" target="_blank" class="btn btn-primary px-4">Load more</a>
             </div>
         </div>
     </section>

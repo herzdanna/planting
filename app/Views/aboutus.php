@@ -259,7 +259,7 @@
                             <div class="col-6 col-lg-4 col-xl-3">
                                 <div class="flip-card">
                                     <div class="flip-card-front">
-                                        <img src="/assets/img/about/leadershipTeam/MishelMussali.jpg" class="img-fluid">
+                                        <img src="/assets/img/about/leadershipTeam/mishelMussali.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
                                         <h6 class="tx-3 tx-md-4">Mishel Mussali: Communications and Development Officer</h6>
@@ -305,33 +305,30 @@
                             <div class="col-6 col-lg-4 col-xl-3">
                                 <div class="flip-card">
                                     <div class="flip-card-front">
-                                        <!--<img src="/assets/img/about/educationalTeam/meridaYucute.jpg" class="img-fluid">-->
-                                        <img src="/assets/img/about/educationalTeam/pendiente.jpg" class="img-fluid">
+                                        <img src="/assets/img/about/educationalTeam/arnerMinas.jpg" class="img-fluid">  
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Merida Yucute - Teacher in Sacala </h6>
+                                        <h6 class="tx-3 tx-md-4">Arner Minas - Adminitrative Support </h6>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-6 col-lg-4 col-xl-3">
                                 <div class="flip-card">
                                     <div class="flip-card-front">
-                                        <!--<img src="/assets/img/about/educationalTeam/normaAtz.jpg" class="img-fluid">-->
-                                        <img src="/assets/img/about/educationalTeam/pendiente.jpg" class="img-fluid">
+                                        <img src="/assets/img/about/educationalTeam/mariaJuanaArmiraAvila.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Norma Atz - Teacher in Sacala</h6>
+                                        <h6 class="tx-3 tx-md-4">Maria Juana Armira Avila - Teacher in Tioxya</h6>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-6 col-lg-4 col-xl-3">
                                 <div class="flip-card">
                                     <div class="flip-card-front">
-                                        <!--<img src="/assets/img/about/educationalTeam/mariaArmira.jpg" class="img-fluid">-->
-                                        <img src="/assets/img/about/educationalTeam/pendiente.jpg" class="img-fluid">
+                                        <img src="/assets/img/about/educationalTeam/meridaYucute.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">María Juana Armira Avila - Teacher in Tioxya </h6>
+                                        <h6 class="tx-3 tx-md-4">Merida Yucute - Teacher in Sacalá </h6>
                                     </div>
                                 </div>
                             </div>
@@ -348,11 +345,10 @@
                             <div class="col-6 col-lg-4 col-xl-3">
                                 <div class="flip-card">
                                     <div class="flip-card-front">
-                                        <!--<img src="/assets/img/about/educationalTeam/anerMinas.jpg" class="img-fluid">-->
-                                        <img src="/assets/img/about/educationalTeam/pendiente.jpg" class="img-fluid">
+                                        <img src="/assets/img/about/educationalTeam/normaAtz.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Aner Minas - Administrative Support</h6>
+                                        <h6 class="tx-3 tx-md-4">Norma Atz - Teacher in Sacalá </h6>
                                     </div>
                                 </div>
                             </div>
@@ -374,96 +370,97 @@
                             <div class="col-6 col-lg-4 col-xl-3">
                                 <div class="flip-card">
                                     <div class="flip-card-front">
-                                        <!--<img src="/assets/img/about/staff/juanFlores.jpg" class="img-fluid">-->
-                                        <img src="/assets/img/about/educationalTeam/pendiente.jpg" class="img-fluid">
+                                        <img src="/assets/img/about/ComunnityDevTeam/carlosYos.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Juan Pablo Flores: Pedagogue of Community Programs</h6>
+                                        <h6 class="tx-3 tx-md-4">Carlos Yos: After school facilitator</h6>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-6 col-lg-4 col-xl-3">
                                 <div class="flip-card">
                                     <div class="flip-card-front">
-                                        <!--<img src="/assets/img/about/staff/sunyGarcia.jpg" class="img-fluid">-->
-                                        <img src="/assets/img/about/educationalTeam/pendiente.jpg" class="img-fluid">
+                                        <img src="/assets/img/about/ComunnityDevTeam/elisaMejicanos.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Suny Garcia: Motivated Women Facilitator</h6>
+                                        <h6 class="tx-3 tx-md-4">Elisa Mejicanos: Go Grils! and After school facilitator</h6>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-6 col-lg-4 col-xl-3">
                                 <div class="flip-card">
                                     <div class="flip-card-front">                       
-                                        <!--<img src="/assets/img/about/staff/lindaLopez.jpg" class="img-fluid">-->
-                                        <img src="/assets/img/about/educationalTeam/pendiente.jpg" class="img-fluid">
+                                        <img src="/assets/img/about/ComunnityDevTeam/gasparSucuqui.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Linda Lopez: GoGirls! Facilitator</h6>
+                                        <h6 class="tx-3 tx-md-4">Gaspar Sucuqui: Fathers' group facilitator</h6>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-6 col-lg-4 col-xl-3">
                                 <div class="flip-card">
                                     <div class="flip-card-front">
-                                        <!--<img src="/assets/img/about/staff/elizaMejicanos.jpg" class="img-fluid">-->
-                                        <img src="/assets/img/about/educationalTeam/pendiente.jpg" class="img-fluid">
+                                        <img src="/assets/img/about/ComunnityDevTeam/juanaEspanaBerna.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Eliza Mejicanos: GoGirls! And After School Facilitator</h6>
+                                        <h6 class="tx-3 tx-md-4">Juana España Berna: library Coordinator</h6>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-6 col-lg-4 col-xl-3">
                                 <div class="flip-card">
                                     <div class="flip-card-front">
-                                        <!--<img src="/assets/img/about/staff/vivianSantiago.jpg" class="img-fluid">-->
-                                        <img src="/assets/img/about/educationalTeam/pendiente.jpg" class="img-fluid">
+                                        <img src="/assets/img/about/ComunnityDevTeam/juanPabloFlores.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Vivian Santiago: Motivated Women Facilitator</h6>
+                                        <h6 class="tx-3 tx-md-4">Juan Pablo Flores: Pedagogue off community programs</h6>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-6 col-lg-4 col-xl-3">
                                 <div class="flip-card">
                                     <div class="flip-card-front">
-                                        <!--<img src="/assets/img/about/staff/mirianEsquivel.jpg" class="img-fluid">-->
-                                        <img src="/assets/img/about/educationalTeam/pendiente.jpg" class="img-fluid">
+                                        <img src="/assets/img/about/ComunnityDevTeam/lindaLopez.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Mirian Esquivel: Librarian</h6>
+                                        <h6 class="tx-3 tx-md-4">Linda Lopez: Go Grils! facilitator</h6>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-6 col-lg-4 col-xl-3">
                                 <div class="flip-card">
                                     <div class="flip-card-front">
-                                        <!--<img src="/assets/img/about/staff/juanaEspana.jpg" class="img-fluid">-->
-                                        <img src="/assets/img/about/educationalTeam/pendiente.jpg" class="img-fluid">
+                                        <img src="/assets/img/about/ComunnityDevTeam/luisCalel.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Juana España Berna: Library Coordinator</h6>
+                                        <h6 class="tx-3 tx-md-4">Luis Calel: Fathers' group facilitator</h6>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-6 col-lg-4 col-xl-3">
                                 <div class="flip-card">
                                     <div class="flip-card-front">  
-                                        <!--<img src="/assets/img/about/staff/carlosYos.jpg" class="img-fluid">-->
-                                        <img src="/assets/img/about/educationalTeam/pendiente.jpg" class="img-fluid">
+                                        <img src="/assets/img/about/ComunnityDevTeam/mirianEsquivel.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Carlos Yos :After School Facilitator</h6>
+                                        <h6 class="tx-3 tx-md-4">Mirian Esquivel: librarian</h6>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-6 col-lg-4 col-xl-3">
                                 <div class="flip-card">
                                     <div class="flip-card-front">                                   
-                                        <!--<img src="/assets/img/about/staff/yaquiCruz.jpg" class="img-fluid">-->
-                                        <img src="/assets/img/about/educationalTeam/pendiente.jpg" class="img-fluid">
+                                        <img src="/assets/img/about/ComunnityDevTeam/sunyGarcia.jpg" class="img-fluid">
+                                    </div>
+                                    <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
+                                        <h6 class="tx-3 tx-md-4">Suny Garcia: Motivated women facilitator</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-4 col-xl-3">
+                                <div class="flip-card">
+                                    <div class="flip-card-front">                                   
+                                        <img src="/assets/img/about/ComunnityDevTeam/yaquiCruz.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
                                         <h6 class="tx-3 tx-md-4">Yaqui Cruz: Photographer</h6>

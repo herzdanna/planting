@@ -26,12 +26,12 @@ class Page extends BaseController
     }
 
     private function setTitle($key){
-        $title = ['','Home','Work','About Us','Join Us','Our Stories','Donte', 'Resources','Legal Offices','Donate USA','Donate Canada'];
+        $title = ['','Home','Work','About Us','Join Us','Our Stories','Donte', 'Resources','Our Offices','Donate USA','Donate Canada','Blog'];
         return ['title' => $title[$key]];
     }
 
     private function setTitleAdmin($key){
-        $title = ['','Administrator','Sliders','About Us','Join Us','Our Stories','Donte', 'Resources','Legal Offices','Donate USA','Donate Canada'];
+        $title = ['','Administrator','Sliders','About Us','Join Us','Our Stories','Donte', 'Resources','Our Offices','Donate USA','Donate Canada'];
         return ['title' => $title[$key]];
     }
     
@@ -39,7 +39,7 @@ class Page extends BaseController
 
     public function index()
     {
-        $facebook_page_id           = '523646864415597';
+        /*$facebook_page_id           = '523646864415597';
         $facebook_app_secret        = '4261c10237190039535c5f0b1211b2a5';
         $facebook_app_id            = '426190352528999';
         $facebook_graph_version     = 'v12.0';
@@ -50,8 +50,8 @@ class Page extends BaseController
             'default_graph_version' => $facebook_graph_version
         ]);
 
-        //$accessToken = "EAAGDniyRtmcBAMaOwgVcrbFm0nvF7cekfjRmnhBWZBA0NFZBXhGdnMlK9hl2NuZAPCuueiQ15DCfvZBVrCxknfX6gFLSg7DmDdJYdMJFA0wb7MW9NYz7ka3WxvtZBGlH1bziRwtWGFAymOy9tUSnabKGY1PYDGGeGXgn5DWjTIS2xKZCg5X8TVFCWZAkqeuBfgJPOZCINsB7VQlpndIT31r4";
-        $accessToken = "426190352528999|hrlBDWS1CwP4guolWcyvb7PeKUs";
+        $accessToken = "EAAGDniyRtmcBAE9ezXKihjIDTzrORttUZBAZCiymuHLHKPayjpRPOkSexOh3QpRJGJny9azHOwutgSmtnvIgfSnMm0TGZA0sgxRHzhZAcbELOY9fuZCrtoKUKFxJqXOPISVZC8v7mznI4lXePRmBL78nq48PRq1mbn2mhDkC5yusDBsJIFKYkdqBejmYx12ZAyhZCyvUOeSQ7S9iszVg32PI";
+        //$accessToken = "426190352528999|hrlBDWS1CwP4guolWcyvb7PeKUs";
         try{
             $response = $fb->get( '/'.$facebook_page_id.'/posts?fields=full_picture,message,permalink_url&limit=8', $accessToken);
         }
@@ -63,14 +63,18 @@ class Page extends BaseController
             exit;
         }
 
-        $data = $response->getDecodedBody(); 
+        $data = $response->getDecodedBody(); */
 
-        return $this->setHeader($this->setTitle(1)).view('home',$data).$this->footer;
+        return $this->setHeader($this->setTitle(1)).view('home').$this->footer;
     }
 
     public function work(string $section = 'what')
     {
-        return $this->setHeader(['title' => ucfirst($section)]).view($section).$this->footer;
+        if($section == 'what' || $section == 'where'){
+            return $this->setHeader(['title' => ucfirst($section)]).view($section).view('currentPrograms').$this->footer;
+        }else{
+            return $this->setHeader(['title' => ucfirst($section)]).view($section).$this->footer;
+        }
     }
 
     public function about()
@@ -84,6 +88,9 @@ class Page extends BaseController
 
     public function stories(){
         return $this->setHeader($this->setTitle(5)).view('ourstories').$this->footer;
+    }
+    public function blog(){
+        return $this->setHeader($this->setTitle(11)).view('blog').$this->footer;
     }
 
     public function donate(){

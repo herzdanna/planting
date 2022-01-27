@@ -45,6 +45,9 @@
                     </button>
                 </div>
                 <li>
+                    <a href="#" class="mobile-menu-item">es <img src="/assets/img/spain.png" alt="" width="30px"></a>
+                </li>
+                <li>
                     <a href="/" class="mobile-menu-item">Home</a>
                 </li>
                 <li>
@@ -93,7 +96,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="/legal-offices" class="mobile-menu-item">Legal offices</a>
+                    <a href="/our-offices" class="mobile-menu-item">Our Offices</a>
                 </li>
 
                 <li class="mt-3">
@@ -194,6 +197,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/stories">Our stories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">es <img src="/assets/img/spain.png" alt="" width="30px"></a>
                 </li>
                 <li class="nav-item ms-md-3">
                     <a class="btn btn-secondary text-uppercase" href="/donate">Donate</a>

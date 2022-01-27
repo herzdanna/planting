@@ -116,7 +116,7 @@
         <div id="stories-slider" class="swiper mx-n2 mx-sm-0 px-5 px-sm-0" data-aos="fade-up">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <a href="" class="post-card text-center link-light">
+                    <a href="/blog#post1" class="post-card text-center link-light">
                         <div class="post-card-img ratio ratio-4x3 mb-4">
                             <img class="h-100 w-100 object-cover" src="/assets/img/story-1.jpg">
                         </div>
@@ -124,7 +124,7 @@
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="" class="post-card text-center link-light">
+                    <a href="/blog#post2" class="post-card text-center link-light">
                         <div class="post-card-img ratio ratio-4x3 mb-4">
                             <img class="h-100 w-100 object-cover" src="/assets/img/story-2.jpg">
                         </div>
@@ -132,7 +132,7 @@
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="" class="post-card text-center link-light">
+                    <a href="/blog#post3" class="post-card text-center link-light">
                         <div class="post-card-img ratio ratio-4x3 mb-4">
                             <img class="h-100 w-100 object-cover" src="/assets/img/home/img-2.jpg">
                         </div>
@@ -150,7 +150,7 @@
 
 <!-- Inicia insertar api de facebook-->
 
-<section>
+<!--<section>
     <div class="container">
         <div class="text-center py-6">
             <h1 class="h3 text-primary fw-bold mb-0" data-aos="fade-up">What we've been up to</h1>
@@ -158,11 +158,11 @@
     </div>
 
     
-    <div class="container-fluid">
+    <!--<div class="container-fluid">
         <div class="row g-3">
             
             <?php 
-				foreach($data as $post){
+			 	/*foreach($data as $post){
 					?>
                         <div class="col-4 col-lg-3">
                             <a href="<?php echo $post["permalink_url"];?>" target="_blank">
@@ -173,13 +173,13 @@
 
 						</div>
 					<?php
-				}
+				}*/
 			?>
 
             
         </div>
     </div>
-</section>
+</section>-->
 
 <!-- Finaliza insertar api de facebook-->
 

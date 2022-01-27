@@ -37,6 +37,7 @@ $routes->add('work','Page::work');
 $routes->add('work/(:alpha)','Page::work/$1');
 $routes->add('join-us','Page::join');
 $routes->add('stories','Page::stories');
+$routes->add('blog','Page::blog');
 $routes->add('donate','Page::donate');
 $routes->add('resources','Page::resources');
 $routes->add('our-offices','Page::legal');
