@@ -55,7 +55,7 @@ class Stories extends Migration
             ],   
             'deleted_by' => [
                 'type'       => 'TINYINT',
-            ],    
+            ],
         ]);
         $this->forge->addKey('id', true);
         $this->forge->createTable('stories');

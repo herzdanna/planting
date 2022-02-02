@@ -79,12 +79,9 @@
                         </div>
                         <div class="col-6">
                             <ul class="list-unstyled mb-4">
-                                <div class="fw-bold">Locations</div>
-                                <li><a href="/work/where#guatemala" class="link-light text-decoration-none tx-3">Guatemala City</a></li>
-                                <li><a href="/work/where" class="link-light text-decoration-none tx-3">Sacalá las Lomas</a></li>
-                                <li><a href="/work/where" class="link-light text-decoration-none tx-3">San Antonio de Tioxja</a></li>
-                                <li><a href="/work/where" class="link-light text-decoration-none tx-3">San Lucas</a></li>
-                                <li><a href="/work/where" class="link-light text-decoration-none tx-3">Yepocapa</a></li>
+                              
+                                <li><a href="/work/where" class="link-light text-decoration-none tx-3 fw-bold">Locations</a></li>
+                                
                             </ul>
                             <ul class="list-unstyled mb-4">
                                 <div class="fw-bold">Resources</div>

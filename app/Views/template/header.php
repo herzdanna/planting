@@ -45,7 +45,7 @@
                     </button>
                 </div>
                 <li>
-                    <a href="#" class="mobile-menu-item">es <img src="/assets/img/spain.png" alt="" width="30px"></a>
+                    <a href="#" class="mobile-menu-item">es <img src="/assets/img/gt.png" alt="" width="30px"></a>
                 </li>
                 <li>
                     <a href="/" class="mobile-menu-item">Home</a>
@@ -53,7 +53,7 @@
                 <li>
                     <a class="mobile-menu-item" data-bs-toggle="collapse" href="#ourworkCollapse" role="button">Our work</a>
                     <ul class="list-unstyled mobile-menu-submenu collapse" id="ourworkCollapse">
-                        <li><a href="/work/what" class="mobile-submenu-item">What</a></li>
+                        <li><a href="/work/what" class="mobile-submenu-item">WHAT WE DO</a></li>
                         <li><a href="/work/where" class="mobile-submenu-item">Where</a></li>
                         <li><a href="/work/impact" class="mobile-submenu-item">Our impact</a></li>
                     </ul>
@@ -148,7 +148,7 @@
                     <ul class="dropdown-menu custom-nav-dropdown px-3 py-3">
                         <div class="row gx-2">
                             <div class="col-md-4">
-                                <a href="/work/what" class="d-block text-white text-decoration-none text-uppercase fw-bold tx-4 lh-1 mb-4">What</a>
+                                <a href="/work/what" class="d-block text-white text-decoration-none text-uppercase fw-bold tx-4 lh-1 mb-4">WHAT WE DO</a>
                                 <ul class="list-unstyled mb-0">
                                     <li class="mb-4">
                                         <a href="/work/what#early-chilhood-education" class="text-white text-decoration-none">Early childhood education</a>
@@ -199,7 +199,7 @@
                     <a class="nav-link" href="/stories">Our stories</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">es <img src="/assets/img/spain.png" alt="" width="30px"></a>
+                    <a class="nav-link" href="#">es <img src="/assets/img/gt.png" alt="" width="30px"></a>
                 </li>
                 <li class="nav-item ms-md-3">
                     <a class="btn btn-secondary text-uppercase" href="/donate">Donate</a>

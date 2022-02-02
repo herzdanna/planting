@@ -45,8 +45,11 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
-                    <h1 class="fw-bold h3 text-primary">Change starts with the love for oneself and for others: our families, our communities and our world.</h1>
-                    <p class="tx-4">For over 20 years, Planting Seeds International has created a progressive, self-sustaining organization that improves access to and quality of education to develop healthy children, families, and communities across Guatemala.</p>
+                    <h1 class="fw-bold h3 text-primary">Change starts with the love for oneself and for others: our families, 
+                        our communities and our world.</h1>
+                    <p class="tx-4">For over 20 years, Planting Seeds International has created a progressive, self-sustaining 
+                        organization that improves access to quality education to develop healthy children, families, 
+                        and communities across Guatemala.</p>
                 </div>
             </div>
         </div>
@@ -91,7 +94,7 @@
                 <div class="d-flex flex-column justify-content-center align-items-start h-100 py-5 py-lg-7 px-4 px-lg-7" data-aos="fade-up">
                     <h3 class="text-primary fw-bold mb-5">Our core beliefs</h3>
                     <ol class="tx-4 marker-primary mb-4">
-                        <li class="mb-4">Every child deserves the right to a high quality education and that children learn through play.</li>
+                        <li class="mb-4">Every child deserves the right to a high quality education and children learn through play.</li>
                         <li class="mb-4">Parents need to be supported as the primary educators of their children.</li>
                         <li class="mb-4">Sustainable change is ONLY created when community members are involved and in charge of their own development.</li>
                     </ol>

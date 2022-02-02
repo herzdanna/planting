@@ -26,12 +26,12 @@ class Page extends BaseController
     }
 
     private function setTitle($key){
-        $title = ['','Home','Work','About Us','Join Us','Our Stories','Donte', 'Resources','Our Offices','Donate USA','Donate Canada','Blog'];
+        $title = ['','Home','Work','About Us','Join Us','Our Stories','Donate', 'Resources','Our Offices','Donate USA','Donate Canada','Blog'];
         return ['title' => $title[$key]];
     }
 
     private function setTitleAdmin($key){
-        $title = ['','Administrator','Sliders','About Us','Join Us','Our Stories','Donte', 'Resources','Our Offices','Donate USA','Donate Canada'];
+        $title = ['','Administrator','Sliders','About Us','Join Us','Our Stories','Donate', 'Resources','Our Offices','Donate USA','Donate Canada'];
         return ['title' => $title[$key]];
     }
     

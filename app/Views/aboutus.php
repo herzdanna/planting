@@ -467,6 +467,16 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-6 col-lg-4 col-xl-3">
+                                <div class="flip-card">
+                                    <div class="flip-card-front">                                   
+                                        <img src="/assets/img/about/ComunnityDevTeam/VivianSantiago.jpg" class="img-fluid">
+                                    </div>
+                                    <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
+                                        <h6 class="tx-3 tx-md-4">Vivian Santiago: Motivated Women Facilitatorr</h6>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -27,6 +27,25 @@ class Users extends Migration
                 'type' => 'TEXT',
                 'null' => true,
             ],
+            'created_at' => [
+                'type'       => 'DATE',
+                'null' => false,
+            ],   
+            'updated_at' => [
+                'type'       => 'DATE',
+            ],   
+            'deleted_at' => [
+                'type'       => 'DATE',
+            ],  
+            'created_by' => [
+                'type'       => 'TINYINT',
+            ],   
+            'updated_by' => [
+                'type'       => 'TINYINT',
+            ],   
+            'deleted_by' => [
+                'type'       => 'TINYINT',
+            ],
             
         ]);
         $this->forge->addKey('id', true);
