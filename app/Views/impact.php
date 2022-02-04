@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md offset-md-2" style="z-index: 10;">
-                    <h1 class="d-inline-block bg-white text-primary fw-bold rounded-top py-3 px-4 mb-0">Our work</h1>
+                    <h1 class="d-inline-block bg-white text-primary fw-bold rounded-top py-3 px-4 mb-0 text-capitalize">Our work</h1>
                 </div>
             </div>
         </div>
@@ -19,7 +19,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="bg-smoke d-flex flex-column justify-content-center align-items-start h-100 py-5 py-lg-7 px-3 px-lg-7">
-                        <h3 class="text-primary fw-bold mb-4" data-aos="fade-up">Our impact</h3>
+                        <h3 class="text-primary fw-bold mb-4 text-capitalize" data-aos="fade-up">Our impact</h3>
                         <p class="tx-4 mb-4" data-aos="fade-up">By developing a love of learning in the earliest years of age and providing parents with the skills set to be the primary educators of their children, Planting Seeds is making a critical impact for some of the most vulnerable populations in the world.</p>
                         <p class="tx-4 mb-4" data-aos="fade-up">And we are making this change WITH the community. Almost all teachers and program facilitators live in the communities where we work.</p>
                     </div>
@@ -33,7 +33,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-8">
-                        <h1 class="fw-bold h3 text-primary mb-4" data-aos="fade-up">The need for quality early childhood education</h1>
+                        <h1 class="fw-bold h3 text-primary mb-4 text-capitalize" data-aos="fade-up">The need for quality early childhood education</h1>
                         <p class="tx-4" data-aos="fade-up" data-aos-delay="150">The initial stages of a child's life are the foundation for their future. If we are serious about making change for some of the most vulnerable populations in the world, we know that we need to start with kids in their earliest years of age and support parents as much as possible.</p>
                     </div>
                 </div>
@@ -65,7 +65,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-8">
-                        <h1 class="fw-bold h3 text-primary mb-4" data-aos="fade-up">How we work</h1>
+                        <h1 class="fw-bold h3 text-primary mb-4 text-capitalize" data-aos="fade-up">How we work</h1>
                         <p class="tx-4" data-aos="fade-up" data-aos-delay="150">Planting Seeds students test out significantly more first grade ready than public and private schools students. Additionally, In Guatemala, where over 22% of students fail first grade, over 97% of Planting Seeds students pass 1st grade in their respective schools. We are currently conducting a long term study in Sacala to gage the long term impact of our preschool programs.</p>
                         <p class="tx-4" data-aos="fade-up" data-aos-delay="150">While we are proud of our data, the success of our programs is best experienced first hand. The tears, smiles, connections, character building, and individualized learning is, at times, more powerful than numbers can represent. We hope you can come to see our programs in person to witness the power of our work with children and families.</p>
                     </div>

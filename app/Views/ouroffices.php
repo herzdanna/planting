@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md offset-md-2" style="z-index: 10;">
-                    <h1 class="d-inline-block bg-white text-primary fw-bold rounded-top py-3 px-4 mb-0">Legal offices</h1>
+                    <h1 class="d-inline-block bg-white text-primary fw-bold rounded-top py-3 px-4 mb-0 text-capitalize">Legal offices</h1>
                 </div>
             </div>
         </div>
@@ -15,7 +15,7 @@
     <section class="bg-green py-8">
         <header class="text-center py-5" data-aos="fade-up">
             <div class="container">
-                <h4 class="mb-0">Planting Seeds International is composed of two separate entities:</h4>
+                <h4 class="mb-0 text-capitalize">Planting Seeds International is composed of two separate entities:</h4>
             </div>
         </header>
         <div class="container">
@@ -28,7 +28,7 @@
             </div>
 
             <div class="text-center mt-5" data-aos="fade-up">
-                <a href="/about-us#staff" class="btn btn-secondary btn-lg px-4">Get to know our staff</a>
+                <a href="/about-us#staff" class="btn btn-secondary btn-lg px-4 text-capitalize">Get to know our staff</a>
             </div>
         </div>
     </section>
@@ -70,7 +70,7 @@
             <div class="row flex-column-reverse flex-lg-row g-0">
                 <div class="col-lg-6">
                     <div class="d-flex flex-column justify-content-center align-items-start h-100 py-5 py-lg-7 px-4 px-lg-7" data-aos="fade-up">
-                        <h3 class="text-primary mb-5">Planting Seeds International<b>USA</b></h3>
+                        <h3 class="text-primary mb-5">Planting Seeds International<b> USA</b></h3>
                         <p class="tx-3 mb-2"> USA: works to raise funds and awareness to support the programs in Guatemala operated by the 
                             Canadian Corporation.</p>
 

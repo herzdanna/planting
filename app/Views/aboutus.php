@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md offset-md-2" style="z-index: 10;">
-                    <h1 class="d-inline-block bg-white text-primary fw-bold rounded-top py-3 px-4 mb-0">About us</h1>
+                    <h1 class="d-inline-block bg-white text-primary fw-bold rounded-top py-3 px-4 mb-0 text-capitalize">About us</h1>
                 </div>
             </div>
         </div>
@@ -17,7 +17,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="d-flex flex-column justify-content-center align-items-start h-100 py-5 py-lg-7 px-3 px-lg-7" data-aos="fade-up">
-                        <h3 class="text-primary fw-bold mb-4">Our core</h3>
+                        <h3 class="text-primary fw-bold mb-4 text-capitalize">Our core</h3>
                         <div class="mb-4">
                             <h6 class="text-primary text-uppercase">Mission</h6>
                             <p class="tx-4 mb-0">Planting Seeds is a non-profit organization that seeks to eradicate the barriers that contribute to poverty by working with communities to provide high-quality comprehensive education for children and families throughout Guatemala.</p>
@@ -26,7 +26,7 @@
                             <h6 class="text-primary text-uppercase">Vision</h6>
                             <p class="tx-4 mb-0">Create a progressive, self-sustaining organization that improves access to and quality of education to develop healthy children, families, and communities across Guatemala.</p>
                         </div>
-                        <a href="/work/what" class="btn btn-blue btn-lg px-4">Learn more about our work!</a>
+                        <a href="/work/what" class="btn btn-blue btn-lg px-4 text-capitalize">Learn more about our work!</a>
                     </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@
             <div class="row flex-column-reverse flex-lg-row g-0">
                 <div class="col-lg-6">
                     <div class="bg-blue d-flex flex-column justify-content-center align-items-start h-100 py-5 py-lg-7 px-3 px-lg-7" data-aos="fade-up">
-                        <h3 class="text-primary fw-bold mb-4">Our founders</h3>
+                        <h3 class="text-primary fw-bold mb-4 text-capitalize">Our founders</h3>
                         <p class="tx-4 mb-0">Susan and Richard Schmaltz are both experienced Canadian educators. In 1999, they moved to Guatemala following a feeling Susan felt in her heart. After seeing first-hand the face of inequality in marginalized communities across Guatemala, they saw an opportunity to contribute with their expertise in education. Susan and Richard dedicated the next 20 years of their life transforming early childhood education in Guatemala. To learn more about Susan's story, check out her book: Beyond Belief.</p>
                     </div>
                 </div>
@@ -57,7 +57,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="d-flex flex-column justify-content-center align-items-start h-100 py-5 py-lg-7 px-3 px-lg-7" data-aos="fade-up">
-                        <h3 class="text-primary fw-bold mb-4">Our story</h3>
+                        <h3 class="text-primary fw-bold mb-4 text-capitalize">Our story</h3>
                         <p class="tx-4 mb-4">Susan believed that learning should be fun and allow children to play, sing, explore and have autonomy of their learning. When education is done with love, children can grow into everything they are meant to be.</p>
                         <p class="tx-4 mb-4">With support from Richard, multiple volunteers in Ottawa and Pembroke, and current Guatemalan Director Madeli Quiñonez, the Planting Seeds Methodology and Philosophy was born in 2001 and hasn’t stopped growing.</p>
                     </div>
@@ -71,7 +71,7 @@
             <div class="row flex-column-reverse flex-lg-row g-0">
                 <div class="col-lg-6">
                     <div class="bg-green d-flex flex-column justify-content-center align-items-start h-100 py-5 py-lg-7 px-3 px-lg-7" data-aos="fade-up">
-                        <h3 class="text-primary fw-bold mb-4">Where are we now</h3>
+                        <h3 class="text-primary fw-bold mb-4 text-capitalize">Where are we now</h3>
                         <p class="tx-4 mb-4">While we believe that early childhood education is the foundation to break the cycle of poverty, we recognized that with such marginalized communities, our approach needed to be more comprehensive.</p>
                         <p class="tx-4 mb-4">Through support from old and new friend circles, we have been able to expand the work that all regions do, focusing on providing access to books, training parents as primary educators, partnering with other organizations to meet basic health and nutrition needs, and providing complementary programming based on specific community needs.</p>
                     </div>
@@ -87,7 +87,7 @@
         <div class="container">
             <div class="custom-v-tabs d-lg-flex align-items-lg-start gap-5">
                 <div class="nav flex-lg-column nav-pills mb-5 mb-lg-0" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <button class="nav-link text-start text-nowrap px-lg-0 tx-md-4 active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Board of directors</button>
+                    <button class="nav-link text-start text-nowrap px-lg-0 tx-md-4 active text-capitalize" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Board of directors</button>
                     <button class="nav-link text-start text-nowrap px-lg-0 tx-md-4" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Leadership Team</button>
                     <button class="nav-link text-start text-nowrap px-lg-0 tx-md-4" id="v-pills-educational-tab" data-bs-toggle="pill" data-bs-target="#v-pills-educational" type="button" role="tab" aria-controls="v-pills-educational" aria-selected="false">Educational Team</button>
                     <button class="nav-link text-start text-nowrap px-lg-0 tx-md-4" id="v-pills-community-tab" data-bs-toggle="pill" data-bs-target="#v-pills-community" type="button" role="tab" aria-controls="v-pills-community" aria-selected="false">Community Development Team</button>

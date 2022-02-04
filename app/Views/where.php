@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md offset-md-2" style="z-index: 10;">
-                    <h1 class="d-inline-block bg-white text-primary fw-bold rounded-top py-3 px-4 mb-0">Our work</h1>
+                    <h1 class="d-inline-block bg-white text-primary fw-bold rounded-top py-3 px-4 mb-0 text-capitalize">Our work</h1>
                 </div>
             </div>
         </div>
@@ -65,7 +65,7 @@
                                             <li><b class="text-primary">Network of Organizations:</b>Planting Seeds helps lead and operate a group of organizations and services that collaborate to better meet the needs of the families in the area</li>
                                         </ul>
                                     </div>
-                                    <a href="/work/impact" class="btn btn-blue">Get inspired with our impact</a>
+                                    <a href="/work/impact" class="btn btn-blue text-capitalize">Get inspired with our impact</a>
                                 </div>
 
                                 <div class="swiper-button-prev"></div>
@@ -129,7 +129,7 @@
                                             <li><b class="text-primary">Nutrition Program:</b>Children receive a healthy meal every day in our programs and parents and children receive training on how to meet the nutritional needs of their families. </li>
                                         </ul>
                                     </div>
-                                    <a href="/work/impact" class="btn btn-blue">Get inspired with our impact</a>
+                                    <a href="/work/impact" class="btn btn-blue text-capitalize">Get inspired with our impact</a>
                                 </div>
 
                                 <div class="swiper-button-prev"></div>
@@ -191,7 +191,7 @@
                                             <li><b class="text-primary">Nutrition Program:</b> Children receive a healthy meal every day in our programs and parents and children receive training on how to meet the nutritional needs of their families. </li>
                                         </ul>
                                     </div>
-                                    <a href="/work/impact" class="btn btn-blue">Get inspired with our impact</a>
+                                    <a href="/work/impact" class="btn btn-blue text-capitalize">Get inspired with our impact</a>
                                 </div>
 
                                 <div class="swiper-button-prev"></div>
@@ -253,7 +253,7 @@
                                             <li><b class="text-primary">Nutrition Program:</b> Children receive a healthy meal every day in our programs and parents and children receive training on how to meet the nutritional needs of their families. </li>
                                         </ul>
                                     </div>
-                                    <a href="/work/impact" class="btn btn-blue">Get inspired with our impact</a>
+                                    <a href="/work/impact" class="btn btn-blue text-capitalize">Get inspired with our impact</a>
                                 </div>
 
                                 <div class="swiper-button-prev"></div>
@@ -317,7 +317,7 @@
                                             receive creating little readers training to implement a habit of reading at home. </li>
                                         </ul>
                                     </div>
-                                    <a href="/work/impact" class="btn btn-blue">Get inspired with our impact</a>
+                                    <a href="/work/impact" class="btn btn-blue text-capitalize">Get Inspired With Our Impact</a>
                                 </div>
 
                                 <div class="swiper-button-prev"></div>
@@ -339,7 +339,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
-                    <h1 class="fw-bold h3 text-center text-primary mb-4" data-aos="fade-up">Our biggest and most ambitious project: Community center</h1>
+                    <h1 class="fw-bold h3 text-center text-primary mb-4 text-capitalize" data-aos="fade-up">Our biggest and most ambitious project: Community center</h1>
                     
                     <!-- *************************   desktop version  ************************************-->
                     <div class="d-none d-sm-block d-sm-none d-md-block">

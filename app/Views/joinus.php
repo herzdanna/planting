@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md offset-md-2" style="z-index: 10;">
-                    <h1 class="d-inline-block bg-white text-primary fw-bold rounded-top py-3 px-4 mb-0">Join us</h1>
+                    <h1 class="d-inline-block bg-white text-primary fw-bold rounded-top py-3 px-4 mb-0 text-capitalize">Join us</h1>
                 </div>
             </div>
         </div>
@@ -15,7 +15,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
-                    <h1 class="fw-bold h3 text-center text-primary mb-4">Your support help us continue growing</h1>
+                    <h1 class="fw-bold h3 text-center text-primary mb-4 text-capitalize">Your support help us continue growing</h1>
                     <p class="tx-4">Planting Seeds International is at the core a grassroots-based organization powered by the generosity of Canadians, Americans and Guatemalans. Your support allows us to keep growing our impact in communities throughout Guatemala.</p>
                 </div>
             </div>
@@ -29,7 +29,7 @@
             <div class="row flex-column-reverse flex-lg-row g-0">
                 <div class="col-lg-6">
                     <div class="bg-blue d-flex flex-column justify-content-center align-items-start h-100 py-5 py-lg-7 px-3 px-lg-7" data-aos="fade-up">
-                        <h3 class="text-primary fw-bold mb-4">Become a sponsor</h3>
+                        <h3 class="text-primary fw-bold mb-4 text-capitalize">Become a sponsor</h3>
                         <p class="tx-4 mb-0">Sponsoring a preschooler, a program participant, a classroom or a community program ensures the sustainability of our impact.</p>
                         <div class="mt-4">
                             <a href="#contacForm" class="btn btn-primary btn-lg px-4">Write us!</a>
@@ -51,10 +51,10 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="bg-smoke d-flex flex-column justify-content-center align-items-start h-100 py-5 py-lg-7 px-3 px-lg-7" data-aos="fade-up">
-                        <h3 class="text-primary fw-bold mb-4">Join a friends circle</h3>
+                        <h3 class="text-primary fw-bold mb-4 text-capitalize">Join a friends circle</h3>
                         <p class="tx-4 mb-0">We have five active Friends Circles in Ottawa (Ontario, Canada), Chicago and Northbrook (Illinois, USA), Traverse City (Michigan, USA) and Guatemala City. Friends Circles help us organize fundraising events and raise awareness about our work in their local communities. We are always looking to add new members or start new Friends Circles!</p>
                         <div class="mt-4">
-                            <a href="join-us#contacForm" class="btn btn-primary btn-lg px-4">Contact us to learn more!</a>
+                            <a href="join-us#contacForm" class="btn btn-primary btn-lg px-4 text-capitalize">Contact us to learn more!</a>
                         </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@
     <section id="exchange-programs" class="bg-green py-5">
         <div class="container">
             <div class="text-center mb-5" data-aos="fade-up">
-                <h1 class="text-primary h3 fw-bold">Exchange programs</h1>
+                <h1 class="text-primary h3 fw-bold text-capitalize">Exchange programs</h1>
             </div>
             
             <div class="row gx-4">
@@ -139,7 +139,7 @@
                 <div class="col-md-7">
                     <img id="acc-img" src="/assets/img/joinus/dualExchange.jpg" alt="" class="img-fluid">
                     <div class="text-center text-md-end mt-4">
-                        <a href="#contacForm" class="btn btn-primary px-4">Contact us!</a>
+                        <a href="#contacForm" class="btn btn-primary px-4 text-capitalize">Contact us!</a>
                     </div>
                 </div>
             </div>
@@ -154,11 +154,11 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="d-flex flex-column justify-content-center align-items-start h-100 py-5 py-lg-7 px-3 px-lg-7" data-aos="fade-up">
-                        <h3 class="text-primary fw-bold mb-4">Make a donation</h3>
+                        <h3 class="text-primary fw-bold mb-4 text-capitalize">Make a donation</h3>
                         <p class="tx-4 mb-0">Your gift to Planting Seeds International ensures access to high-quality education for children and families throughout Guatemala.</p>
                         
                         <div class="mt-4">
-                            <a href="/donate" class="btn btn-primary btn-lg px-4">Donate today</a>
+                            <a href="/donate" class="btn btn-primary btn-lg px-4 text-capitalize">Donate today</a>
                         </div>
                     </div>
                 </div>
@@ -170,8 +170,8 @@
         <div class="container px-0">
             <div class="row g-0 flex-column-reverse flex-lg-row justify-content-md-center">
                 <div class="col-lg-6">
-                    <h3 class="text-primary fw-bold mb-4">Contact Us</h3>
-                    <form>
+                    <h3 class="text-primary fw-bold mb-4 ">Contact Us</h3>
+                    <form id="formContact">
                         <div class="mb-3">
                             <label for="name" class="form-label">Name</label>
                             <input type="text" class="form-control" id="name" aria-describedby="name" name="name">

@@ -1,7 +1,7 @@
 <section class="bg-green py-6">
         <div class="container">
             <div class="text-center mb-5" data-aos="fade-up">
-                <h1 class="text-primary h3 fw-bold mb-0">Our current programs</h1>
+                <h1 class="text-primary h3 fw-bold mb-0 text-capitalize">Our current programs</h1>
             </div>
 
             <div id="programs-slider" class="swiper mx-n2 mx-sm-0 px-5 px-sm-0">
@@ -86,7 +86,7 @@
             </div>
 
             <div class="text-center mt-5">
-                <a href="/join-us#contacForm" class="btn btn-primary btn-lg px-4">Contact us to learn more</a>
+                <a href="/join-us#contacForm" class="btn btn-primary btn-lg px-4 text-capitalize">Contact us to learn more</a>
             </div>
         </div>
     </section>

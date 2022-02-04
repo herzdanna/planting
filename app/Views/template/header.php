@@ -148,7 +148,7 @@
                     <ul class="dropdown-menu custom-nav-dropdown px-3 py-3">
                         <div class="row gx-2">
                             <div class="col-md-4">
-                                <a href="/work/what" class="d-block text-white text-decoration-none text-uppercase fw-bold tx-4 lh-1 mb-4">WHAT WE DO</a>
+                                <a href="/work/what" class="d-block text-white text-decoration-none text-uppercase fw-bold tx-3 lh-1 mb-4">WHAT WE DO</a>
                                 <ul class="list-unstyled mb-0">
                                     <li class="mb-4">
                                         <a href="/work/what#early-chilhood-education" class="text-white text-decoration-none">Early childhood education</a>
@@ -162,7 +162,7 @@
                                 </ul>
                             </div>
                             <div class="col-md-4">
-                                <a href="/work/where" class="d-block text-white text-decoration-none text-uppercase fw-bold tx-4 lh-1 mb-4">Where</a>
+                                <a href="/work/where" class="d-block text-white text-decoration-none text-uppercase fw-bold tx-3 lh-1 mb-4">Where</a>
                                 <ul class="list-unstyled mb-0">
                                     <li class="mb-4">
                                         <a href="/work/where#locations" class="text-white text-decoration-none">Locations</a>
@@ -173,7 +173,7 @@
                                 </ul>
                             </div>
                             <div class="col-md-4">
-                                <a href="/work/impact" class="d-block text-white text-decoration-none text-uppercase fw-bold tx-4 lh-1 mb-4">Our impact</a>
+                                <a href="/work/impact" class="d-block text-white text-decoration-none text-uppercase fw-bold tx-3 lh-1 mb-4">Our impact</a>
                                 <ul class="list-unstyled mb-0">
                                     <li class="mb-4">
                                         <a href="/work/impact#need-quality-education" class="text-white text-decoration-none">The need of quality education</a>

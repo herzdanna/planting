@@ -1,7 +1,8 @@
 //Contact
 
-$(document).ready(function(){
-    $(document).on('click','#submit', function(){
+$(function(){
+    $('#formContact').on('submit', function(e){
+        e.preventDefault();
         //var
         const url =$('#submit').data('url');
         let name = $('#name').val();
@@ -55,7 +56,7 @@ $(document).ready(function(){
         }else{
             $.ajax({
                 url:url,
-                type:'POST',
+                method:'POST',
                 data:{'name':name,'mail':mail,'subject':subject,'message':message},
                 success: function (request){
 
@@ -63,16 +64,14 @@ $(document).ready(function(){
                     if(request == 'error'){
                         Swal.fire({
                             icon: 'error',
-                            title: 'Oops...',
+                            title: 'Error',
                             text: 'Something went wrong!',
-                            footer: '<a href="">Why do I have this issue?</a>'
                         })
                     }else{
                         Swal.fire({
                             icon: 'success',
-                            title: 'Oops...',
-                            text: 'Something went wrong!',
-                            footer: '<a href="">Why do I have this issue?</a>'
+                            title: 'Thank you',
+                            text: 'we have received your email, we will contact you as soon as possible',
                         })
                     }
 

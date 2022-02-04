@@ -116,7 +116,7 @@
             <div class="clearfix">
                 <img src="/assets/img/story-3.jpg" class="col-md-6 float-md-start mb-3 me-md-3 img-fluid" alt="...">
 
-                <p>I feel excited about seeing my students again, even if it's only going to be for a couple of days a 
+                <p>"I feel excited about seeing my students again, even if it's only going to be for a couple of days a 
                     week I think this will be especially helpful with certain students that have struggled a lot with 
                     remote learning. I feel happy that we will have a chance to work together in the classroom and I'm 
                      to guide both students and parents. I think mentoring parents will be beneficial to reinforce the 

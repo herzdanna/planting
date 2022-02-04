@@ -16,7 +16,7 @@
 
     <div class="bg-secondary py-7">
         <div class="container">
-            <h1 class="fw-bold h3 text-white text-center mb-5" data-aos="fade-up">Select the country you're making the donation from:</h1>
+            <h1 class="fw-bold h3 text-white text-center mb-5 text-capitalize" data-aos="fade-up">Select the country you're making the donation from:</h1>
             
             <div class="row justify-content-center">
                 <div class="col-lg-10 col-xl-8">
@@ -47,7 +47,7 @@
                                     <img src="/assets/img/world-flag.png" class="h-100 w-100 object-cover">
                                 </div>
                                 <div class="mt-4">
-                                    <a href="/donate-usa" class="btn btn-primary px-4">Other country</a>
+                                    <a href="/donate-usa" class="btn btn-primary px-4 text-capitalize">Other country</a>
                                 </div>
                             </div>
                         </div>
