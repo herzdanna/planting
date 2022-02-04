@@ -31,7 +31,8 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Page::index');
+$routes->get('{locale}/', 'Page::index');
+//$routes->get('/', 'Page::index');
 $routes->add('about-us','Page::about');
 $routes->add('work','Page::work');
 $routes->add('work/(:alpha)','Page::work/$1');

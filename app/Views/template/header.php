@@ -51,9 +51,9 @@
                     <a href="/" class="mobile-menu-item">Home</a>
                 </li>
                 <li>
-                    <a class="mobile-menu-item" data-bs-toggle="collapse" href="#ourworkCollapse" role="button">Our work</a>
+                    <a class="mobile-menu-item" data-bs-toggle="collapse" href="#ourworkCollapse" role="button"><?=lang("Header.work.navbar")?></a>
                     <ul class="list-unstyled mobile-menu-submenu collapse" id="ourworkCollapse">
-                        <li><a href="/work/what" class="mobile-submenu-item">WHAT WE DO</a></li>
+                        <li><a href="/work/what" class="mobile-submenu-item"><?=lang("Header.work.what")?></a></li>
                         <li><a href="/work/where" class="mobile-submenu-item">Where</a></li>
                         <li><a href="/work/impact" class="mobile-submenu-item">Our impact</a></li>
                     </ul>
@@ -74,7 +74,7 @@
                         <li><a href="/join-us#sponsor" class="mobile-submenu-item">Become a sponsor</a></li>
                         <li><a href="/join-us#friends-circle" class="mobile-submenu-item">Join a Friends Circle</a></li>
                         <li><a href="/join-us" class="mobile-submenu-item">Visit us</a></li>
-                        <li><a href="/join-us#donate" class="mobile-submenu-item">Donate</a></li>
+                        <li><a href="/join-us#donate" class="mobile-submenu-item"><?=lang('Header.donate')?></a></li>
                     </ul>
                 </li>
                 <li>
@@ -100,7 +100,7 @@
                 </li>
 
                 <li class="mt-3">
-                    <a href="/donate" class="btn btn-primary">Donate</a>
+                    <a href="/donate" class="btn btn-primary"><?=lang('Header.donate')?></a>
                 </li>
                 <li>
                     <ul class="list-inline mt-3">
@@ -143,12 +143,12 @@
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle custom-nav-dropdown-toggler" href="#our-work" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Our work
+                        <?=lang("Header.work.navbar")?>
                     </a>
                     <ul class="dropdown-menu custom-nav-dropdown px-3 py-3">
                         <div class="row gx-2">
                             <div class="col-md-4">
-                                <a href="/work/what" class="d-block text-white text-decoration-none text-uppercase fw-bold tx-3 lh-1 mb-4">WHAT WE DO</a>
+                                <a href="/work/what" class="d-block text-white text-decoration-none text-uppercase fw-bold tx-3 lh-1 mb-4"><?=lang("Header.work.what")?></a>
                                 <ul class="list-unstyled mb-0">
                                     <li class="mb-4">
                                         <a href="/work/what#early-chilhood-education" class="text-white text-decoration-none">Early childhood education</a>
@@ -202,7 +202,7 @@
                     <a class="nav-link" href="#">es <img src="/assets/img/gt.png" alt="" width="30px"></a>
                 </li>
                 <li class="nav-item ms-md-3">
-                    <a class="btn btn-secondary text-uppercase" href="/donate">Donate</a>
+                    <a class="btn btn-secondary text-uppercase" href="/donate"><?=lang("Header.donate")?></a>
                 </li>
             </ul>
             <ul class="navbar-nav ms-3">
