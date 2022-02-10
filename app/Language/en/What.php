@@ -27,13 +27,29 @@ return [
     ],
     "comprehensive" => [
         "title" => "Comprehensive Community-Led Development",
-        "content" => "While we know that Early Childhood Education is the foundation to break the cycle of poverty, we know that when working with such marginalized populations, we need to provide more comprehensive support to meet such intense needs in the communities we work. And that community members need to be the drivers of that work.
-        Because of this, our community development program is different in each area we work. In all regions we focus on partnerships with the community and cross sector collaborations to enhance our impact. Our model for Community Development is centered in Zone 3 of Guatemala City where we are leading the following work",
-        "botton" => "Read our stories!"
+        "content" => "While we know that Early Childhood Education is the foundation to break the cycle of poverty, we know that when working with such marginalized populations, we need to provide more comprehensive support to meet such intense needs in the communities we work. And that community members need to be the drivers of that work.",
+        "content2" => "Because of this, our community development program is different in each area we work. In all regions we focus on partnerships with the community and cross sector collaborations to enhance our impact. Our model for Community Development is centered in Zone 3 of Guatemala City where we are leading the following work",
+        "button" => "Read our stories!"
     ],  
     "community" =>  [
         "title" => "Community center",
         "content" => "Planting Seeds will open a community center in Zone 3 with the central purpose of providing community members with a safe space to call their own that will remain open for extended hours. The Community Center will have structured and unstructured programming with multi-use, multi-purpose spaces.",
-        "botton" => "Learn more"
+        "button" => "Learn more"
+    ],
+    "communityNetwork" =>  [
+        "title" => "Community Network Meetings",
+        "content" => "One organization can only do so much. Planting Seeds leads a network of organizations in Zones 3 and 7 of Guatemala City and facilitates monthly meetings to work with other organizations to collectively meet the needs of the communities we work in. We aim to push the definition of success further, to the growth of the community as a whole, rather than simply to the individual participants of our programs.",
+        "button" => "Take a stand and support and work"
+    ],
+    "communityPrograms" =>  [
+        "title" => "Community Led Programs",
+        "content" => "Through our community facilitator approach, Planting Seeds provides necessary employment opportunities as well as professional development to community members. This allows for the knowledge and experience gained to stay in the community. In addition to these benefits of a community based approach, the participants of our programs can envision themselves as future leaders, because the people facilitating the programs look like them and are from the same community as them.",
+        "button" => "Take a stand and support and work"
+    ],
+    "communityDevelopment" =>  [
+        "title" => "Community Development Approach",
+        "content" => "We know that if we want to create sustainable change, that we need to listen to community members, involve them in the work, and allow them the opportunity to lead. Non Profit Organizations can take up a lot of space and power in a community and it is essential to recognize that and find ways to distribute that power back to community members.",
+        "content" => "For this reason, Planting Seeds programs are decided upon with community members through Community Meetings and Interviews. In addition, all programs are facilitated by community members, and we have a community collaborative that helps us lead community meetings, fundraise for the center and make important decisions about the future of the center.",
+        "button" => "Take a stand and support and work"
     ],
 ];

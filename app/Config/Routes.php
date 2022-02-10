@@ -33,17 +33,17 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('{locale}/', 'Page::index');
 //$routes->get('/', 'Page::index');
-$routes->add('about-us','Page::about');
-$routes->add('work','Page::work');
-$routes->add('work/(:alpha)','Page::work/$1');
-$routes->add('join-us','Page::join');
-$routes->add('stories','Page::stories');
-$routes->add('blog','Page::blog');
-$routes->add('donate','Page::donate');
-$routes->add('resources','Page::resources');
-$routes->add('our-offices','Page::legal');
-$routes->add('donate-usa','Page::donateUsa');
-$routes->add('donate-Canada','Page::donateCanada');
+$routes->add('{locale}/about-us','Page::about');
+$routes->add('{locale}/work','Page::work');
+$routes->add('{locale}/work/(:alpha)','Page::work/$1');
+$routes->add('{locale}/join-us','Page::join');
+$routes->add('{locale}/stories','Page::stories');
+$routes->add('{locale}/blog','Page::blog');
+$routes->add('{locale}/donate','Page::donate');
+$routes->add('{locale}/resources','Page::resources');
+$routes->add('{locale}/our-offices','Page::legal');
+$routes->add('{locale}/donate-usa','Page::donateUsa');
+$routes->add('{locale}/donate-Canada','Page::donateCanada');
 
 // routes admin
 

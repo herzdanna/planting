@@ -27,13 +27,29 @@ return [
     ],
     "comprehensive" => [
         "title" => "Desarrollo comunitario comprensivo",
-        "content" => "Si bien valoramos la educación temprana infantil como eje primordial para romper el ciclo de pobreza, sabemos que al trabajar con poblaciones históricamente marginadas se requiere de fomentar apoyo comprensivo e integral para satisfacer las necesidades de las comunidades donde habitan nuestras beneficiarias y beneficiarios. Que las y los miembros de la comunidad sean los habilitadores principales de nuestro trabajo.
-        Por ello, nuestro programa de desarrollo comunitario es altamente adaptable a las necesidades de cada comunidad donde mantenemos operaciones activas. Mantenemos como ejes transversales las alianzas y el trabajo colaborativo e interseccional con las comunidades, con el objetivo de amplificar y profundizar nuestro impacto. Nuestro modelo de Desarrollo Comunitario mantiene como sede operativa nuestra filial en zona 3 de Ciudad de Guatemala, lugar desde donde organizamos",
-        "botton" => "¡Conócenos a través de Nuestras Historias!"
+        "content" => "Si bien valoramos la educación temprana infantil como eje primordial para romper el ciclo de pobreza, sabemos que al trabajar con poblaciones históricamente marginadas se requiere de fomentar apoyo comprensivo e integral para satisfacer las necesidades de las comunidades donde habitan nuestras beneficiarias y beneficiarios. Que las y los miembros de la comunidad sean los habilitadores principales de nuestro trabajo.",
+        "content2" => "Por ello, nuestro programa de desarrollo comunitario es altamente adaptable a las necesidades de cada comunidad donde mantenemos operaciones activas. Mantenemos como ejes transversales las alianzas y el trabajo colaborativo e interseccional con las comunidades, con el objetivo de amplificar y profundizar nuestro impacto. Nuestro modelo de Desarrollo Comunitario mantiene como sede operativa nuestra filial en zona 3 de Ciudad de Guatemala, lugar desde donde organizamos",
+        "button" => "¡Conócenos a través de Nuestras Historias!"
     ],  
     "community" =>  [
         "title" => "El Centro Comunitario",
         "content" => "El centro comunitario de Planting Seeds en zona 3 proveerá a miembros y miembras de la comunidad con un espacio seguro, con horarios amplios y adaptables a las necesidades de sus usuarias y usuarios.  El espacio invita a sus visitantes  a hacerlo propio, ofreciendo una programación de actividades regular y con apertura a recibir propuestas de actividades gestionadas por la propia comunidad. Se contará con instalaciones equipadas, con varios espacios de uso múltiple, abiertos al público.",
-        "botton" => "¡Involucrate!"
+        "button" => " ¡Involucrate! Apoya nuestro trabaja"
+    ],
+    "communityNetwork" =>  [
+        "title" => "Reuniones de Red Comunitaria",
+        "content" => "Planting Seeds lidera una red de organizaciones en zona 3 y zona 7 de Ciudad Guatemala que se enfocan en las necesidades de las comunidades vecinas. A través de facilitar reuniones mensuales, la red busca impulsar acciones conjuntas que permitan incentivar el éxito y crecimiento de programas que habiliten el bienestar de la comunidad, desde un enfoque integral y comprensivo, y que generen fuerzas e incidencia en números y organización grupal.",
+        "button" => " ¡Involucrate! Apoya nuestro trabaja"
+    ],
+    "communityPrograms" =>  [
+        "title" => "Programas liderados por la comunidad",
+        "content" => "A través de nuestro enfoque de facilitación comunitaria, Planting Seeds ofrece oportunidades de empleabilidad y desarrollo profesional a las y los miembros de las comunidades que beneficia. Los programas permiten que beneficiarias y beneficiarios de nuestros proyectos puedan empoderarse en su rol como futuros líderes y habilitadores de cambio, a través de mentoría de vecinos y pares. Lo que facilita que el conocimiento y la experiencia generada en la comunidad se mantenga en la comunidad, entre sus integrantes.",
+        "button" => " ¡Involucrate! Apoya nuestro trabaja"
+    ],
+    "communityDevelopment" =>  [
+        "title" => "Enfoque de Desarrollo Comunitario",
+        "content" => "Como organización, sabemos que generar un cambio significativo en una comunidad requiere que empecemos por escuchar a sus integrantes,  para que luego puedan involucrarse en nuestro trabajo y facilitarles los mecanismos para liderar el cambio. Si no se trabaja de esta manera,  las organizaciones sin fines de lucro pueden drenar recursos y espacio de comunidades, causando más daño que beneficio. Por esa razón, Planting Seeds siempre busca habilitar el empoderamiento y autonomía en sus programas de Desarrollo Comunitario, con el objetivo de redistribuir poder a las y los integrantes de las comunidades que beneficia.",
+        "content2" => "Con esto en mente, los programas de Planting Seeds son el resultado del consenso entre miembros de comunidades, representados a través de la ejecución de Reuniones Comunitarias y Entrevistas. Además, nuestras actividades son lideradas por miembros de las comunidades y una cooperativa comunitaria, quienes facilitan las reuniones en el área, levantan fondos para el Centro Comunitario y toman decisiones sobre el futuro del centro como tal.",
+        "button" => " ¡Involucrate! Apoya nuestro trabaja"
     ],
 ];

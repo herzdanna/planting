@@ -18,7 +18,6 @@ class Page extends BaseController
     }
     /*******************************  SET TEMPLATE  ********************************/
     private function setHeader($data){
-        $this->request->negotiate('language',['es','en']);
         return view('template/header',$data);
     }
 
