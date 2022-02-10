@@ -187,7 +187,7 @@
                                     <li class="mb-4">
                                         <a href="/work/impact#how-we-work" class="text-white text-decoration-none"><?=lang("Header.work.impact.option2")?></a>
                                     </li>
-                                    <li>
+                                    <li >
                                         <a href="/work/impact#financial-transparency" class="text-white text-decoration-none"><?=lang("Header.work.impact.option3")?></a>
                                     </li>
                                 </ul>

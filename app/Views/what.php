@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md offset-md-2" style="z-index: 10;">
-                    <h1 class="d-inline-block bg-white text-primary fw-bold rounded-top py-3 px-4 mb-0 text-capitalize">Our work</h1>
+                    <h1 class="d-inline-block bg-white text-primary fw-bold rounded-top py-3 px-4 mb-0 text-capitalize"><?=lang("What.title")?></h1>
                 </div>
             </div>
         </div>
@@ -18,9 +18,9 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="d-flex flex-column justify-content-center align-items-start h-100 py-5 py-lg-7 px-3 px-lg-7" data-aos="fade-up">
-                        <h3 class="text-primary fw-bold mb-4 text-capitalize">Early childhood Education</h3>
-                        <p class="tx-4 mb-4">The Planting Seeds Program is a child-centered, activity based, early childhood educational model which centers on a philosophy of love, nurturing and caring to provide an education for the whole child: physical, emotional, social, intellectual, creative & spiritual.</p>
-                        <p class="tx-4 mb-4">Through our model preschool in San Lucas, Sacatepequez, we offer our methodology to communities, municipalities and non profit organizations to improve the educational landscape in Guatemala.</p>
+                        <h3 class="text-primary fw-bold mb-4 text-capitalize"><?=lang("What.earlyEducation.title")?></h3>
+                        <p class="tx-4 mb-4"><?=lang("What.earlyEducation.content")?></p>
+                        <p class="tx-4 mb-4"><?=lang("What.earlyEducation.content2")?></p>
                     </div>
                 </div>
             </div>
