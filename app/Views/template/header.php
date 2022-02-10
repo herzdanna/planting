@@ -45,18 +45,8 @@
                     </button>
                 </div>
                 <li>
-                    <a href="#" class="mobile-menu-item"><?=lang("Header.lenguaje")?>
-                        <?php 
-                            if(lang("Header.lenguaje") == "Es"){
-                                ?>
-                                    <img src="/assets/img/gt.png" alt="" width="30px">
-                                <?php
-                            }else{
-                                ?>
-                                    <img src="/assets/img/en.png" alt="" width="30px">
-                                <?php 
-                            }
-                        ?>
+                    <a href="/locale/<?=lang("Header.lenguaje")==="Es"?"es":"en"?>" class="mobile-menu-item"><?=lang("Header.lenguaje")?>
+                        <?=lang("Header.locate")?>
                     </a>
                 </li>
                 <li>
@@ -205,18 +195,8 @@
                     <a class="nav-link" href="/stories"><?=lang("Header.stories")?></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><?=lang("Header.lenguaje")?>
-                        <?php 
-                            if(lang("Header.lenguaje") == "Es"){
-                                ?>
-                                    <img src="/assets/img/gt.png" alt="" width="30px">
-                                <?php
-                            }else{
-                                ?>
-                                    <img src="/assets/img/en.png" alt="" width="30px">
-                                <?php 
-                            }
-                        ?>
+                    <a href="/lang/<?=lang("Header.lenguaje")==="Es"?"es":"en"?>" class="nav-link"><?=lang("Header.lenguaje")?>
+                        <?=lang("Header.locate")?>
                     </a>
                 </li>
                 <li class="nav-item ms-md-3">
