@@ -7,7 +7,7 @@ return [
         "text1" => "By developing a love of learning in the earliest years of age and providing parents with the skills set to be the primary educators of their children, Planting Seeds is making a critical impact for some of the most vulnerable populations in the world.",
         "text2" => "And we are making this change WITH the community. Almost all teachers and program facilitators live in the communities where we work."
     ], 
-    "Childhood " => [
+    "childhood" => [
         "title" => "The Need For Quality Early Childhood Education",
         "text1" => "The initial stages of a child's life are the foundation for their future. If we are serious about making change for some of the most vulnerable populations in the world, we know that we need to start with kids in their earliest years of age and support parents as much as possible.",
     ], 
@@ -17,7 +17,7 @@ return [
     ], 
     "square2" => [
         "title" => "22%",
-        "text" => "22% of children in Guatemala fail the 1st grade or drop out of school by age 6",
+        "text" => "of children in Guatemala fail the 1st grade or drop out of school by age 6",
     ], 
     "work" =>  [
         "title" => "How We Work",

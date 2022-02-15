@@ -7,7 +7,7 @@ return [
         "text1" => "Al desarrollar el amor por el aprendizaje en los primeros años de edad y proporcionar a madres y padres el conjunto de habilidades que requieren para ser los principales educadores de sus hijos, Planting Seeds está logrando un impacto crítico entre algunas de  las poblaciones más vulnerables del mundo.",
         "text2" => "Realizamos este cambio en conjunto con la comunidad. Casi todos los profesores y facilitadores son vecinos de las áreas donde trabajamos."
     ], 
-    "Childhood " => [
+    "childhood" => [
         "title" => "La necesidad de una educación temprana infantil de calidad",
         "text1" => "Las etapas iniciales de la vida de una niña o niño son la base de su futuro. Con el objetivo de generar impacto duradero entre algunas de las  poblaciones más vulnerables del mundo,  enfocamos nuestros esfuerzos en empezar con las y los niños en sus primeros años de edad y apoyar a sus padres y madres a través de nuestras actividades.",
     ], 
@@ -17,7 +17,7 @@ return [
     ], 
     "square2" => [
         "title" => "22%",
-        "text" => "22% de los niños en Guatemala reprueban el 1er grado o abandonan la escuela a los 6 años",
+        "text" => "de los niños en Guatemala reprueban el 1er grado o abandonan la escuela a los 6 años",
     ], 
     "work" =>  [
         "title" => "Cómo trabajamos",
@@ -26,7 +26,7 @@ return [
     ],
     "square3" => [
         "title" => "220",
-        "text" => "Estudiantes preescolares al añor",
+        "text" => "Estudiantes preescolares al año",
     ], 
     "square4" => [
         "title" => "170",
@@ -35,7 +35,7 @@ return [
     "square5" => [
         "title" => "97%",
         "text1" => "En nuestra escuela modelo ubicada en San Lucas",
-        "text2" => "e los alumnos han aprobado el primer grado (la media nacional está por debajo del 78%)",
+        "text2" => "de los alumnos han aprobado el primer grado (la media nacional está por debajo del 78%)",
     ], 
     "square6" => [
         "title" => "obtuvieron 50% mejores",
@@ -45,8 +45,8 @@ return [
     "finalcial" => [
         "title" => "Transparencia financiera",
         "text" => "Nos esforzamos en garantizar que sus generosas donaciones se utilicen de la forma más eficaz y transparente posible. Por ello, nos adherimos a un estricto manual de finanzas, que hace más eficiente nuestros procesos, y gestionamos nuestras finanzas a través de un contador externo, quien revisa nuestros fondos y envía informes financieros cada trimestre. Consulte nuestros Informes financieros anuales a continuación:",
-        "subtitle1" => "Propuesta de Reporte Financiero",
-        "subtitle2" => "Declaración del Reporte Anual",
+        "subtitle1" => "Reporte Financiero",
+        "subtitle2" => "Reporte Anual",
     ], 
     
 ];

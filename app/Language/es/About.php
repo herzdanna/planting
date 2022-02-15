@@ -1,0 +1,61 @@
+<?php
+
+return [
+    "title" => "Sobre nosotros",
+    "core" => [
+        "title" => "Nuestra base",
+        "subtitle1" => "Misión",
+        "text1" => "Planting Seeds es una organización sin fines de lucro que busca erradicar las barreras que contribuyen a la pobreza, trabajando con las comunidades para proporcionar una educación integral de alta calidad para niñas y niños sus familias en toda Guatemala.",
+        "subtitle1" => "Visión",
+        "text2" => "Crear una organización progresista y autosostenible que mejore el acceso y la calidad de la educación que propicia el desarrollo saludable de niñas y niños, sus familias y sus comunidades saludables.",
+        "button" => "¡Conoce más sobre nosotros!",
+    ], 
+    "founders" => [
+        "title" => "Nuestros fundadores",
+        "text1" => "Susan y Richard Schmaltz son dos educadores canadienses experimentados quienes, en 1999, se trasladaron a Guatemala persiguiendo un anhelo en el corazón de Susan. Tras observar en persona la desigualdad vivida en las comunidades marginadas de Guatemala, la pareja identificó una oportunidad única: contribuir con su experiencia y fortalecer los mecanismos de educación. Dedicó los siguientes 20 años de su vida a transformar la educación infantil en Guatemala. Si te interesa conocer más acerca de Susan, no dudes en consultar su libro “Beyond Belief”.",
+    ], 
+    "story" => [
+        "title" => "Nuestra historia",
+        "text1" => "Susan creía que el aprendizaje debía ser divertido, que le permitiera a las niñas y niños:  jugar, cantar, explorar y tener autonomía durante su aprendizaje. Sostuvo que  cuando la educación se hace con amor, las niñas y niños pueden crecer y desarrollar su potencial para alcanzar lo que están destinados a ser.",
+        "text2" => "Con el apoyo de Richard, múltiples voluntarios en Ottawa y Pembroke, y la actual directora guatemalteca Madeli Quiñonez, la metodología y filosofía de Planting Seeds nació en 2021 y no ha dejado de crecer.",
+    ], 
+    "whereAre" => [
+        "title" => "En qué estamos ahora",
+        "text1" => "Si bien consideramos que la educación de primera infancia es la base para romper el ciclo de la pobreza, reconocemos que cuando se trabaja con comunidades marginadas, nuestro enfoque e impacto debe buscar ser más amplio.",
+        "text2" => "Por eso, gracias al apoyo de antiguos y nuevos círculos de amigos, hemos podido magnificar el alcance del trabajo que realizamos en el país. Centrándonos en proporcionar acceso a los libros, formar capacidades en madres y padres como educadores primarios en casa, asociarnos con otras organizaciones para satisfacer las necesidades básicas de salud y nutrición de las comunidades donde mantenemos operaciones activas, y diversificar nuestro trabajo programático para contemplar las  necesidades específicas de cada comunidad.",
+    ], 
+    "directors" => "Junta Directiva", 
+    "leadership" => "Equipo de liderazgo",
+    "educatioanal" => "Equipo educativo",
+    "development" => "Equipo de desarrollo comunitario",
+    "position" =>  [
+        "president" => "Presidente",
+        "vicepresident" => "Vice Presidente",
+        "treasurer" => "Tesorera",
+        "Secretary" => "Secretaria",
+        "boardMember" => "Junta Directiva",
+        "coDirector" => "Co-Director of Planting Seeds International",
+        "academic" => "Director Ejecutivo y Director Académico de Planting Seeds International",
+        "academicCoordinator" => "Coordinadora académica y pedagógica de  Planting Seeds International",
+        "academicPreschool" => "Coordinadora Académica y Maestra de Preescolar de Planting Seeds International",
+        "cominications" => "Oficial de Comunicaciones y Desarrollo",
+        "publicRelations" => "Coordinador de relaciones publicas",
+        "teacher" => "Maestra en",
+        "administrative" => "Soporte Administrativo",
+        "maintenance" => "Mantenimiento y limpieza",
+        "nutrition" => "Programa de nutrición en  ",
+        "facilitator" => "Facilitador después de la escuela",
+        "gogirlsAfter" => "Go Grils! y Facilitador después de la escuela",
+        "fathergroups" => "Facilitador del grupo de padres",
+        "library" => "<br>Coordinadora <br>de biblioteca",
+        "pedagogue" => "Pedagogo fuera de programas comunitarios",
+        "gogirls" => "Go Grils! y Facilitador  ",
+        "librarian" => "bibliotecaria",
+        "motivated" => "Facilitadora de mujeres motivadas",
+        "photographer" => "Fotógrafa",
+    ],
+    "partners" => [
+        "title" => "Nuestros socios",
+        "text" => "Socios en el campo de trabajo",
+    ]
+];

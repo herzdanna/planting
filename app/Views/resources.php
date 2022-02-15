@@ -20,100 +20,95 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="d-flex flex-column justify-content-center align-items-start h-100 py-5 py-lg-7 px-4 px-lg-7" data-aos="fade-up">
-                        <h3 class="text-primary fw-bold mb-5 text-capitalize">Let’s get in touch</h3>
-                        <p class="tx-4 mb-4">We would love to hear from you! Whether you want to learn more about our organization, participate in upcoming events or exchange programs, establish a partnership, or visit us in Guatemala, we can help!.</p>
-                        <a href="/join-us#contacForm" class="btn btn-primary btn-lg px-4 text-capitalize">Contact us</a>
+                        <h3 class="text-primary fw-bold mb-5 text-capitalize"><?=lang("Resources.touch.title")?></h3>
+                        <p class="tx-4 mb-4"><?=lang("Resources.touch.content")?></p>
+                        <a href="/join-us#contacForm" class="btn btn-primary btn-lg px-4 text-capitalize"><?=lang("Resources.touch.button")?></a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="news" class="bg-blue py-6">
+    <section class="bg-blue py-6" id="news">
         <div class="container">
             <div class="text-center mb-5" data-aos="fade-up">
-                <h1 class="text-primary h3 fw-bold mb-0 text-capitalize">Recent articles</h1>
+                <h1 class="text-primary h3 fw-bold mb-0 text-capitalize"><?=lang("Stories.articles.title")?></h1>
             </div>
 
-            <div class="row gx-3 gx-xl-5 gy-4">
-                <div class="col-sm-6 col-md-6 col-lg-3">
-                    <a href="#!" class="post-card link-primary text-center" data-aos="fade-up">
+            <div class="row gx-3 gx-xl-5 gy-3">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-4">
+                    <a href="/blog#post1" class="post-card link-primary text-center" data-aos="fade-up">
                         <div class="post-card-img ratio ratio-4x3 mb-3 mb-lg-4">
-                            <img class="h-100 w-100 object-cover" src="/assets/img/support-1.jpg">
+                            <img class="h-100 w-100 object-cover" src="/assets/img/story-1.jpg">
                         </div>
-                        <h4 class="tx-4 mb-0">Name of the publication</h4>
+                        <h4 class="tx-3 tx-md-4 mb-0 text-capitalize"><?=lang("Stories.articles.article1")?></h4>
                     </a>
                 </div>
-                <div class="col-sm-6 col-md-6 col-lg-3">
-                    <a href="#!" class="post-card link-primary text-center" data-aos="fade-up">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-4">
+                    <a href="/blog#post2" class="post-card link-primary text-center" data-aos="fade-up">
                         <div class="post-card-img ratio ratio-4x3 mb-3 mb-lg-4">
-                            <img class="h-100 w-100 object-cover" src="/assets/img/support-2.jpg">
+                            <img class="h-100 w-100 object-cover" src="/assets/img/story-2.jpg">
                         </div>
-                        <h4 class="tx-4 mb-0">Name of the publication</h4>
+                        <h4 class="tx-3 tx-md-4 mb-0 text-capitalize"><?=lang("Stories.articles.article2")?></h4>
                     </a>
                 </div>
-                <div class="col-sm-6 col-md-6 col-lg-3">
-                    <a href="#!" class="post-card link-primary text-center" data-aos="fade-up">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-4">
+                    <a href="/blog#post3" class="post-card link-primary text-center" data-aos="fade-up">
                         <div class="post-card-img ratio ratio-4x3 mb-3 mb-lg-4">
-                            <img class="h-100 w-100 object-cover" src="/assets/img/support-3.jpg">
+                            <img class="h-100 w-100 object-cover" src="/assets/img/story-3.jpg">
                         </div>
-                        <h4 class="tx-4 mb-0">Name of the publication</h4>
+                        <h4 class="tx-3 tx-md-4 mb-0 text-capitalize"><?=lang("Stories.articles.article3")?></h4>
                     </a>
                 </div>
-                <div class="col-sm-6 col-md-6 col-lg-3">
-                    <a href="#!" class="post-card link-primary text-center" data-aos="fade-up">
-                        <div class="post-card-img ratio ratio-4x3 mb-3 mb-lg-4">
-                            <img class="h-100 w-100 object-cover" src="/assets/img/support-4.jpg">
-                        </div>
-                        <h4 class="tx-4 mb-0">Name of the publication</h4>
-                    </a>
-                </div>
+
             </div>
 
             <div class="text-center mt-5 mt-lg-7" data-aos="fade-up">
-                <button type="button" class="btn btn-primary px-4 text-capitalize">Load more</button>
+                <a href="/blog" class="btn btn-primary px-4 text-capitalize"><?=lang("Stories.articles.button")?></a>
             </div>
         </div>
     </section>
 
     <section id="videos" class="bg-secondary py-5">
         <div class="container">
-            <header class="text-center mb-5" data-aos="fade-up">
-                <h1 class="text-primary h3 fw-bold">Videos</h1>
+            <header class="text-center mb-5">
+                <h1 class="text-primary h3 fw-bold text-capitalize"><?=lang("Stories.videos.title")?></h1>
             </header>
 
-            <div class="row gx-3 gx-xl-5 gy-4">
-                <div class="col-sm-6 col-md-4 col-lg-4">
-                    <a href="#learningLove" class="post-card text-center link-primary clic" data-aos="fade-up">
+            <div class="row gx-3 gx-xl-5 gy-5">
+                <div class="col-md-6 col-md-4 col-lg-4">
+                    <a href="#learningLove" class="post-card text-center link-primary clic" data-aos="fade-up" >
                         <div class="post-card-img ratio ratio-4x3 mb-3 mb-md-4">
                             <img class="h-100 w-100 object-cover" src="/assets/img/story-1.jpg">
                         </div>
-                        <h4 class="tx-4">Learning with love at home and school</h4>
+                        <h4 class="tx-4 text-capitalize"><?=lang("Stories.videos.video1")?></h4>
                     </a>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="col-md-6 col-md-4 col-lg-4">
                     <a href="#parentTraining" class="post-card text-center link-primary clic" data-aos="fade-up">
                         <div class="post-card-img ratio ratio-4x3 mb-3 mb-md-4">
                             <img class="h-100 w-100 object-cover" src="/assets/img/story-2.jpg">
                         </div>
-                        <h4 class="tx-4">Parent training 2021</h4>
+                        <h4 class="tx-4 text-capitalize"><?=lang("Stories.videos.video2")?></h4>
                     </a>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="col-md-6 col-md-4 col-lg-4">
                     <a href="#plantingSeeds" class="post-card text-center link-primary clic" data-aos="fade-up">
                         <div class="post-card-img ratio ratio-4x3 mb-3 mb-md-4">
                             <img class="h-100 w-100 object-cover" src="/assets/img/story-3.jpg">
                         </div>
-                        <h4 class="tx-4">Planting Seeds Methodology</h4>
+                        <h4 class="tx-4 text-capitalize"><?=lang("Stories.videos.video3")?></h4>
                     </a>
                 </div>
             </div>
 
             <div class="text-center mt-5 mt-lg-7" data-aos="fade-up">
-                <button type="button" class="btn btn-primary px-4 text-capitalize">Load more</button>
+                <a href="https://www.youtube.com/channel/UCqm1YqvHZcTkf-ClFNroHlA" target="_blank" class="btn btn-primary px-4 text-capitalize"><?=lang("Stories.videos.button")?></a>
             </div>
         </div>
     </section>
+
+
 
     <section>
         <div class="container-fluid px-0">
@@ -123,12 +118,11 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="bg-green d-flex flex-column justify-content-center align-items-start h-100 py-5 py-lg-7 px-4 px-lg-7">
-                        <h3 class="text-primary fw-bold mb-5 text-capitalize" data-aos="fade-up">Our stories</h3>
-                        <p class="tx-4 mb-4" data-aos="fade-up" data-aos-delay="150">
-                        Make sure to subscribe to our mailing list to receive monthly updates, news, opportunities to get involved, and
-                        information about upcoming events.  
-                        </p>
-                        <a href="#subscribe-form" class="btn btn-primary btn-lg px-4 text-capitalize" data-aos="fade-up" data-aos-delay="150">Subscribe to Our Newsletter</a>
+                        <h3 class="text-primary fw-bold mb-5 text-capitalize" data-aos="fade-up"><?=lang("Resources.storie.title")?></h3>
+                        <p class="tx-4 mb-4" data-aos="fade-up" data-aos-delay="150"><?=lang("Resources.storie.content")?></p>
+                        <a href="#subscribe-form" class="btn btn-primary btn-lg px-4 text-capitalize" data-aos="fade-up" data-aos-delay="150">
+                            <?=lang("Resources.storie.button")?>
+                        </a>
                     </div>
                 </div>
             </div>

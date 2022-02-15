@@ -366,7 +366,7 @@
             <div class="row g-0">
                 <div class="col-lg-6">
                     <div class="bg-secondary d-flex flex-column justify-content-center align-items-start h-100 py-5 py-lg-7 px-3 px-lg-7">
-                        <h3 class="text-primary fw-bold mb-4" data-aos="fade-up"><?=lang("Where.Development.desktop.title")?></h3>
+                        <h3 class="text-primary fw-bold mb-4" data-aos="fade-up"><?=lang("Where.Development.title")?></h3>
                         
                         <!-- *************************   desktop version  ************************************-->
                         <div class="d-none d-sm-block d-sm-none d-md-block">
