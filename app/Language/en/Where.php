@@ -144,7 +144,7 @@ return [
         ],
     ],
     "project" => [
-        "title" => "Our biggest and most ambitious project: Community center",
+        "title" => "Our Biggest and Most Ambitious Project: Community center",
         "desktop" => [
             "text1" => "Although there is a lot of programming offered to community members in Zone 3,there is nothing offered to community members after 4pm or on weekends. Additionally, community members can only access that programming if they are one of the affiliates of the organizations",
             "text2" => "The Planting Seeds Community Center will meet this need by providing structured and unstructured programming at all times of the day, night and weekends for families. Additionally, families can access the different áreas of the center on their schedule and the center is open to everyone in the community.",
@@ -160,7 +160,7 @@ return [
         "desktop" => [
             "text1" => "We know that if we want to create sustainable change, we need to listen to community members and involve them in the work and leadership.",
             "text2" => "Non-Profit Organizations can take up a lot of space and power in a community and it is essential to recognize that and find ways to distribute that power back to community members.",
-            "text3" => "For this reason, Planting Seeds programs are decided upon with community members through Community Meetings and Interviews. All programs are facilitated by community members and we have a community collaborative that helps us lead community meetings, fundraise and make important decisions about the future of the center. ",
+            "text3" => "For this reason, Planting Seeds programs are decided upon with community members through community meetings and interviews. All programs are facilitated by community members and we have a community collaborative that helps us lead community meetings, fundraise and make important decisions about the future of the center. ",
             "text4" => "In addition, Planting Seeds leads a network of organizations and facilitates monthly meetings to work together to collectively meet the needs of the communities we work in."
         ],
         "movil" => [

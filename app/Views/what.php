@@ -18,7 +18,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="d-flex flex-column justify-content-center align-items-start h-100 py-5 py-lg-7 px-3 px-lg-7" data-aos="fade-up">
-                        <h3 class="text-primary fw-bold mb-4 text-capitalize"><?=lang("What.earlyEducation.title")?></h3>
+                        <h3 class="text-primary fw-bold mb-4"><?=lang("What.earlyEducation.title")?></h3>
                         <p class="tx-4 mb-4"><?=lang("What.earlyEducation.content")?></p>
                         <p class="tx-4 mb-4"><?=lang("What.earlyEducation.content2")?></p>
                     </div>
@@ -32,7 +32,7 @@
             <div id="philosophy-and-methodology" class="row g-0">
                 <div class="col-6 col-lg-3">
                     <a class="d-flex flex-column justify-content-center bg-green text-primary text-center py-5 px-3 px-md-4 h-100 w-100 text-decoration-none" style="aspect-ratio: 4/3;" data-bs-toggle="collapse" href="#ourwork-what-collapse-1" role="button" aria-expanded="false">
-                        <h4 class="fw-bold mb-3 text-capitalize" data-aos="fade-up"><?=lang("What.flipingSquares.square1.title")?></h4>
+                        <h4 class="fw-bold mb-3 e" data-aos="fade-up"><?=lang("What.flipingSquares.square1.title")?></h4>
                         <div class="collapse" id="ourwork-what-collapse-1">
                             <p class="tx-3 mb-0"><?=lang("What.flipingSquares.square1.content")?></p>
                         </div>
@@ -40,7 +40,7 @@
                 </div>
                 <div class="col-6 col-lg-3">
                     <a class="d-flex flex-column justify-content-center bg-secondary text-primary text-center py-5 px-3 px-md-4 h-100 w-100 text-decoration-none" style="aspect-ratio: 4/3;" data-bs-toggle="collapse" href="#ourwork-what-collapse-2" role="button" aria-expanded="false">
-                        <h4 class="fw-bold mb-3 text-capitalize" data-aos="fade-up"><?=lang("What.flipingSquares.square2.title")?></h4>
+                        <h4 class="fw-bold mb-3 " data-aos="fade-up"><?=lang("What.flipingSquares.square2.title")?></h4>
                         <div class="collapse" id="ourwork-what-collapse-2">
                             <p class="tx-3 mb-0"><?=lang("What.flipingSquares.square2.content")?></p>
                         </div>
@@ -48,7 +48,7 @@
                 </div>
                 <div class="col-6 col-lg-3">
                     <a class="d-flex flex-column justify-content-center bg-blue text-primary text-center py-5 px-3 px-md-4 h-100 w-100 text-decoration-none" style="aspect-ratio: 4/3;" data-bs-toggle="collapse" href="#ourwork-what-collapse-3" role="button" aria-expanded="false">
-                        <h4 class="fw-bold mb-3 text-capitalize" data-aos="fade-up"><?=lang("What.flipingSquares.square3.title")?></h4>
+                        <h4 class="fw-bold mb-3" data-aos="fade-up"><?=lang("What.flipingSquares.square3.title")?></h4>
                         <div class="collapse" id="ourwork-what-collapse-3">
                             <p class="tx-3 mb-0"><?=lang("What.flipingSquares.square3.content")?></p>
                         </div>
@@ -56,7 +56,7 @@
                 </div>
                 <div class="col-6 col-lg-3">
                     <a class="d-flex flex-column justify-content-center bg-yellow text-primary text-center py-5 px-3 px-md-4 h-100 w-100 text-decoration-none" style="aspect-ratio: 4/3;" data-bs-toggle="collapse" href="#ourwork-what-collapse-4" role="button" aria-expanded="false">
-                        <h4 class="fw-bold mb-3 text-capitalize" data-aos="fade-up"><?=lang("What.flipingSquares.square2.title")?></h4>
+                        <h4 class="fw-bold mb-3" data-aos="fade-up"><?=lang("What.flipingSquares.square4.title")?></h4>
                         <div class="collapse" id="ourwork-what-collapse-4">
                             <p class="tx-3 mb-0"><?=lang("What.flipingSquares.square4.content")?></p>
                         </div>
@@ -85,7 +85,7 @@
                         <p class="tx-4" data-aos="fade-up" data-aos-delay="150"><?=lang("What.comprehensive.content")?></p>
                         <p class="tx-4" data-aos="fade-up" data-aos-delay="150"><?=lang("What.comprehensive.content2")?></p>
 
-                        <a href="/stories" class="btn btn-green btn-lg px-4 mt-4 text-capitalize"><?=lang("What.comprehensive.button")?></a>
+                        <a href="/stories" class="btn btn-green btn-lg px-4 mt-4 "><?=lang("What.comprehensive.button")?></a>
                     </div>
                 </div>
             </div>

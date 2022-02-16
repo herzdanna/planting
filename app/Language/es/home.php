@@ -2,14 +2,14 @@
 
 return [
     "change" => [
-        "title" => "El cambio empieza con el amor propio y el amor al prójimo: nuestras familias, nuestras comunidades y nuestro mundo.",
+        "title" => "El Cambio Empieza con el Amor Propio y el Amor al Prójimo: Nuestras Familias, Nuestras Comunidades y Nuestro Mundo.",
         "content" => "Durante más de 20 años, Planting Seeds International se ha consolidado como una organización progresiva y sostenible que mejora el acceso y la calidad de la educación en comunidades alrededor de Guatemala, con el objetivo de desarrollar niñas y niños, familias y comunidades saludables.",
     ],  
     "square" =>  [
         "square1" => "Centros educativos activos de enseñanza preescolar",
         "square2" => "Estudiantes beneficiados cada año (entre 2 y 6 años de edad)",
-        "square3" => "Beneficiarios directos por programas de PSI, cada año",
-        "square4" => "Es el índice de graduación de Primero Primaria en centros educativos de Planting Seeds (el Promedio nacional se mantiene debajo del 78%)"
+        "square3" => "Beneficiarios de programas de Plantando Semillas cada año",
+        "square4" => "Es el índice de graduación de 1ero de primaria de los graduados de los preescolares de Plantando Semillas (El promedio nacional se mantiene debajo del 78%)"
     ],    
     "ourCoreBeliefs" => [
         "title" =>  "Nuestros principales valores",
@@ -20,16 +20,16 @@ return [
     ], 
     "ourStories" =>  [
         "title" => "Nuestras historias",
-        "content" => "Las historias de las y los miembros de nuestras comunidades muestran el impacto que generamos, a través de nuestro enfoque de desarrollo, empoderamiento y trato cuidadoso.",
-        "story1" => " Día del Maestro - Aleyda Machán",
-        "story2" => "Compartir el amor por la lectura",
+        "content" => "Las historias de las y los miembros de nuestras comunidades muestran el impacto que generamos, a través de nuestro enfoque de desarrollo, empoderamiento y crianza con cariño.",
+        "story1" => "Día de las Maestras - Aleyda Machán",
+        "story2" => "Compartir el Amor por la Lectura",
         "story3" => "Mentoría a Madres, Padres y Estudiantes",
         "button" => "Más inspiración aquí"
     ], 
     "supportOurWork" =>  [
-        "title" => "Involucrate y apoya nuestro trabajo",
-        "list1" => "Conviértete en patrocinador",
-        "list2" => "Únete a un Círculo de amigos",
+        "title" => "Involúcrate y Apoya Nuestro Trabajo",
+        "list1" => "Programa de Apadrinamiento",
+        "list2" => "Únete a un Círculo de Amigos",
         "list3" => "Visítanos"
     ], 
 ];

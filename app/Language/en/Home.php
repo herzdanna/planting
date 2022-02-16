@@ -2,14 +2,14 @@
 
 return [
     "change" => [
-        "title" => "Change Starts With The Love For Oneself And For Others: Our Families, Our Communities And Our World.",
+        "title" => "Change Starts with the Love for Oneself and for Others: Our Families, Our Communities and Our World.",
         "content" => "For over 20 years, Planting Seeds International has created a progressive, self-sustaining organization that improves access to quality education to develop healthy children, families, and communities across Guatemala."
     ],
     "square" =>  [
         "square1" => "Active Early Childhood Education Centers",
-        "square2" => "Students Per Year(2-6 years)",
-        "square3" => "Direct Beneficiaries Of PSI Programs Each Year",
-        "square4" => "First Grade Graduation Rate For Planting Seeds Graduates (National Average Is Below 78%)"
+        "square2" => "Students per Year(2-6 years)",
+        "square3" => "Direct Beneficiaries of PSI Programs Each Year",
+        "square4" => "First Grade Graduation Rate for Planting Seeds Graduates (National Average is Below 78%)"
     ],   
     "ourCoreBeliefs" => [
         "title" =>  "Our Core Beliefs",
@@ -22,13 +22,13 @@ return [
         "title" => "Our Stories",
         "content" => "The stories of our community members show the impact that our approach to development, empowerment and nurturing care have in the communities we work.",
         "story1" => "Teachers Day - Aleyda Machán",
-        "story2" => "Sharing The Love For Reading",
-        "story3" => "Mentoring Parents And Students",
+        "story2" => "Sharing the Love for Reading",
+        "story3" => "Mentoring Parents and Students",
         "button" => "Find More Inspiration Here"
     ], 
     "supportOurWork" =>  [
-        "title" => "Take A Stand And Support Our Work",
-        "list1" => "Become a sponsor",
+        "title" => "Take a Stand and Support Our Work",
+        "list1" => "Become a Sponsor",
         "list2" => "Join a Friends Circle",
         "list3" => "Visit us!"
     ], 

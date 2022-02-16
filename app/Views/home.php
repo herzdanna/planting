@@ -46,7 +46,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
-                    <h1 class="fw-bold h3 text-primary text-capitalize"><?=lang("Home.change.title")?></h1>
+                    <h1 class="fw-bold h3 text-primary "><?=lang("Home.change.title")?></h1>
                     <p class="tx-4"><?=lang("Home.change.content")?></p>
                 </div>
             </div>
@@ -187,7 +187,7 @@
 <section class="bg-green py-6">
     <div class="container">
         <div class="text-center mb-5" data-aos="fade-up">
-            <h1 class="text-primary h3 fw-bold mb-0 text-capitalize"><?=lang("Home.supportOurWork.title")?></h1>
+            <h1 class="text-primary h3 fw-bold mb-0 "><?=lang("Home.supportOurWork.title")?></h1>
         </div>
 
         <div id="support-slider" class="swiper mx-n2 mx-sm-0 px-5 px-sm-0" data-aos="fade-up">
@@ -197,7 +197,7 @@
                         <div class="post-card-img ratio ratio-4x3 mb-4">
                             <img class="h-100 w-100 object-cover" src="/assets/img/home/img-3.jpg">
                         </div>
-                        <h4 class="mb-0 text-capitalize">Donate</h4>   
+                        <h4 class="mb-0 "><?=lang("Header.donate")?></h4>   
                     </a>
                 </div>
                 <div class="swiper-slide">
@@ -205,7 +205,7 @@
                         <div class="post-card-img ratio ratio-4x3 mb-4">
                             <img class="h-100 w-100 object-cover" src="/assets/img/home/img-4.jpg">
                         </div>
-                        <h4 class="mb-0 text-capitalize"><?=lang("Home.supportOurWork.list1")?></h4>
+                        <h4 class="mb-0 "><?=lang("Home.supportOurWork.list1")?></h4>
                     </a>
                 </div>
                 <div class="swiper-slide">
@@ -213,7 +213,7 @@
                         <div class="post-card-img ratio ratio-4x3 mb-4">
                             <img class="h-100 w-100 object-cover" src="/assets/img/support-3.jpg">
                         </div>
-                        <h4 class="mb-0 text-capitalize"><?=lang("Home.supportOurWork.list2")?></h4>
+                        <h4 class="mb-0 "><?=lang("Home.supportOurWork.list2")?></h4>
                     </a>
                 </div>
                 <div class="swiper-slide">
@@ -221,7 +221,7 @@
                         <div class="post-card-img ratio ratio-4x3 mb-4">
                             <img class="h-100 w-100 object-cover" src="/assets/img/support-4.jpg">
                         </div>
-                        <h4 class="mb-0 text-capitalize"><?=lang("Home.supportOurWork.list3")?></h4>
+                        <h4 class="mb-0 "><?=lang("Home.supportOurWork.list3")?></h4>
                     </a>
                 </div>
             </div>

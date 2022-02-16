@@ -168,7 +168,7 @@
                                     <div class="row gy-3 gx-2 gx-lg-5 border-bottom border-2 border-yellow py-3">
                                         <div class="col-4">
                                             <h6 class="text-primary"><?=lang("Where.Beneficiaries")?></h6>
-                                            <p class="tx-3 lh-sm mb-0"><?=lang("Where.place3.Beneficiariestext")?>r</p>
+                                            <p class="tx-3 lh-sm mb-0"><?=lang("Where.place3.Beneficiariestext")?></p>
                                         </div>
                                         <div class="col-3">
                                             <h6 class="text-primary"><?=lang("Where.Ages")?></h6>
@@ -334,15 +334,15 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
-                    <h1 class="fw-bold h3 text-center text-primary mb-4 text-capitalize" data-aos="fade-up"><?=lang("Where.project.title")?></h1>
+                    <h1 class="fw-bold h3 text-center text-primary mb-4 " data-aos="fade-up"><?=lang("Where.project.title")?></h1>
                     
                     <!-- *************************   desktop version  ************************************-->
                     <div class="d-none d-sm-block d-sm-none d-md-block">
-                        <p class="tx-4" data-aos="fade-up" data-aos-delay="150"><?=lang("Where.Development.desktop.text1")?></p>
+                        <p class="tx-4" data-aos="fade-up" data-aos-delay="150"><?=lang("Where.project.desktop.text1")?></p>
 
-                        <p class="tx-4" data-aos="fade-up" data-aos-delay="150"><?=lang("Where.Development.desktop.text2")?></p>
+                        <p class="tx-4" data-aos="fade-up" data-aos-delay="150"><?=lang("Where.project.desktop.text2")?></p>
 
-                        <p class="tx-4" data-aos="fade-up" data-aos-delay="150"><?=lang("Where.Development.desktop.text3")?></p>
+                        <p class="tx-4" data-aos="fade-up" data-aos-delay="150"><?=lang("Where.project.desktop.text3")?></p>
                     </div>
 
 

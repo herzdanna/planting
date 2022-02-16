@@ -86,7 +86,7 @@
             </div>
 
             <div class="text-center mt-5">
-                <a href="/join-us#contacForm" class="btn btn-primary btn-lg px-4 text-capitalize"><?=lang("Programs.button")?></a>
+                <a href="/join-us#contacForm" class="btn btn-primary btn-lg px-4 "><?=lang("Programs.button")?></a>
             </div>
         </div>
     </section>

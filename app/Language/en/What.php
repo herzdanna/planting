@@ -27,7 +27,7 @@ return [
     ],
     "comprehensive" => [
         "title" => "Comprehensive Community-Led Development",
-        "content" => "While we know that Early Childhood Education is the foundation to break the cycle of poverty, we know that when working with such marginalized populations, we need to provide more comprehensive support to meet such intense needs in the communities we work. And that community members need to be the drivers of that work.",
+        "content" => "While we know that early childhood education is the foundation to break the cycle of poverty, we know that when working with such marginalized populations, we need to provide more comprehensive support to meet such intense needs in the communities we work. And that community members need to be the drivers of that work.",
         "content2" => "Because of this, our community development program is different in each area we work. In all regions we focus on partnerships with the community and cross sector collaborations to enhance our impact. Our model for Community Development is centered in Zone 3 of Guatemala City where we are leading the following work",
         "button" => "Read our stories!"
     ],  

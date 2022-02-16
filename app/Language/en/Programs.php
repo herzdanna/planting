@@ -2,7 +2,7 @@
 
 return [
     "title"  => "Our Current Programs",
-    "button" => "Contact us to learn more",
+    "button" => "Contact Us to Learn More ",
     "button2" => "close",
     "program1"  => [
         "title" => "English", 
