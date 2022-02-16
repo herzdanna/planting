@@ -8,11 +8,9 @@ class Page extends BaseController
     /*******************************  TEMPLATE  ************************************/
 
     protected $header;
-    protected $footer;
 
     public  function __construct(){
         $this->header = view('template/header');
-        $this->footer = view('template/footer');
         $this->headerAdmin = view('admin/template/header');
         $this->footerAdmin = view('admin/template/footer');
     }
@@ -33,6 +31,9 @@ class Page extends BaseController
     private function setTitleAdmin($key){
         $title = ['','Administrator','Sliders','About Us','Join Us','Our Stories','Donate', 'Resources','Our Offices','Donate USA','Donate Canada'];
         return ['title' => $title[$key]];
+    }
+    private function setFooter(Array $data = []){
+        return view("template/footer");
     }
     
     /*******************************  VIEWS  FRONT END ************************************/
@@ -65,52 +66,52 @@ class Page extends BaseController
 
         $data = $response->getDecodedBody(); */
 
-        return $this->setHeader($this->setTitle(1)).view('home').$this->footer;
+        return $this->setHeader($this->setTitle(1)).view('home').$this->setFooter();
     }
 
     public function work(string $section = 'what')
     {
         if($section == 'what' || $section == 'where'){
-            return $this->setHeader(['title' => ucfirst($section)]).view($section).view('currentPrograms').$this->footer;
+            return $this->setHeader(['title' => ucfirst($section)]).view($section).view('currentPrograms').$this->setFooter();
         }else{
-            return $this->setHeader(['title' => ucfirst($section)]).view($section).$this->footer;
+            return $this->setHeader(['title' => ucfirst($section)]).view($section).$this->setFooter();
         }
     }
 
     public function about()
     {
-        return $this->setHeader($this->setTitle(3)).view('aboutus').$this->footer;
+        return $this->setHeader($this->setTitle(3)).view('aboutus').$this->setFooter();
     }
 
     public function join(){
-        return $this->setHeader($this->setTitle(4)).view('joinus').$this->footer;
+        return $this->setHeader($this->setTitle(4)).view('joinus').$this->setFooter();
     }
 
     public function stories(){
-        return $this->setHeader($this->setTitle(5)).view('ourstories').$this->footer;
+        return $this->setHeader($this->setTitle(5)).view('ourstories').$this->setFooter();
     }
     public function blog(){
-        return $this->setHeader($this->setTitle(11)).view('blog').$this->footer;
+        return $this->setHeader($this->setTitle(11)).view('blog').$this->setFooter();
     }
 
     public function donate(){
-        return $this->setHeader($this->setTitle(6)).view('donate').$this->footer;
+        return $this->setHeader($this->setTitle(6)).view('donate').$this->setFooter();
     }
 
     public function resources(){
-        return $this->setHeader($this->setTitle(7)).view('resources').$this->footer;
+        return $this->setHeader($this->setTitle(7)).view('resources').$this->setFooter();
     }
 
     public function legal(){
-        return $this->setHeader($this->setTitle(8)).view('ouroffices').$this->footer;
+        return $this->setHeader($this->setTitle(8)).view('ouroffices').$this->setFooter();
     }
 
     public function donateUsa(){
-        return $this->setHeader($this->setTitle(9)).view('donateusa').$this->footer;
+        return $this->setHeader($this->setTitle(9)).view('donateusa').$this->setFooter();
     }
 
     public function donateCanada(){
-        return $this->setHeader($this->setTitle(9)).view('donatecanada').$this->footer;
+        return $this->setHeader($this->setTitle(9)).view('donatecanada').$this->setFooter();
     }
 
 
