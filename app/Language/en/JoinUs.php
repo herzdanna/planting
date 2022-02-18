@@ -8,12 +8,12 @@ return [
         "content" => "Planting Seeds International is at the core a grassroots-based organization powered by the generosity of Canadians, Americans and Guatemalans. Your support allows us to keep growing our impact in communities throughout Guatemala."
     ],
     "sponsor" => [
-        "title" => "Become A Sponsor",
+        "title" => "Become a Sponsor",
         "content" => "Sponsoring a preschooler, a program participant, a classroom or a community program ensures the sustainability of our impact.",
         "button" => "Write us!"
     ],
     "friends" => [
-        "title" => "Join A Friends Circle",
+        "title" => "Join a Friends Circle",
         "content" => "We have five active Friends Circles in Ottawa (Ontario, Canada), Chicago and Northbrook (Illinois, USA), Traverse City (Michigan, USA) and Guatemala City. Friends Circles help us organize fundraising events and raise awareness about our work in their local communities. We are always looking to add new members or start new Friends Circles!",
         "button" => "Contact us to learn more!"
     ],

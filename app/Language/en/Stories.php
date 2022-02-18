@@ -9,15 +9,16 @@ return [
     "articles" => [
         "title" => "Recent Articles",
         "article1" => "Teachers Day - Aleyda Machán",
-        "article2" => "Sharing the Love for reading",
+        "article2" => "Sharing the Love for Reading",
         "article3" => "Mentoring Parents and Students",
         "button" => "Go to the blog ",
     ], 
     "videos" => [
         "title" => "Videos",
-        "video1" => "Learning with love at home and school",
-        "video2" => "Parent training 2021",
-        "video3" => "Planting Seeds Methodologyl",
+        "video1" => "Learning with Love at Home and School",
+        "video2" => "Parent Training 2021",
+        "video3" => "Planting Seeds Methodology",
+        "button" => "Load More",
     ], 
     "suscription" => [
         "title" => "Stay Tuned!",

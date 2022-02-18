@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md offset-md-2" style="z-index: 10;">
-                    <h1 class="d-inline-block bg-white text-primary fw-bold rounded-top py-3 px-4 mb-0 text-capitalize"><?=lang("JoinUs.title")?></h1>
+                    <h1 class="d-inline-block bg-white text-primary fw-bold rounded-top py-3 px-4 mb-0 "><?=lang("JoinUs.title")?></h1>
                 </div>
             </div>
         </div>
@@ -15,7 +15,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
-                    <h1 class="fw-bold h3 text-center text-primary mb-4 text-capitalize"><?=lang("JoinUs.support.title")?></h1>
+                    <h1 class="fw-bold h3 text-center text-primary mb-4 "><?=lang("JoinUs.support.title")?></h1>
                     <p class="tx-4"><?=lang("JoinUs.support.content")?></p>
                 </div>
             </div>
@@ -29,7 +29,7 @@
             <div class="row flex-column-reverse flex-lg-row g-0">
                 <div class="col-lg-6">
                     <div class="bg-blue d-flex flex-column justify-content-center align-items-start h-100 py-5 py-lg-7 px-3 px-lg-7" data-aos="fade-up">
-                        <h3 class="text-primary fw-bold mb-4 text-capitalize"><?=lang("JoinUs.sponsor.title")?></h3>
+                        <h3 class="text-primary fw-bold mb-4 "><?=lang("JoinUs.sponsor.title")?></h3>
                         <p class="tx-4 mb-0"><?=lang("JoinUs.sponsor.content")?></p>
                         <div class="mt-4">
                             <a href="#contacForm" class="btn btn-primary btn-lg px-4"><?=lang("JoinUs.sponsor.button")?></a>
@@ -51,10 +51,10 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="bg-smoke d-flex flex-column justify-content-center align-items-start h-100 py-5 py-lg-7 px-3 px-lg-7" data-aos="fade-up">
-                        <h3 class="text-primary fw-bold mb-4 text-capitalize"><?=lang("JoinUs.friends.title")?></h3>
+                        <h3 class="text-primary fw-bold mb-4 "><?=lang("JoinUs.friends.title")?></h3>
                         <p class="tx-4 mb-0"><?=lang("JoinUs.friends.content")?></p>
                         <div class="mt-4">
-                            <a href="join-us#contacForm" class="btn btn-primary btn-lg px-4 text-capitalize"><?=lang("JoinUs.friends.button")?></a>
+                            <a href="join-us#contacForm" class="btn btn-primary btn-lg px-4 "><?=lang("JoinUs.friends.button")?></a>
                         </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@
     <section id="exchange-programs" class="bg-green py-5">
         <div class="container">
             <div class="text-center mb-5" data-aos="fade-up">
-                <h1 class="text-primary h3 fw-bold text-capitalize"><?=lang("JoinUs.title2")?></h1>
+                <h1 class="text-primary h3 fw-bold "><?=lang("JoinUs.title2")?></h1>
             </div>
             
             <div class="row gx-4">
@@ -86,7 +86,7 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button js-acc-btn collapsed" type="button" data-img="changeforchange.jpg" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false">
+                                <button class="accordion-button js-acc-btn collapsed" type="button" data-img="zoompalprogram.jpg" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false">
                                 <?=lang("JoinUs.program2.title")?>
                                 </button>
                             </h2>
@@ -124,7 +124,7 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button js-acc-btn collapsed" type="button" data-img="zoompalprogram.jpg" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false">
+                                <button class="accordion-button js-acc-btn collapsed" type="button" data-img="changeforchange.jpg" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false">
                                 <?=lang("JoinUs.program5.title")?>
                                 </button>
                             </h2>
@@ -154,7 +154,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="d-flex flex-column justify-content-center align-items-start h-100 py-5 py-lg-7 px-3 px-lg-7" data-aos="fade-up">
-                        <h3 class="text-primary fw-bold mb-4 text-capitalize"><?=lang("JoinUs.donation.title")?></h3>
+                        <h3 class="text-primary fw-bold mb-4 "><?=lang("JoinUs.donation.title")?></h3>
                         <p class="tx-4 mb-0"><?=lang("JoinUs.donation.content")?></p>
                         
                         <div class="mt-4">

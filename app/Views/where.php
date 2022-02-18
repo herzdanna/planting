@@ -119,9 +119,7 @@
                                         <ul class="tx-3">
                                             <li class="mb-3">
                                                 <b class="text-primary"><?=lang("Where.place2.program1.name")?></b><?=lang("Where.place2.program1.item")?>
-                                                <ol class="mt-2">
-                                                    <li><?=lang("Where.place2.program1.item1")?></li>
-                                                </ol>
+                                                <p><?=lang("Where.place2.program1.item1")?></p>
                                             </li>
                                             <li class="mb-3"><b class="text-primary"><?=lang("Where.place2.program2.name")?></b><?=lang("Where.place2.program2.item")?></li>
                                             <li class="mb-3"><b class="text-primary"><?=lang("Where.place2.program3.name")?></b><?=lang("Where.place2.program3.item")?></li>

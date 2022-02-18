@@ -3,9 +3,9 @@
 return [
     "title" => "Legal Offices",
     "planting" => [
-        "title" => "Planting Seeds International Is Composed Of Two Separate Entities:",
+        "title" => "Planting Seeds International is Composed of Two Separate Entities:",
         "content" => "They both work to improve the landscape of education and community development across Guatemala. We are educators, parents, community members, students, supporters, allies, and most importantly human beings who hope to set a brighter future with and for the children of Guatemala.",
-        "button" => "Get to know our staff"
+        "button" => "Get to Know Our Staff"
     ],
     "canada" => [
         "title" => "Planting Seeds International <b>Canada</b>",
@@ -17,7 +17,7 @@ return [
     ],
     "usa" => [
         "title" => "Planting Seeds International <b>USA</b>",
-        "content" => "USA: works to raise funds and awareness to support the programs in Guatemala operated by the Canadian Corporation.",
+        "content" => "works to raise funds and awareness to support the programs in Guatemala operated by the Canadian Corporation.",
         "content2" => "Your contribution supports Planting Seeds programs in Guatemala. Thank you for partnering with us to promote high-quality education for children and families. Planting Seeds International is a registered charitable organization in the United States. All contributions made to Planting Seeds International are tax-exempt under section 501(c)(3) of the Internal Revenue Code. Please make checks payable to: Planting Seeds International, 2860 Weller Lane, Northbrook, IL, 60062",
         "content3" => "*Increase your impact through employer-sponsored matching gift programs.<br>Please check with your employer to see if they match contributions made to registered 501(c)(3) organizations. Our EIN number is 82-0627430."
     ],

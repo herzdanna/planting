@@ -19,7 +19,7 @@
                     <div class="d-flex flex-column justify-content-center align-items-start h-100 py-5 py-lg-7 px-3 px-lg-7" data-aos="fade-up">
                         <h3 class="text-primary fw-bold mb-4 text-capitalize"><?=lang("About.core.title")?></h3>
                         <div class="mb-4">
-                            <h6 class="text-primary text-uppercase"><?=lang("About.core.subtitle1")?></h6>
+                            <h6 class="text-primary text-uppercase"><?=lang("About.core.subtitle")?></h6>
                             <p class="tx-4 mb-0"><?=lang("About.core.text1")?></p>
                         </div>
                         <div class="mb-4">
@@ -212,7 +212,7 @@
                                         <img src="/assets/img/about/leadershipTeam/macPhilips.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4"> Mac Philips: <?=lang("About.position.coDirector")?></h6>
+                                        <h6 class="tx-2 tx-md-3"> <?=lang("About.position.Mac")?></h6>
                                     </div>
                                 </div>
                             </div>
@@ -222,7 +222,7 @@
                                         <img src="/assets/img/about/leadershipTeam/shannonMoyle.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Shannon Moyle: <?=lang("About.position.coDirector")?></h6>
+                                        <h6 class="tx-2 tx-md-3"> <?=lang("About.position.Shannon")?></h6>
                                     </div>
                                 </div>
                             </div>
@@ -232,7 +232,7 @@
                                         <img src="/assets/img/about/leadershipTeam/madeliQuinonez.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Madeli Quiñonez: <?=lang("About.position.academic")?></h6>
+                                        <h6 class="tx-2 tx-md-3"><?=lang("About.position.Madeli")?></h6>
                                     </div>
                                 </div>
                             </div>
@@ -242,7 +242,7 @@
                                         <img src="/assets/img/about/leadershipTeam/martinaGarcia.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Martina Garcia:<?=lang("About.position.academicCoordinator")?></h6>
+                                        <h6 class="tx-2 tx-md-3"><?=lang("About.position.Martina")?></h6>
                                     </div>
                                 </div>
                             </div>
@@ -252,7 +252,7 @@
                                         <img src="/assets/img/about/leadershipTeam/carlaLopez.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Carla López: <?=lang("About.position.academicPreschool")?></h6>
+                                        <h6 class="tx-2 tx-md-3"><?=lang("About.position.Carla")?></h6>
                                     </div>
                                 </div>
                             </div>
@@ -262,7 +262,7 @@
                                         <img src="/assets/img/about/leadershipTeam/mishelMussali.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Mishel Mussali: <?=lang("About.position.cominications")?></h6>
+                                        <h6 class="tx-2 tx-md-3"><?=lang("About.position.Mishel")?></h6>
                                     </div>
                                 </div>
                             </div>
@@ -272,7 +272,7 @@
                                         <img src="/assets/img/about/leadershipTeam/danielOsorio.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Daniel Osorio:<?=lang("About.position.publicRelations")?> </h6>
+                                        <h6 class="tx-2 tx-md-3"><?=lang("About.position.Daniel")?> </h6>
                                     </div>
                                 </div>
                             </div>
@@ -288,7 +288,7 @@
                                         <img src="/assets/img/about/educationalTeam/aleydaMachan.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Aleyda Machán - <?=lang("About.position.teacher")?> San Lucas</h6>
+                                        <h6 class="tx-3 tx-md-3"><?=lang("About.position.Aleyda")?> </h6>
                                     </div>
                                 </div>
                             </div>
@@ -298,7 +298,7 @@
                                         <img src="/assets/img/about/educationalTeam/blancaHernandez.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Blanca Hernández - <?=lang("About.position.teacher")?> San Lucas</h6>
+                                        <h6 class="tx-3 tx-md-3"><?=lang("About.position.Blanca")?>  </h6>
                                     </div>
                                 </div>
                             </div>
@@ -308,7 +308,7 @@
                                         <img src="/assets/img/about/educationalTeam/arnerMinas.jpg" class="img-fluid">  
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Arner Minas - <?=lang("About.position.administrative")?> </h6>
+                                        <h6 class="tx-3 tx-md-3"><?=lang("About.position.Aner")?> </h6>
                                     </div>
                                 </div>
                             </div>
@@ -318,7 +318,7 @@
                                         <img src="/assets/img/about/educationalTeam/mariaJuanaArmiraAvila.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Maria Juana Armira Avila - <?=lang("About.position.teacher")?> Tioxya</h6>
+                                        <h6 class="tx-3 tx-md-3"><?=lang("About.position.Maria")?> </h6>
                                     </div>
                                 </div>
                             </div>
@@ -328,7 +328,7 @@
                                         <img src="/assets/img/about/educationalTeam/meridaYucute.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Merida Yucute - <?=lang("About.position.teacher")?> Sacalá </h6>
+                                        <h6 class="tx-3 tx-md-3"><?=lang("About.position.Merida")?>  </h6>
                                     </div>
                                 </div>
                             </div>
@@ -338,7 +338,7 @@
                                         <img src="/assets/img/about/educationalTeam/marioEsqueque.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Mario Esqueque - <?=lang("About.position.maintenance")?> </h6>
+                                        <h6 class="tx-3 tx-md-3"><?=lang("About.position.Mario")?> </h6>
                                     </div>
                                 </div>
                             </div>
@@ -348,7 +348,7 @@
                                         <img src="/assets/img/about/educationalTeam/normaAtz.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Norma Atz - <?=lang("About.position.teacher")?> Sacalá </h6>
+                                        <h6 class="tx-3 tx-md-3"><?=lang("About.position.Norma")?>  </h6>
                                     </div>
                                 </div>
                             </div>
@@ -358,7 +358,7 @@
                                         <img src="/assets/img/about/educationalTeam/monicaRamirez.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Mónica Ramirez - <?=lang("About.position.nutrition")?>San Lucas</h6>
+                                        <h6 class="tx-3 tx-md-3"><?=lang("About.position.Monica")?></h6>
                                     </div>
                                 </div>
                             </div>
@@ -373,7 +373,7 @@
                                         <img src="/assets/img/about/ComunnityDevTeam/carlosYos.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Carlos Yos:  <?=lang("About.position.facilitator")?></h6>
+                                        <h6 class="tx-3 tx-md-3"><?=lang("About.position.Carlos")?></h6>
                                     </div>
                                 </div>
                             </div>
@@ -383,7 +383,7 @@
                                         <img src="/assets/img/about/ComunnityDevTeam/elisaMejicanos.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Elisa Mejicanos: <?=lang("About.position.gogirlsAfter")?></h6>
+                                        <h6 class="tx-3 tx-md-3"><?=lang("About.position.Eliza")?></h6>
                                     </div>
                                 </div>
                             </div>
@@ -393,7 +393,7 @@
                                         <img src="/assets/img/about/ComunnityDevTeam/gasparSucuqui.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Gaspar Sucuqui: <?=lang("About.position.fathergroups")?></h6>
+                                        <h6 class="tx-3 tx-md-3"><?=lang("About.position.Gaspar")?></h6>
                                     </div>
                                 </div>
                             </div>
@@ -403,7 +403,7 @@
                                         <img src="/assets/img/about/ComunnityDevTeam/juanaEspanaBerna.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Juana España Berna:<?=lang("About.position.library")?></h6>
+                                        <h6 class="tx-3 tx-md-3"><?=lang("About.position.Juana")?></h6>
                                     </div>
                                 </div>
                             </div>
@@ -413,7 +413,7 @@
                                         <img src="/assets/img/about/ComunnityDevTeam/juanPabloFlores.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Juan Pablo Flores: <?=lang("About.position.pedagogue")?></h6>
+                                        <h6 class="tx-3 tx-md-3"><?=lang("About.position.Juan")?></h6>
                                     </div>
                                 </div>
                             </div>
@@ -423,7 +423,7 @@
                                         <img src="/assets/img/about/ComunnityDevTeam/lindaLopez.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Linda Lopez: <?=lang("About.position.gogirls")?></h6>
+                                        <h6 class="tx-3 tx-md-3"><?=lang("About.position.Linda")?></h6>
                                     </div>
                                 </div>
                             </div>
@@ -433,7 +433,7 @@
                                         <img src="/assets/img/about/ComunnityDevTeam/luisCalel.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Luis Calel: <?=lang("About.position.fathergroups")?></h6>
+                                        <h6 class="tx-3 tx-md-3"><?=lang("About.position.Luis")?></h6>
                                     </div>
                                 </div>
                             </div>
@@ -443,7 +443,7 @@
                                         <img src="/assets/img/about/ComunnityDevTeam/mirianEsquivel.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Mirian Esquivel: <?=lang("About.position.librarian")?></h6>
+                                        <h6 class="tx-3 tx-md-3"><?=lang("About.position.Mirian")?></h6>
                                     </div>
                                 </div>
                             </div>
@@ -453,7 +453,7 @@
                                         <img src="/assets/img/about/ComunnityDevTeam/sunyGarcia.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Suny Garcia:<?=lang("About.position.motivated")?></h6>
+                                        <h6 class="tx-3 tx-md-3"><?=lang("About.position.Suny")?></h6>
                                     </div>
                                 </div>
                             </div>
@@ -463,7 +463,7 @@
                                         <img src="/assets/img/about/ComunnityDevTeam/yaquiCruz.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Yaqui Cruz:<?=lang("About.position.photographer")?></h6>
+                                        <h6 class="tx-3 tx-md-3"><?=lang("About.position.Yaqui")?></h6>
                                     </div>
                                 </div>
                             </div>
@@ -473,7 +473,7 @@
                                         <img src="/assets/img/about/ComunnityDevTeam/VivianSantiago.jpg" class="img-fluid">
                                     </div>
                                     <div class="flip-card-back text-center d-flex justify-content-center align-items-center p-4">
-                                        <h6 class="tx-3 tx-md-4">Vivian Santiago: <?=lang("About.position.motivated")?></h6>
+                                        <h6 class="tx-3 tx-md-3"><?=lang("About.position.Vivian")?></h6>
                                     </div>
                                 </div>
                             </div>
@@ -488,11 +488,11 @@
     <section class="bg-smoke py-7">
         <div class="container">
             <div class="text-center" data-aos="fade-up">
-                <h1 class="text-primary h3 fw-bold mb-0">Our partners</h1>
+                <h1 class="text-primary h3 fw-bold mb-0"><?=lang("About.partners.title")?></h1>
             </div>
 
             <div class="py-3">
-                <h4 class="text-primary mb-4">Partners on the ground</h4>
+                <h4 class="text-primary mb-4"><?=lang("About.partners.text")?></h4>
                 <div class="row text-center">
                     <div class="col-6 col-sm-6 col-md-3">
                         <img src="/assets/img/about/partners/iniciativaGuatemala.png" class="brand-logo">  

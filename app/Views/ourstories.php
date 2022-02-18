@@ -34,7 +34,7 @@
                         <div class="post-card-img ratio ratio-4x3 mb-3 mb-lg-4">
                             <img class="h-100 w-100 object-cover" src="/assets/img/story-1.jpg">
                         </div>
-                        <h4 class="tx-3 tx-md-4 mb-0 text-capitalize"><?=lang("Stories.articles.article1")?></h4>
+                        <h4 class="tx-3 tx-md-4 mb-0 "><?=lang("Stories.articles.article1")?></h4>
                     </a>
                 </div>
                 <div class="col-4 col-sm-4 col-md-4 col-lg-4">
@@ -42,7 +42,7 @@
                         <div class="post-card-img ratio ratio-4x3 mb-3 mb-lg-4">
                             <img class="h-100 w-100 object-cover" src="/assets/img/story-2.jpg">
                         </div>
-                        <h4 class="tx-3 tx-md-4 mb-0 text-capitalize"><?=lang("Stories.articles.article2")?></h4>
+                        <h4 class="tx-3 tx-md-4 mb-0 "><?=lang("Stories.articles.article2")?></h4>
                     </a>
                 </div>
                 <div class="col-4 col-sm-4 col-md-4 col-lg-4">
@@ -50,14 +50,14 @@
                         <div class="post-card-img ratio ratio-4x3 mb-3 mb-lg-4">
                             <img class="h-100 w-100 object-cover" src="/assets/img/story-3.jpg">
                         </div>
-                        <h4 class="tx-3 tx-md-4 mb-0 text-capitalize"><?=lang("Stories.articles.article3")?></h4>
+                        <h4 class="tx-3 tx-md-4 mb-0 "><?=lang("Stories.articles.article3")?></h4>
                     </a>
                 </div>
 
             </div>
 
             <div class="text-center mt-5 mt-lg-7" data-aos="fade-up">
-                <a href="/blog" class="btn btn-primary px-4 text-capitalize"><?=lang("Stories.articles.button")?></a>
+                <a href="/blog" class="btn btn-primary px-4 "><?=lang("Stories.articles.button")?></a>
             </div>
         </div>
     </section>
@@ -72,25 +72,28 @@
                 <div class="col-md-6 col-md-4 col-lg-4">
                     <a href="#learningLove" class="post-card text-center link-primary clic" data-aos="fade-up" >
                         <div class="post-card-img ratio ratio-4x3 mb-3 mb-md-4">
-                            <img class="h-100 w-100 object-cover" src="/assets/img/story-1.jpg">
+                            <img class="logo-youtube" src="/assets/img/youtube.png">
+                            <img class="h-100 w-100 object-cover" src="/assets/img/stories/videos/LearningWithLoveAtHomeAndSchool.jpg">
                         </div>
-                        <h4 class="tx-4 text-capitalize"><?=lang("Stories.videos.video1")?></h4>
+                        <h4 class="tx-4 "><?=lang("Stories.videos.video1")?></h4>
                     </a>
                 </div>
                 <div class="col-md-6 col-md-4 col-lg-4">
                     <a href="#parentTraining" class="post-card text-center link-primary clic" data-aos="fade-up">
                         <div class="post-card-img ratio ratio-4x3 mb-3 mb-md-4">
-                            <img class="h-100 w-100 object-cover" src="/assets/img/story-2.jpg">
+                            <img class="logo-youtube" src="/assets/img/youtube.png">
+                            <img class="h-100 w-100 object-cover" src="/assets/img/stories/videos/ParentTraining2021.jpg">
                         </div>
-                        <h4 class="tx-4 text-capitalize"><?=lang("Stories.videos.video2")?></h4>
+                        <h4 class="tx-4 "><?=lang("Stories.videos.video2")?></h4>
                     </a>
                 </div>
                 <div class="col-md-6 col-md-4 col-lg-4">
                     <a href="#plantingSeeds" class="post-card text-center link-primary clic" data-aos="fade-up">
                         <div class="post-card-img ratio ratio-4x3 mb-3 mb-md-4">
-                            <img class="h-100 w-100 object-cover" src="/assets/img/story-3.jpg">
+                            <img class="logo-youtube" src="/assets/img/youtube.png">
+                            <img class="h-100 w-100 object-cover" src="/assets/img/stories/videos/PlantingSeedsMethodology.jpg">
                         </div>
-                        <h4 class="tx-4 text-capitalize"><?=lang("Stories.videos.video3")?></h4>
+                        <h4 class="tx-4 "><?=lang("Stories.videos.video3")?></h4>
                     </a>
                 </div>
             </div>

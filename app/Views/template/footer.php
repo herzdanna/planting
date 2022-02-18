@@ -62,7 +62,7 @@
                             <ul class="list-unstyled mb-4">
                                 <div class="fw-bold"><?=lang("Header.work.title")?></div>
                                 <li><a href="/work/what" class="link-light text-decoration-none tx-3"><?=lang("Header.work.what.option1")?></a></li>
-                                <li><a href="/work/impact" class="link-light text-decoration-none tx-3"><?=lang("Header.work.what.option2")?></a></li>
+                                <li><a href="/work/what#philosophy-and-methodology" class="link-light text-decoration-none tx-3"><?=lang("Header.work.what.option2")?></a></li>
                             </ul>
                             <ul class="list-unstyled mb-4">
                                 <div class="fw-bold"><?=lang("Header.about.title")?></div>

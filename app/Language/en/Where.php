@@ -144,7 +144,7 @@ return [
         ],
     ],
     "project" => [
-        "title" => "Our Biggest and Most Ambitious Project: Community center",
+        "title" => "Our Biggest and Most Ambitious Project: Community Center",
         "desktop" => [
             "text1" => "Although there is a lot of programming offered to community members in Zone 3,there is nothing offered to community members after 4pm or on weekends. Additionally, community members can only access that programming if they are one of the affiliates of the organizations",
             "text2" => "The Planting Seeds Community Center will meet this need by providing structured and unstructured programming at all times of the day, night and weekends for families. Additionally, families can access the different áreas of the center on their schedule and the center is open to everyone in the community.",

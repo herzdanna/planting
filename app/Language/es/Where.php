@@ -13,7 +13,7 @@ return [
     "place1" => [
         "location" => "Guatemala City",
         "departmenttext" => "Zone 3, Guatemala",
-        "NameCentertext" => "Preescolar Planting Seeds y Centro Comunitario",
+        "NameCentertext" => "Preescolar Plantando Semillas y Centro Comunitario",
         "Foundationtext" => "2003",
         "Beneficiariestext" => "200+ participantes al año",
         "Agestxt" => "2 a 6 años",
@@ -30,7 +30,7 @@ return [
         ],
         "program3" => [
             "name" => "Red de Organizaciones:",
-            "item" => "Planting Seeds facilita y opera una red de organizaciones y servicios que colabora en mejorar las necesidades de las familias vecinas.",
+            "item" => "Plantando Semillas facilita y opera una red de organizaciones y servicios que colabora en mejorar las necesidades de las familias vecinas.",
         ],
     ],
     "place2" => [
@@ -38,13 +38,13 @@ return [
         "departmenttext" => "San Lucas, Sacatepéquez",
         "NameCentertext" => "El jardín de los sueños",
         "Foundationtext" => "2014",
-        "Beneficiariestext" => "20 niñas y niños al año",
+        "Beneficiariestext" => "50 niñas y niños al año",
         "Agestxt" => "4 a 6 años",
-        "Contexttext" => "La sede de la escuela modelo y centro de capacitación de docentes de Planting Seeds. El área no contaba con un programa preescolar que ofreciera educación de calidad, en un ambiente seguro para las y los estudiantes. Las y los beneficiarios son integrantes de familias de escasos recursos.",
+        "Contexttext" => "La sede de la escuela modelo y centro de capacitación de docentes de Plantando Semillas. El área no contaba con un programa preescolar que ofreciera educación de calidad, en un ambiente seguro para las y los estudiantes. Las y los beneficiarios son integrantes de familias de escasos recursos.",
         "program1" => [
             "name" => "PS Centro Modelo de Formación Preescolar y Docente:",
-            "item" =>" Nuestro programa modelo de preescolar trabaja con 50 estudiantes anualmente ",
-            "item1" => "Aquí capacitamos a todos los maestros de Planting Seeds de todas las regiones",
+            "item" =>" Nuestro programa modelo de preescolar trabaja con 50 estudiantes anualmente.",
+            "item1" => "Aquí capacitamos a todos los maestros de Plantando Semillas de todas las regiones.",
         ],
         "program2" => [
             "name" => "Programa de capacitación para padres:",
@@ -52,7 +52,7 @@ return [
         ],
         "program3" => [
             "name" => "Talleres y clínicas de salud sexual y reproductiva:",
-            "item" => "Planting Seeds se asocia con Wings para implementar capacitaciones y clínicas para todos los miembros de las comunidades en las que trabajamos.",
+            "item" => "Plantando Semillas se asocia con Wings para implementar capacitaciones y clínicas para todos los miembros de las comunidades en las que trabajamos.",
         ],
         "program4" => [
             "name" => "Programa de Préstamo de Libros:",
@@ -81,7 +81,7 @@ return [
         ],
         "program3" => [
             "name" => "Clínica y talleres de salud sexual y reproductiva:",
-            "item" => " Planting Seeds se asocia con Wings para implementar capacitaciones y clínicas para todos los miembros de las comunidades en las que trabajamos.",
+            "item" => " Plantando Semillas se asocia con Wings para implementar capacitaciones y clínicas para todos los miembros de las comunidades en las que trabajamos.",
         ],
         "program4" => [
             "name" => "Programa de Préstamo de Libros: ",
@@ -110,7 +110,7 @@ return [
         ],
         "program3" => [
             "name" => "Clínica y talleres de salud sexual y reproductiva:",
-            "item" => " Planting Seeds se asocia con Wings para implementar capacitaciones y clínicas para todos los miembros de las comunidades en las que trabajamos.",
+            "item" => " Plantando Semillas se asocia con Wings para implementar capacitaciones y clínicas para todos los miembros de las comunidades en las que trabajamos.",
         ],
         "program4" => [
             "name" => "Programa de Préstamo de Libros:",
@@ -145,26 +145,26 @@ return [
     "project" => [
         "title" => "Nuestro proyecto más grande y ambicioso: el Centro Comunitario",
         "desktop" => [
-            "text1" => "Si bien ofrecemos actividades y programas educativos a beneficiarias y beneficiarios de zona 3, tanto entre semana como en horarios hábiles, aún existe una brecha de oferta de 4pm en adelante y los fines de semana. Situación que además excluye a otras y otros vecinos del área que, si bien residen en el área, no pueden hacer uso de nuestras instalaciones o participar en nuestras actividades. ",
-            "text2" => "El Centro Comunitario Planting Seeds busca responder a esta y otras carencias que hemos identificado en nuestros más de 20 años de trabajo. En el espacio, buscamos proveer programación estructurada e inestructurada para familias vecinas a todas horas del día, incluso en horarios vespertinos y fines de semana. El acceso abierto a las diferentes áreas del centro busca que familias puedan acceder a sus instalaciones, sin necesidad de estar afiliados a Planting Seeds, en el día y momento que lo deseen.",
-            "text3" => "El espacio fue diseñado, construido y es operado por miembros de la comunidad de zona 3, garantizando así que cumpla con la necesidades de la comunidad y su autogestión a largo plazo. ¡Conoce más sobre nuestro Centro Comunitario en el siguiente video!"
+            "text1" => "Muchas organizaciones ofrecen actividades y programas a residentes de la zona 3 durante los días hábiles, sin embargo no hay actividades que se ofrezcan en la comunidad a partir de las 4pm en adelante, ni tampoco durante los fines de semana. Además no todos los residentes del área tienen acceso a los programas o instalaciones si no pertenecen a las organizaciones que los ofrece. ",
+            "text2" => "El Centro Comunitario Plantando Semillas busca responder a esta y otras carencias que hemos identificado en nuestros más de 20 años de trabajo. En el espacio, buscamos proveer programación estructurada y un espacio abierto para familias vecinas a todas horas del día, incluso en horarios vespertinos y fines de semana. El acceso abierto a las diferentes áreas del centro busca que familias puedan acceder a sus instalaciones, sin necesidad de estar afiliados a Plantando Semillas, en el día y momento que lo deseen.",
+            "text3" => "El espacio fue diseñado, construido y es operado por miembros de la comunidad de la zona 3, garantizando así que cumpla con la necesidades de la comunidad y su autogestión a largo plazo. ¡Conoce más sobre nuestro Centro Comunitario en el siguiente video!"
         ],
         "movil" => [
-            "text1" => "El Centro Comunitario Planting Seeds satisface la necesidad de brindar un espacio comunitario abierto con programación estructurada y no estructurada en todo momento del día, la noche y los fines de semana para las familias.",
+            "text1" => "El Centro Comunitario Plantando Semillas satisface la necesidad de brindar un espacio comunitario abierto con programación estructurada y no estructurada en todo momento del día, la noche y los fines de semana para las familias.",
             "text2" => "El Centro ha sido diseñado, construido y operado por diferentes miembros de la comunidad para asegurar que satisfaga sus necesidades y su propiedad comunitaria sobre el centro. ¡Vea nuestro Video del Centro Comunitario para obtener más información!",
         ],
     ],
     "Development" => [
-        "title" => "Desarrollo desde las raíces",
+        "title" => "Enfoque de Desarrollo Comunitario",
         "desktop" => [
             "text1" => "Sabemos que si queremos crear un cambio sostenible, debemos escuchar a los miembros de la comunidad e involucrarlos en el trabajo y el liderazgo.",
             "text2" => "Las organizaciones sin fines de lucro pueden ocupar mucho espacio y poder en una comunidad y es esencial reconocer eso y encontrar formas de distribuir ese poder entre los miembros de la comunidad.",
-            "text3" => "Por esta razón, los programas de Plantando Semillas se deciden con miembros de la comunidad a través de Reuniones Comunitarias y Entrevistas. Todos los programas son facilitados por miembros de la comunidad y tenemos una colaboración comunitaria que nos ayuda a dirigir reuniones comunitarias, recaudar fondos y tomar decisiones importantes sobre el futuro del centro.",
-            "text4" => "Además, Planting Seeds lidera una red de organizaciones y facilita reuniones mensuales para trabajar juntos y satisfacer colectivamente las necesidades de las comunidades en las que trabajamos."
+            "text3" => "Por esta razón, los programas de Plantando Semillas se deciden con miembros de la comunidad a través de reuniones comunitarias y entrevistas. Todos los programas son facilitados por miembros de la comunidad y tenemos una colaboración comunitaria que nos ayuda a dirigir reuniones comunitarias, recaudar fondos y tomar decisiones importantes sobre el futuro del centro.",
+            "text4" => "Además, Plantando Semillas lidera una red de organizaciones y facilita reuniones mensuales para trabajar juntos y satisfacer colectivamente las necesidades de las comunidades en las que trabajamos."
         ],
         "movil" => [
-            "text1" => "Para crear un cambio sostenible, necesitamos escuchar a los miembros de la comunidad e involucrarlos en el trabajo y el liderazgo. Las organizaciones sin fines de lucro pueden ocupar mucho espacio y poder en una comunidad, es esencial encontrar formas de distribuir ese poder entre los miembros de la comunidad. Los programas de Planting Seeds se deciden a través de reuniones comunitarias y entrevistas. Todos los programas son facilitados por miembros de la comunidad y tenemos una colaboración comunitaria que nos ayuda a dirigir las reuniones comunitarias.",
-            "text2" => "Además, Planting Seeds lidera una red de organizaciones que trabajan juntas para satisfacer colectivamente las necesidades de las comunidades en las que trabajamos.",
+            "text1" => "Para crear un cambio sostenible, necesitamos escuchar a los miembros de la comunidad e involucrarlos en el trabajo y el liderazgo. Las organizaciones sin fines de lucro pueden ocupar mucho espacio y poder en una comunidad, es esencial encontrar formas de distribuir ese poder entre los miembros de la comunidad. Los programas de Plantando Semillas se deciden a través de reuniones comunitarias y entrevistas. Todos los programas son facilitados por miembros de la comunidad y tenemos una colaboración comunitaria que nos ayuda a dirigir las reuniones comunitarias.",
+            "text2" => "Además, Plantando Semillas lidera una red de organizaciones que trabajan juntas para satisfacer colectivamente las necesidades de las comunidades en las que trabajamos.",
         ]
     ]   
 ];

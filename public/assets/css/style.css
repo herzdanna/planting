@@ -8,3 +8,20 @@
 }
 .navbar-brand .logo{height:3.5rem}
 @media (max-width:767.98px){body{font-size:.875rem}.navbar-brand .logo{max-height:3rem}}
+
+.logo-youtube{
+    
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: -25px;
+    bottom: 0;
+    text-align: center;
+    z-index: 1;
+}
+
+.logo-youtube{
+    width: 60px;
+    height: 50px;
+}

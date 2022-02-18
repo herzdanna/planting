@@ -33,7 +33,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-8">
-                        <h1 class="fw-bold h3 text-primary mb-4 text-capitalize" data-aos="fade-up"><?=lang("Impact.childhood.title")?></h1>
+                        <h1 class="fw-bold h3 text-primary mb-4 " data-aos="fade-up"><?=lang("Impact.childhood.title")?></h1>
                         <p class="tx-4" data-aos="fade-up" data-aos-delay="150"><?=lang("Impact.childhood.text1")?></p>
                     </div>
                 </div>
@@ -128,7 +128,7 @@
                                 <h5 class="text-primary tx-3 tx-md-4 fw-bold mb-3"><?=lang("Impact.finalcial.subtitle1")?></h5>
 
                                 <ul class="list-unstyled">
-                                    <li><a href="/assets/download/statementFinancial/Statement_of_Financial_Position_2020.pdf" target="_blank" class="link-primary">2020</a></li>
+                                    <li><a href="<?=lang("Impact.downloadFinancial.doc1")?>" target="_blank" class="link-primary">2020</a></li>
                                 </ul>
                             </div>
                             <div class="col-6 col-lg-6" data-aos="fade-up">
@@ -138,9 +138,10 @@
                                 <h5 class="text-primary tx-3 tx-md-4 fw-bold mb-3"><?=lang("Impact.finalcial.subtitle2")?></h5>
 
                                 <ul class="list-unstyled">
-                                    <li><a href="/assets/download/annualReports/MemoriaAnual_V8_compressed.pdf" target="_blank" class="link-primary">2020</a></li>
-                                    <li><a href="/assets/download/annualReports/Annual_Report_2019_final_4_EEUU.pdf" target="_blank" class="link-primary">2019</a></li>
-                                    <li><a href="/assets/download/annualReports/Annual_Report_2018_(USA).pdf" target="_blank" class="link-primary">2018</a></li>
+                                    <li><a href="<?=lang("Impact.downloadAnualReport.doc1")?>" target="_blank" class="link-primary">2021</a></li>
+                                    <li><a href="<?=lang("Impact.downloadAnualReport.doc2")?>" target="_blank" class="link-primary">2020</a></li>
+                                    <li><a href="<?=lang("Impact.downloadAnualReport.doc3")?>" target="_blank" class="link-primary">2019</a></li>
+                                    <li><a href="<?=lang("Impact.downloadAnualReport.doc4")?>" target="_blank" class="link-primary">2018</a></li>
                                 </ul>
                             </div>
                         </div>

@@ -27,7 +27,7 @@
         </div>
     </section>
 
-    <section>
+    <section >
         <div class="container-fluid px-0">
             <div id="philosophy-and-methodology" class="row g-0">
                 <div class="col-6 col-lg-3">

@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md offset-md-2" style="z-index: 10;">
-                    <h1 class="d-inline-block bg-white text-primary fw-bold rounded-top py-3 px-4 mb-0 text-capitalize"><?=lang("Offices.title")?></h1>
+                    <h1 class="d-inline-block bg-white text-primary fw-bold rounded-top py-3 px-4 mb-0 "><?=lang("Offices.title")?></h1>
                 </div>
             </div>
         </div>
@@ -15,7 +15,7 @@
     <section class="bg-green py-8">
         <header class="text-center py-5" data-aos="fade-up">
             <div class="container">
-                <h4 class="mb-0 text-capitalize"><?=lang("Offices.planting.title")?></h4>
+                <h4 class="mb-0 "><?=lang("Offices.planting.title")?></h4>
             </div>
         </header>
         <div class="container">
@@ -26,7 +26,7 @@
             </div>
 
             <div class="text-center mt-5" data-aos="fade-up">
-                <a href="/about-us#staff" class="btn btn-secondary btn-lg px-4 text-capitalize"><?=lang("Offices.planting.button")?></a>
+                <a href="/about-us#staff" class="btn btn-secondary btn-lg px-4 "><?=lang("Offices.planting.button")?></a>
             </div>
         </div>
     </section>

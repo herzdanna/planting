@@ -2,7 +2,7 @@
 
 return [
     "title"  => "Programas",
-    "button" => "Contactanos para saber más",
+    "button" => "Contactanos para Saber Más",
     "button2" => "cerrar",
     "program1"  => [
         "title" => "Inglés", 
