@@ -19,9 +19,9 @@ return [
     ],
     "program5"  => [
         "title" => "Community Collaborative", 
-        "content"   =>  "We offer English classes for different levels and ages. Our goal is to make language learning practical and fun."],
+        "content"   =>  "The Community Collaborative is an inclusive and open leadership body where participants find the opportunity to propose, mobilize and grow grassroots initiatives. The collaborative greatly increases civic engagement and gives community members the tools and resources they need to lead change in their communities."],
     "program6"  => [
-        "title" => "After School Programsh", 
+        "title" => "After School Programs", 
         "content"   =>  "The After School program provides a safe and fun space for children to play and learn non-cognitive skills and values such as respect, teamwork, responsibility, accountability and patience. Our After School program engages students’ critical thinking skills and encourages them to further their education through interactive games and activities."
     ],
     "program7"  => [

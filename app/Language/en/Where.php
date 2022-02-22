@@ -17,7 +17,7 @@ return [
         "Foundationtext" => "2003",
         "Beneficiariestext" => "200+ participants per year",
         "Agestxt" => "2-6 years old in the preschools & participants of all ages in community programs.",
-        "Contexttext" => "Under Resourced community with lack of access to employment and high amount of community and domestic violence",
+        "Contexttext" => "Under-resourced community with lack of access to employment and high amount of community and domestic violence",
         "program1" => [
             "name" => "Our methodology:",
             "item" => " We implement it with two different partner schools:",
@@ -26,7 +26,7 @@ return [
         ],
         "program2" => [
             "name" => "Community Center:",
-            "item" => "Open community space for all community members/organizations to be used 7 days a week from 6am-9pm. All of our community programs, all led by members of the community.",
+            "item" => "Open community space for all community members/organizations to be used 7 days a week from 6am-9pm. All of our community programs are led by members of the community",
         ],
         "program3" => [
             "name" => "Network of Organizations:",
@@ -147,12 +147,12 @@ return [
         "title" => "Our Biggest and Most Ambitious Project: Community Center",
         "desktop" => [
             "text1" => "Although there is a lot of programming offered to community members in Zone 3,there is nothing offered to community members after 4pm or on weekends. Additionally, community members can only access that programming if they are one of the affiliates of the organizations",
-            "text2" => "The Planting Seeds Community Center will meet this need by providing structured and unstructured programming at all times of the day, night and weekends for families. Additionally, families can access the different áreas of the center on their schedule and the center is open to everyone in the community.",
+            "text2" => "The Planting Seeds Community Center will meet this need by providing structured and unstructured programming at all times of the day, night and weekends for families. Additionally, families can access the different areas of the center on their schedule and the center is open to everyone in the community.",
             "text3" => "The Center has been designed, constructed and operated by different members of the community to ensure that it meets their needs and their in community ownership over the center. Check out our Community Center Video to learn more!"
         ],
         "movil" => [
             "text1" => "The Planting Seeds Community Center will meet the need to provide an open community space with structured and unstructured programming at all times of the day, night and weekends for families.",
-            "text2" => "The Center has been designed, constructed and operated by different members of the community to ensure that it meets their needs and their in community ownership over the center. Check out our Community Center Video to learn more!",
+            "text2" => "The Center has been designed, constructed and operated by different members of the community to ensure that it meets their needs and that there is community ownership over the center. Check out our Community Center Video to learn more!",
         ],
     ],
     "Development" => [

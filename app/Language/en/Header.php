@@ -23,7 +23,7 @@ return [
         "option2"   =>  "Our Staff",
     ],
     "join"      =>   ["title"   =>  "Join Us", 
-        "option1"   =>  "Be Sponsor.",
+        "option1"   =>  "Become a Sponsor",
         "option2"   =>  "Join us",
         "option3"   =>  "Visit Us",
     ],

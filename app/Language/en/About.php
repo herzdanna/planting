@@ -4,9 +4,9 @@ return [
     "title" => "About Us",
     "core" => [
         "title" => "Our Core",
-        "subtitle" => "Mission",
+        "subtitle1" => "Mission",
         "text1" => "Planting Seeds is a non-profit organization that seeks to eradicate the barriers that contribute to poverty by working with communities to provide high-quality comprehensive education for children and families throughout Guatemala.",
-        "subtitle1" => "VISION",
+        "subtitle2" => "VISION",
         "text2" => "Create a progressive, self-sustaining organization that improves access to and quality of education to develop healthy children, families, and communities across Guatemala.",
         "button" => "Learn more about our work!",
     ], 

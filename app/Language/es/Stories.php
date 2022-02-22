@@ -17,7 +17,7 @@ return [
         "title" => "Videos",
         "video1" => "Aprendiendo con Amor en Casa y en la Escuela",
         "video2" => "Capacitación para Padres 2021",
-        "video3" => "Metodología de Siembra de Semillas",
+        "video3" => "Metodología Plantando Semillas",
         "button" => "Ver Más",
     ], 
     "suscription" => [

@@ -6,7 +6,7 @@ return [
         "title" => "Nuestra Esencia",
         "subtitle1" => "Misión",
         "text1" => "Plantando Semillas es una organización sin fines de lucro que busca erradicar las barreras que contribuyen a la pobreza, trabajando con las comunidades para proporcionar una educación integral de alta calidad para niñas, niños y familias en toda Guatemala",
-        "subtitle1" => "Visión",
+        "subtitle2" => "Visión",
         "text2" => "Crear una organización progresista y autosostenible que mejore el acceso y la calidad de la educación que propicia el desarrollo de niñas y niños, sus familias y comunidades saludables.",
         "button" => "¡Conoce más sobre nosotros!",
     ], 
@@ -41,7 +41,7 @@ return [
         "Martina" => "Martina Garcia - Coordinadora Pedagógica y Académica de Plantando Semillas",
         "Carla" => "Carla López - Coordinadora Académica y Maestra de San Lucas",
         "Mishel" => "Mishel Mussali - Oficial de Comunicación y Desarrollo",
-        "Daniel " => "Daniel Osorio - Coordinador de Relaciones Públicas",
+        "Daniel" => "Daniel Osorio - Coordinador de Relaciones Públicas",
 
         "Aleyda" => "Aleyda Machán - Maestra de San Lucas",
         "Blanca" => "Blanca Hernández - Maestra de San Lucas",

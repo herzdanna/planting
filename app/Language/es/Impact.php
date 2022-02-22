@@ -53,7 +53,7 @@ return [
     ], 
     "downloadAnualReport" => [
         "doc1" => "/assets/download/annualReports/es/Reporte_Anual_Español_2021.pdf",
-        "doc2" => "/assets/download/annualReports/MemoriaAnual_V8_compressed.pdf",
+        "doc2" => "/assets/download/annualReports/es/Reporte_Anual_Español_2020.pdf",
         "doc3" => "/assets/download/annualReports/Annual_Report_2019_final_4_EEUU.pdf",
         "doc4" => "/assets/download/annualReports/Annual_Report_2018_(USA).pdf",
     ], 

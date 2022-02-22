@@ -9,7 +9,7 @@ return [
     ],
     "sponsor" => [
         "title" => "Programa de Apadrinamiento",
-        "content" => "Escoge si deseas patrocinar a una o un niño preescolar, a una o un participante,  a un aula entera o a un programa comunitario. Con tu colaboración aseguras que se genere un impacto sostenible en la comunidad.",
+        "content" => "Escoge si deseas apadrinar a un niño o niña en nuestros preescolares,  a un participante en nuestros programas comunitarios, un salón de clases o programa comunitario.",
         "button" => "¡Conoce más!"
     ],
     "friends" => [

@@ -17,11 +17,11 @@ return [
             "content" => "Nuestra metodología ha sido certificada tres veces por el ministerio de educación como educación de alta calidad en Guatemala. La metodología reconoce que cada niño es único, esforzándose por satisfacer las necesidades físicas, mentales, emocionales y espirituales de cada niño.",
         ],
         "square3" => [
-            "title" => "Formación de Maestras y Maestros y Madres y Padres",
+            "title" => "Formación de Maestras, Maestros, Madres y Padres",
             "content" => "Los maestros reciben capacitación intensiva, sesiones mensuales de entrenamiento y desarrollo profesional bimensual para satisfacer mejor las necesidades de los estudiantes. Nuestros maestros implementan la metodología PS en su salón de clases y brindan sesiones de capacitación individualizadas y basadas en la práctica para los padres de nuestros estudiantes, de modo que los padres puedan obtener las herramientas y los recursos necesarios para convertirse en los principales educadores de sus hijos.",
         ],
         "square4" => [
-            "title" => "Aprender a Través del Juego",
+            "title" => "Aprendizaje a través del Juego",
             "content" => "Los niños entienden el mundo a través del juego. Es lo primero en lo que piensan al despertar y antes de acostarse. Al aprender a través del juego, los niños desarrollan habilidades académicas, así como habilidades no cognitivas para toda la vida que los ayudan a desarrollarse como seres humanos saludables y afectuosos.",
         ],
     ],
@@ -29,7 +29,7 @@ return [
         "title" => "Desarrollo Comunitario Integral",
         "content" => "Si bien valoramos la educación de primera infancia como eje primordial para romper el ciclo de pobreza, sabemos que al trabajar con poblaciones históricamente marginadas se requiere de fomentar apoyo comprensivo e integral para satisfacer las necesidades de las comunidades donde habitan nuestras beneficiarias y beneficiarios. Las y los miembros de la comunidad deben ser los que dirigen nuestro trabajo.",
         "content2" => "Por ello, nuestro programa de desarrollo comunitario es altamente adaptable a las necesidades de cada comunidad donde mantenemos operaciones activas. Mantenemos como ejes transversales las alianzas y el trabajo colaborativo e interseccional con las comunidades, con el objetivo de amplificar y profundizar nuestro impacto. Nuestro modelo de Desarrollo Comunitario mantiene como sede operativa nuestra filial en zona 3 de Ciudad de Guatemala, lugar desde donde organizamos  programas comunitarios.",
-        "button" => " ¡Involúcrate! Apoya nuestro trabajo"
+        "button" => "Conócenos a través de Nuestras Historias"
     ],  
     "community" =>  [
         "title" => "El Centro Comunitario",

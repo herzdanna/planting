@@ -19,11 +19,11 @@
                     <div class="d-flex flex-column justify-content-center align-items-start h-100 py-5 py-lg-7 px-3 px-lg-7" data-aos="fade-up">
                         <h3 class="text-primary fw-bold mb-4 text-capitalize"><?=lang("About.core.title")?></h3>
                         <div class="mb-4">
-                            <h6 class="text-primary text-uppercase"><?=lang("About.core.subtitle")?></h6>
+                            <h6 class="text-primary text-uppercase"><?=lang("About.core.subtitle1")?></h6>
                             <p class="tx-4 mb-0"><?=lang("About.core.text1")?></p>
                         </div>
                         <div class="mb-4">
-                            <h6 class="text-primary text-uppercase"><?=lang("About.core.subtitle1")?></h6>
+                            <h6 class="text-primary text-uppercase"><?=lang("About.core.subtitle2")?></h6>
                             <p class="tx-4 mb-0"><?=lang("About.core.text2")?></p>
                         </div>
                         <a href="/work/what" class="btn btn-blue btn-lg px-4 text-capitalize"><?=lang("About.core.button")?></a>
