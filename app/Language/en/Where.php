@@ -148,7 +148,7 @@ return [
         "desktop" => [
             "text1" => "Although there is a lot of programming offered to community members in Zone 3,there is nothing offered to community members after 4pm or on weekends. Additionally, community members can only access that programming if they are one of the affiliates of the organizations",
             "text2" => "The Planting Seeds Community Center will meet this need by providing structured and unstructured programming at all times of the day, night and weekends for families. Additionally, families can access the different areas of the center on their schedule and the center is open to everyone in the community.",
-            "text3" => "The Center has been designed, constructed and operated by different members of the community to ensure that it meets their needs and their in community ownership over the center. Check out our Community Center Video to learn more!"
+            "text3" => "The Center has been designed, constructed and operated by different members of the community to ensure that it meets their needs and that there is community ownership over the center. Check out our Community Center Video to learn more!"
         ],
         "movil" => [
             "text1" => "The Planting Seeds Community Center will meet the need to provide an open community space with structured and unstructured programming at all times of the day, night and weekends for families.",

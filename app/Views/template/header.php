@@ -45,7 +45,7 @@
                     </button>
                 </div>
                 <li>
-                    <a href="/locale/<?=lang("Header.lenguaje")==="Es"?"es":"en"?>" class="mobile-menu-item"><?=lang("Header.lenguaje")?>
+                    <a href="/lang/<?=lang("Header.lenguaje")==="Es"?"es":"en"?>" class="mobile-menu-item"><?=lang("Header.lenguaje")?>
                         <?=lang("Header.locate")?>
                     </a>
                 </li>
@@ -55,9 +55,9 @@
                 <li>
                     <a class="mobile-menu-item" data-bs-toggle="collapse" href="#ourworkCollapse" role="button"><?=lang("Header.work.title")?></a>
                     <ul class="list-unstyled mobile-menu-submenu collapse" id="ourworkCollapse">
-                        <li><a href="/work/what" class="mobile-submenu-item"><?=lang("Header.work.what.option1")?></a></li>
-                        <li><a href="/work/where" class="mobile-submenu-item"><?=lang("Header.work.what.option2")?></a></li>
-                        <li><a href="/work/impact" class="mobile-submenu-item"><?=lang("Header.work.what.option3")?></a></li>
+                        <li><a href="/work/what" class="mobile-submenu-item"><?=lang("Header.work.whatMovil.option1")?></a></li>
+                        <li><a href="/work/where" class="mobile-submenu-item"><?=lang("Header.work.whatMovil.option2")?></a></li>
+                        <li><a href="/work/impact" class="mobile-submenu-item"><?=lang("Header.work.whatMovil.option3")?></a></li>
                     </ul>
                 </li>
                 <li>
@@ -75,14 +75,13 @@
                     <ul class="list-unstyled mobile-menu-submenu collapse" id="joinusCollapse">
                         <li><a href="/join-us#sponsor" class="mobile-submenu-item"><?=lang("Header.join.option1")?></a></li>
                         <li><a href="/join-us#friends-circle" class="mobile-submenu-item"><?=lang("Header.join.option2")?></a></li>
-                        <li><a href="/join-us" class="mobile-submenu-item"><?=lang("Header.join.option3")?></a></li>
+                        <li><a href="/join-us#exchange-programs" class="mobile-submenu-item"><?=lang("Header.join.option3")?></a></li>
+                        <li><a href="/join-us#formContact" class="mobile-submenu-item"><?=lang("Header.join.option4")?></a></li>
                     </ul>
                 </li>
-                <li>
-                    
-
+                <!--<li>
                     <a href="/work/where#locations" class="mobile-menu-item"><?=lang("Header.locations")?></a>
-                </li>
+                </li>-->
                 <li>
                     <a class="mobile-menu-item" data-bs-toggle="collapse" href="#resourcesCollapse" role="button"><?=lang("Header.resources.title")?></a>
                     <ul class="list-unstyled mobile-menu-submenu collapse" id="resourcesCollapse">
@@ -152,7 +151,7 @@
                                     <li class="mb-4">
                                         <a href="/work/what#philosophy-and-methodology" class="text-white text-decoration-none"><?=lang("Header.work.what.option2")?></a>
                                     </li>
-                                    <li class="">
+                                    <li class="mb-4">
                                         <a href="/work/what#comprehensive-development" class="text-white text-decoration-none"><?=lang("Header.work.what.option3")?></a>
                                     </li>
                                 </ul>
