@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Controllers;
+use MailchimpMarketing\ApiClient;
 
 class Page extends BaseController
 {
@@ -24,7 +25,7 @@ class Page extends BaseController
     }
 
     private function setTitle($key){
-        $title = ['','Home','Work','About Us','Join Us','Our Stories','Donate', 'Resources','Our Offices','Donate USA','Donate Canada','Blog'];
+        $title = ['','Home','Work','About Us','Join Us','Our Stories','Donate', 'Resources','Our Offices','Donate USA','Donate Canada','Blog','Privacy Policies'];
         return ['title' => $title[$key]];
     }
 
@@ -112,6 +113,40 @@ class Page extends BaseController
 
     public function donateCanada(){
         return $this->setHeader($this->setTitle(9)).view('donatecanada').$this->setFooter();
+    }
+
+    public function privacyPolicies(){
+        return $this->setHeader($this->setTitle(12)).view('privacyPolicies').$this->setFooter();
+    }
+
+    public function mailchimp(){
+        $subscribeMail  = $this->request->getPost('subscribeMail');
+
+        if($subscribeMail == ""){
+            echo "ingrese un correo para suscribirse";
+        }else{
+            $list_id = 'bab30fccdb';
+            $apiKey = '113fc9ea41471f5076d28043a89ac72b-us17';
+            $prefix ='us17';
+            $mailChimp = new ApiClient();
+            $params =[
+                "apiKey" => $apiKey,
+                "server"=> $prefix
+            ];
+           
+            $mailChimp->setConfig($params);
+
+            $response = $mailChimp->lists->addListMember($list_id, [
+                "email_address" => $subscribeMail,
+                "status" => "subscribed",
+            ]);
+
+            if(isset($response->id)){
+                return $this->response->setJSON(["success" => TRUE]);
+            }
+            return $this->response->setJSON(["success" => FALSE]);
+
+        }
     }
 
 

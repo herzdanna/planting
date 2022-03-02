@@ -45,6 +45,7 @@ $routes->add('resources','Page::resources');
 $routes->add('our-offices','Page::legal');
 $routes->add('donate-usa','Page::donateUsa');
 $routes->add('donate-Canada','Page::donateCanada');
+$routes->add('privacy-policies','Page::privacyPolicies');
 
 // routes admin
 

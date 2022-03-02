@@ -64,12 +64,14 @@ $(function(){
                     if(request == 'error'){
                         Swal.fire({
                             icon: 'error',
+                            confirmButtonColor: '#2d6f59',
                             title: 'Error',
                             text: 'Something went wrong!',
                         })
                     }else{
                         Swal.fire({
                             icon: 'success',
+                            confirmButtonColor: '#2d6f59',
                             title: 'Thank you',
                             text: 'we have received your email, we will contact you as soon as possible',
                         })
@@ -82,6 +84,47 @@ $(function(){
 
                 }
             });
+        }
+    });
+
+    // suscription 
+    $('#subscribe-form').on('submit', function(e){
+        e.preventDefault();
+
+        let subscribeMail = $("#subscribeMail").val();
+        let url = $('#subscribeSubmit').data('url');
+
+        if(subscribeMail !== ""){
+            $.ajax({
+                url:url,
+                method:'POST',
+                data:{'subscribeMail':subscribeMail},
+                success: function (request){
+                    if(request.success){
+                        Swal.fire({
+                            icon: 'success',
+                            confirmButtonColor: '#2d6f59',
+                            title: 'Thank you',
+                            text: 'we have received your subscription.',
+                        })
+                    }else{
+                        Swal.fire({
+                            icon: 'error',
+                            confirmButtonColor: '#2d6f59',
+                            title: 'Error',
+                            text: 'Something went wrong!',
+                        })
+                    }
+                    $("#subscribeMail").val("");
+                }
+            });
+        }else if(subscribeMail === ""){
+            Swal.fire({
+                icon: 'error',
+                confirmButtonColor: '#2d6f59',
+                title: 'Error',
+                text: 'Enter a valid email',
+            })
         }
     });
 });

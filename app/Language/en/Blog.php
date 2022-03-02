@@ -28,6 +28,4 @@ return [
         "paragraph3" => "Over the last year, we have witnessed a significant shift in parents' involvement in their children's education. Helen Chacón, one of our preschool teachers in Tioxya, says that many of the parents she is working with don't know how to read or write; nevertheless, they have put a lot of effort into helping their children. As a teacher, Helen is very motivated to help parents succeed and become effective mentors for their children. Being a teacher in these circumstances is not an easy task. Not everyone has the most appropriate conditions to carry out remote learning, so it has been difficult to ensure that all the activities and information are delivered to both students and parents in the best way possible. However, in a way or another, our teachers have found alternatives to support every household.",
         "paragraph4" => "Helen says that many parents have become more patient and willing to lead educational activities with their children. We are very excited to take this as an opportunity to help parents develop the skills needed to become their children's primary educators.",
     ], 
-    
-    
 ];

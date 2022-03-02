@@ -91,6 +91,7 @@
                             </ul>
                             <ul class="list-unstyled mb-4">
                                 <li><a href="/our-offices" class="link-light text-decoration-none"><b><?=lang("Header.offices")?></b></a></li>
+                                <!--<li><a href="/privacy-policies" class="link-light text-decoration-none"><b><?=lang("Footer.privacy")?></b></a></li>-->
                             </ul>
                         </div>
                     </div>
@@ -103,11 +104,11 @@
                     </div>
 
                     <!-- subscribe form -->
-                    <form id="subscribe-form" action="" method="">
+                    <form id="subscribe-form">
                         <div class="fw-bold mb-2"><?=lang("Footer.read")?></div>
-                        <input type="text" class="form-control" placeholder="<?=lang("Footer.enterAddress")?>">
+                        <input type="text" class="form-control" placeholder="<?=lang("Footer.enterAddress")?>" name="subscribeMail" id="subscribeMail">
                         <div class="text-end mt-3">
-                            <button type="button" class="btn btn-yellow text-primary fw-bold px-md-4"><?=lang("Footer.suscribe")?></button>
+                            <button type="submit" class="btn btn-yellow text-primary fw-bold px-md-4" id="subscribeSubmit" data-url="/page/mailchimp"><?=lang("Footer.suscribe")?></button>
                         </div>
                     </form>
 
