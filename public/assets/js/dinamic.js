@@ -1,7 +1,8 @@
 //Contact
 
-$(document).ready(function(){
-    $(document).on('click','#submit', function(){
+$(function(){
+    $('#formContact').on('submit', function(e){
+        e.preventDefault();
         //var
         const url =$('#submit').data('url');
         let name = $('#name').val();
@@ -55,7 +56,7 @@ $(document).ready(function(){
         }else{
             $.ajax({
                 url:url,
-                type:'POST',
+                method:'POST',
                 data:{'name':name,'mail':mail,'subject':subject,'message':message},
                 success: function (request){
 
@@ -63,16 +64,16 @@ $(document).ready(function(){
                     if(request == 'error'){
                         Swal.fire({
                             icon: 'error',
-                            title: 'Oops...',
+                            confirmButtonColor: '#2d6f59',
+                            title: 'Error',
                             text: 'Something went wrong!',
-                            footer: '<a href="">Why do I have this issue?</a>'
                         })
                     }else{
                         Swal.fire({
                             icon: 'success',
-                            title: 'Oops...',
-                            text: 'Something went wrong!',
-                            footer: '<a href="">Why do I have this issue?</a>'
+                            confirmButtonColor: '#2d6f59',
+                            title: 'Thank you',
+                            text: 'we have received your email, we will contact you as soon as possible',
                         })
                     }
 
@@ -83,6 +84,47 @@ $(document).ready(function(){
 
                 }
             });
+        }
+    });
+
+    // suscription 
+    $('#subscribe-form').on('submit', function(e){
+        e.preventDefault();
+
+        let subscribeMail = $("#subscribeMail").val();
+        let url = $('#subscribeSubmit').data('url');
+
+        if(subscribeMail !== ""){
+            $.ajax({
+                url:url,
+                method:'POST',
+                data:{'subscribeMail':subscribeMail},
+                success: function (request){
+                    if(request.success){
+                        Swal.fire({
+                            icon: 'success',
+                            confirmButtonColor: '#2d6f59',
+                            title: 'Thank you',
+                            text: 'we have received your subscription.',
+                        })
+                    }else{
+                        Swal.fire({
+                            icon: 'error',
+                            confirmButtonColor: '#2d6f59',
+                            title: 'Error',
+                            text: 'Something went wrong!',
+                        })
+                    }
+                    $("#subscribeMail").val("");
+                }
+            });
+        }else if(subscribeMail === ""){
+            Swal.fire({
+                icon: 'error',
+                confirmButtonColor: '#2d6f59',
+                title: 'Error',
+                text: 'Enter a valid email',
+            })
         }
     });
 });

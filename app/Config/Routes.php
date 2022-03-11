@@ -31,7 +31,9 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Page::index');
+
+$routes->get('lang/{locale}', 'Language::index');
+//$routes->get('/', 'Page::index');
 $routes->add('about-us','Page::about');
 $routes->add('work','Page::work');
 $routes->add('work/(:alpha)','Page::work/$1');
@@ -43,6 +45,7 @@ $routes->add('resources','Page::resources');
 $routes->add('our-offices','Page::legal');
 $routes->add('donate-usa','Page::donateUsa');
 $routes->add('donate-Canada','Page::donateCanada');
+$routes->add('privacy-policies','Page::privacyPolicies');
 
 // routes admin
 

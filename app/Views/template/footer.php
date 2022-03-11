@@ -60,57 +60,55 @@
                     <div class="row">
                         <div class="col-6">
                             <ul class="list-unstyled mb-4">
-                                <div class="fw-bold">Our work</div>
-                                <li><a href="/work/what" class="link-light text-decoration-none tx-3">What</a></li>
-                                <li><a href="/work/impact" class="link-light text-decoration-none tx-3">Our impact</a></li>
+                                <div class="fw-bold"><?=lang("Header.work.title")?></div>
+                                <li><a href="/work/what" class="link-light text-decoration-none tx-3"><?=lang("Header.work.what.option1")?></a></li>
+                                <li><a href="/work/what#philosophy-and-methodology" class="link-light text-decoration-none tx-3"><?=lang("Header.work.what.option2")?></a></li>
                             </ul>
                             <ul class="list-unstyled mb-4">
-                                <div class="fw-bold">About us</div>
-                                <li><a href="/about-us#core" class="link-light text-decoration-none tx-3">Our core</a></li>
-                                <li><a href="/about-us#staff" class="link-light text-decoration-none tx-3">Our staff</a></li>
+                                <div class="fw-bold"><?=lang("Header.about.title")?></div>
+                                <li><a href="/about-us#core" class="link-light text-decoration-none tx-3"><?=lang("Header.about.option1")?></a></li>
+                                <li><a href="/about-us#staff" class="link-light text-decoration-none tx-3"><?=lang("Header.about.option2")?></a></li>
                             </ul>
                             <ul class="list-unstyled mb-4">
-                                <div class="fw-bold">Join us</div>
-                                <li><a href="/join-us#donate" class="link-light text-decoration-none tx-3">Donate</a></li>
-                                <li><a href="/join-us#sponsor" class="link-light text-decoration-none tx-3">Become a sponsor</a></li>
-                                <li><a href="/join-us#friends-circle" class="link-light text-decoration-none tx-3">Join a Friends Circle</a></li>
-                                <li><a href="/join-us#exchange-programs" class="link-light text-decoration-none tx-3">Visit us</a></li>
+                                <div class="fw-bold"><?=lang("Header.join.title")?></div>
+                                <li><a href="/join-us#donate" class="link-light text-decoration-none tx-3"><?=lang("Header.donate")?></a></li>
+                                <li><a href="/join-us#sponsor" class="link-light text-decoration-none tx-3"><?=lang("Header.join.option1")?></a></li>
+                                <li><a href="/join-us#friends-circle" class="link-light text-decoration-none tx-3"><?=lang("Header.join.option2")?></a></li>
+                                <li><a href="/join-us#exchange-programs" class="link-light text-decoration-none tx-3"><?=lang("Header.join.option3")?></a></li>
                             </ul>
                         </div>
                         <div class="col-6">
                             <ul class="list-unstyled mb-4">
-                                <div class="fw-bold">Locations</div>
-                                <li><a href="/work/where#guatemala" class="link-light text-decoration-none tx-3">Guatemala City</a></li>
-                                <li><a href="/work/where" class="link-light text-decoration-none tx-3">Sacalá las Lomas</a></li>
-                                <li><a href="/work/where" class="link-light text-decoration-none tx-3">San Antonio de Tioxja</a></li>
-                                <li><a href="/work/where" class="link-light text-decoration-none tx-3">San Lucas</a></li>
-                                <li><a href="/work/where" class="link-light text-decoration-none tx-3">Yepocapa</a></li>
+                              
+                                <li><a href="/work/where" class="link-light text-decoration-none tx-3 fw-bold"><?=lang("Header.work.where.option1")?></a></li>
+                                
                             </ul>
                             <ul class="list-unstyled mb-4">
-                                <div class="fw-bold">Resources</div>
-                                <li><a href="/resources" class="link-light text-decoration-none tx-3">Press</a></li>
-                                <li><a href="/resources#videos" class="link-light text-decoration-none tx-3">Videos</a></li>
-                                <li><a href="/resources#news" class="link-light text-decoration-none tx-3">News</a></li>
+                                <div class="fw-bold"><?=lang("Header.resources.title")?></div>
+                                <li><a href="/resources" class="link-light text-decoration-none tx-3"><?=lang("Header.resources.option1")?></a></li>
+                                <li><a href="/resources#videos" class="link-light text-decoration-none tx-3"><?=lang("Header.resources.option2")?></a></li>
+                                <li><a href="/resources#news" class="link-light text-decoration-none tx-3"><?=lang("Header.resources.option3")?></a></li>
                             </ul>
                             <ul class="list-unstyled mb-4">
-                                <li><a href="/our-offices" class="link-light text-decoration-none"><b>Our Offices</b></a></li>
+                                <li><a href="/our-offices" class="link-light text-decoration-none"><b><?=lang("Header.offices")?></b></a></li>
+                                <!--<li><a href="/privacy-policies" class="link-light text-decoration-none"><b><?=lang("Footer.privacy")?></b></a></li>-->
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="mb-7">
-                        <div class="fw-bold text-white mb-3">Give today!</div>
-                        <a href="/donate" class="btn btn-secondary btn-lg">Donate</a>
+                        <div class="fw-bold text-white mb-3"><?=lang("Footer.giveToday")?></div>
+                        <a href="/donate" class="btn btn-secondary btn-lg"><?=lang("Header.donate")?></a>
                         <img src="/assets/img/guidestar.svg" alt="guidestar" class="certificacion">
                     </div>
 
                     <!-- subscribe form -->
-                    <form id="subscribe-form" action="" method="">
-                        <div class="fw-bold mb-2">Read our newest stories</div>
-                        <input type="text" class="form-control" placeholder="Enter address">
+                    <form id="subscribe-form">
+                        <div class="fw-bold mb-2"><?=lang("Footer.read")?></div>
+                        <input type="text" class="form-control" placeholder="<?=lang("Footer.enterAddress")?>" name="subscribeMail" id="subscribeMail">
                         <div class="text-end mt-3">
-                            <button type="button" class="btn btn-yellow text-primary fw-bold px-md-4">Subscribe</button>
+                            <button type="submit" class="btn btn-yellow text-primary fw-bold px-md-4" id="subscribeSubmit" data-url="/page/mailchimp"><?=lang("Footer.suscribe")?></button>
                         </div>
                     </form>
 

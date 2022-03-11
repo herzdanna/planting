@@ -18,7 +18,7 @@ class Contact extends BaseController
         $email = \Config\Services::email();
 
         $email->setFrom($mail, 'Plantando Semillas');
-        $email->setTo('gerber.zirion@gmail.com');
+        $email->setTo('development@plantingseedsinternational.org');
         $email->setSubject($subject);
         $email->setMessage($message);
 

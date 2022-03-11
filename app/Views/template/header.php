@@ -16,7 +16,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
-
+<link rel="icon" type="image/x-icon" href="/assets/img/favicon.png">
 <title><?= $title?? '' ?></title>
 </head>
 <body>
@@ -45,62 +45,57 @@
                     </button>
                 </div>
                 <li>
-                    <a href="#" class="mobile-menu-item">es <img src="/assets/img/spain.png" alt="" width="30px"></a>
+                    <a href="/lang/<?=lang("Header.lenguaje")==="Es"?"es":"en"?>" class="mobile-menu-item"><?=lang("Header.lenguaje")?>
+                        <?=lang("Header.locate")?>
+                    </a>
                 </li>
                 <li>
-                    <a href="/" class="mobile-menu-item">Home</a>
+                    <a href="/" class="mobile-menu-item"><?=lang("Header.home")?></a>
                 </li>
                 <li>
-                    <a class="mobile-menu-item" data-bs-toggle="collapse" href="#ourworkCollapse" role="button">Our work</a>
+                    <a class="mobile-menu-item" data-bs-toggle="collapse" href="#ourworkCollapse" role="button"><?=lang("Header.work.title")?></a>
                     <ul class="list-unstyled mobile-menu-submenu collapse" id="ourworkCollapse">
-                        <li><a href="/work/what" class="mobile-submenu-item">What</a></li>
-                        <li><a href="/work/where" class="mobile-submenu-item">Where</a></li>
-                        <li><a href="/work/impact" class="mobile-submenu-item">Our impact</a></li>
+                        <li><a href="/work/what" class="mobile-submenu-item"><?=lang("Header.work.whatMovil.option1")?></a></li>
+                        <li><a href="/work/where" class="mobile-submenu-item"><?=lang("Header.work.whatMovil.option2")?></a></li>
+                        <li><a href="/work/impact" class="mobile-submenu-item"><?=lang("Header.work.whatMovil.option3")?></a></li>
                     </ul>
                 </li>
                 <li>
-                    <a class="mobile-menu-item" data-bs-toggle="collapse" href="#aboutusCollapse" role="button">About us</a>
+                    <a class="mobile-menu-item" data-bs-toggle="collapse" href="#aboutusCollapse" role="button"><?=lang("Header.about.title")?></a>
                     <ul class="list-unstyled mobile-menu-submenu collapse" id="aboutusCollapse">
-                        <li><a href="/about-us#core" class="mobile-submenu-item">Our core</a></li>
-                        <li><a href="/about-us#staff" class="mobile-submenu-item">Our staff</a></li>
+                        <li><a href="/about-us#core" class="mobile-submenu-item"><?=lang("Header.about.option1")?></a></li>
+                        <li><a href="/about-us#staff" class="mobile-submenu-item"><?=lang("Header.about.option2")?></a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="/stories" class="mobile-menu-item">Our stories</a>
+                    <a href="/stories" class="mobile-menu-item"><?=lang("Header.stories")?></a>
                 </li>
                 <li>
-                    <a class="mobile-menu-item" data-bs-toggle="collapse" href="#joinusCollapse" role="button">Join us</a>
+                    <a class="mobile-menu-item" data-bs-toggle="collapse" href="#joinusCollapse" role="button"><?=lang("Header.join.title")?></a>
                     <ul class="list-unstyled mobile-menu-submenu collapse" id="joinusCollapse">
-                        <li><a href="/join-us#sponsor" class="mobile-submenu-item">Become a sponsor</a></li>
-                        <li><a href="/join-us#friends-circle" class="mobile-submenu-item">Join a Friends Circle</a></li>
-                        <li><a href="/join-us" class="mobile-submenu-item">Visit us</a></li>
-                        <li><a href="/join-us#donate" class="mobile-submenu-item">Donate</a></li>
+                        <li><a href="/join-us#sponsor" class="mobile-submenu-item"><?=lang("Header.join.option1")?></a></li>
+                        <li><a href="/join-us#friends-circle" class="mobile-submenu-item"><?=lang("Header.join.option2")?></a></li>
+                        <li><a href="/join-us#exchange-programs" class="mobile-submenu-item"><?=lang("Header.join.option3")?></a></li>
+                        <li><a href="/join-us#formContact" class="mobile-submenu-item"><?=lang("Header.join.option4")?></a></li>
                     </ul>
                 </li>
+                <!--<li>
+                    <a href="/work/where#locations" class="mobile-menu-item"><?=lang("Header.locations")?></a>
+                </li>-->
                 <li>
-                    <a class="mobile-menu-item" data-bs-toggle="collapse" href="#locationsCollapse" role="button">Locations</a>
-                    <ul class="list-unstyled mobile-menu-submenu collapse" id="locationsCollapse">
-                        <li><a href="#!" class="mobile-submenu-item">Guatemala City</a></li>
-                        <li><a href="#!" class="mobile-submenu-item">Sacalá las Lomas</a></li>
-                        <li><a href="#!" class="mobile-submenu-item">San Antonio de Tioxja</a></li>
-                        <li><a href="#!" class="mobile-submenu-item">San Lucas</a></li>
-                        <li><a href="#!" class="mobile-submenu-item">Yepocapa</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a class="mobile-menu-item" data-bs-toggle="collapse" href="#resourcesCollapse" role="button">Resources</a>
+                    <a class="mobile-menu-item" data-bs-toggle="collapse" href="#resourcesCollapse" role="button"><?=lang("Header.resources.title")?></a>
                     <ul class="list-unstyled mobile-menu-submenu collapse" id="resourcesCollapse">
-                        <li><a href="/resources" class="mobile-submenu-item">Press</a></li>
-                        <li><a href="/resources#videos" class="mobile-submenu-item">Videos</a></li>
-                        <li><a href="/resources#news" class="mobile-submenu-item">News</a></li>
+                        <li><a href="/resources" class="mobile-submenu-item"><?=lang("Header.resources.option1")?></a></li>
+                        <li><a href="/resources#videos" class="mobile-submenu-item"><?=lang("Header.resources.option2")?></a></li>
+                        <li><a href="/resources#news" class="mobile-submenu-item"><?=lang("Header.resources.option3")?></a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="/our-offices" class="mobile-menu-item">Our Offices</a>
+                    <a href="/our-offices" class="mobile-menu-item"><?=lang("Header.offices")?></a>
                 </li>
 
                 <li class="mt-3">
-                    <a href="/donate" class="btn btn-primary">Donate</a>
+                    <a href="/donate" class="btn btn-primary"><?=lang("Header.donate")?></a>
                 </li>
                 <li>
                     <ul class="list-inline mt-3">
@@ -139,50 +134,50 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
                 <li>
-                    <a class="nav-link" href="/">Home</a>
+                    <a class="nav-link" href="/"><?=lang("Header.home")?></a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle custom-nav-dropdown-toggler" href="#our-work" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Our work
+                        <?=lang("Header.work.title")?>
                     </a>
                     <ul class="dropdown-menu custom-nav-dropdown px-3 py-3">
                         <div class="row gx-2">
                             <div class="col-md-4">
-                                <a href="/work/what" class="d-block text-white text-decoration-none text-uppercase fw-bold tx-4 lh-1 mb-4">What</a>
+                                <a href="/work/what" class="d-block text-white text-decoration-none text-uppercase fw-bold tx-3 lh-1 mb-4"><?=lang("Header.work.what.title")?></a>
                                 <ul class="list-unstyled mb-0">
                                     <li class="mb-4">
-                                        <a href="/work/what#early-chilhood-education" class="text-white text-decoration-none">Early childhood education</a>
+                                        <a href="/work/what#early-chilhood-education" class="text-white text-decoration-none"><?=lang("Header.work.what.option1")?></a>
                                     </li>
                                     <li class="mb-4">
-                                        <a href="/work/what#philosophy-and-methodology" class="text-white text-decoration-none">Philosophy and Methodology</a>
+                                        <a href="/work/what#philosophy-and-methodology" class="text-white text-decoration-none"><?=lang("Header.work.what.option2")?></a>
                                     </li>
-                                    <li class="">
-                                        <a href="/work/what#comprehensive-development" class="text-white text-decoration-none">Comprehensive Community Led Development</a>
+                                    <li class="mb-4">
+                                        <a href="/work/what#comprehensive-development" class="text-white text-decoration-none"><?=lang("Header.work.what.option3")?></a>
                                     </li>
                                 </ul>
                             </div>
                             <div class="col-md-4">
-                                <a href="/work/where" class="d-block text-white text-decoration-none text-uppercase fw-bold tx-4 lh-1 mb-4">Where</a>
+                                <a href="/work/where" class="d-block text-white text-decoration-none text-uppercase fw-bold tx-3 lh-1 mb-4"><?=lang("Header.work.where.title")?></a>
                                 <ul class="list-unstyled mb-0">
                                     <li class="mb-4">
-                                        <a href="/work/where#locations" class="text-white text-decoration-none">Locations</a>
+                                        <a href="/work/where#locations" class="text-white text-decoration-none"><?=lang("Header.work.where.option1")?></a>
                                     </li>
                                     <li class="">
-                                        <a href="/work/where#community-center" class="text-white text-decoration-none">Community center</a>
+                                        <a href="/work/where#community-center" class="text-white text-decoration-none"><?=lang("Header.work.where.option2")?></a>
                                     </li>
                                 </ul>
                             </div>
                             <div class="col-md-4">
-                                <a href="/work/impact" class="d-block text-white text-decoration-none text-uppercase fw-bold tx-4 lh-1 mb-4">Our impact</a>
+                                <a href="/work/impact" class="d-block text-white text-decoration-none text-uppercase fw-bold tx-3 lh-1 mb-4"><?=lang("Header.work.impact.title")?></a>
                                 <ul class="list-unstyled mb-0">
                                     <li class="mb-4">
-                                        <a href="/work/impact#need-quality-education" class="text-white text-decoration-none">The need of quality education</a>
+                                        <a href="/work/impact#need-quality-education" class="text-white text-decoration-none"><?=lang("Header.work.impact.option1")?></a>
                                     </li>
                                     <li class="mb-4">
-                                        <a href="/work/impact#how-we-work" class="text-white text-decoration-none">How we work</a>
+                                        <a href="/work/impact#how-we-work" class="text-white text-decoration-none"><?=lang("Header.work.impact.option2")?></a>
                                     </li>
-                                    <li class="">
-                                        <a href="/work/impact#financial-transparency" class="text-white text-decoration-none">Financial transparency</a>
+                                    <li >
+                                        <a href="/work/impact#financial-transparency" class="text-white text-decoration-none"><?=lang("Header.work.impact.option3")?></a>
                                     </li>
                                 </ul>
                             </div>
@@ -190,19 +185,21 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/about-us">About us</a>
+                    <a class="nav-link" href="/about-us"><?=lang("Header.about.title")?></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/join-us">Join us</a>
+                    <a class="nav-link" href="/join-us"><?=lang("Header.join.title")?></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/stories">Our stories</a>
+                    <a class="nav-link" href="/stories"><?=lang("Header.stories")?></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">es <img src="/assets/img/spain.png" alt="" width="30px"></a>
+                    <a href="/lang/<?=lang("Header.lenguaje")==="Es"?"es":"en"?>" class="nav-link"><?=lang("Header.lenguaje")?>
+                        <?=lang("Header.locate")?>
+                    </a>
                 </li>
                 <li class="nav-item ms-md-3">
-                    <a class="btn btn-secondary text-uppercase" href="/donate">Donate</a>
+                    <a class="btn btn-secondary text-uppercase" href="/donate"><?=lang("Header.donate")?></a>
                 </li>
             </ul>
             <ul class="navbar-nav ms-3">
