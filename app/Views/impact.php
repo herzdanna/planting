@@ -129,6 +129,7 @@
 
                                 <ul class="list-unstyled">
                                     <li><a href="<?=lang("Impact.downloadFinancial.doc1")?>" target="_blank" class="link-primary">2020</a></li>
+                                    <li><a href="<?=lang("Impact.downloadFinancial.doc2")?>" target="_blank" class="link-primary">2021</a></li>
                                 </ul>
                             </div>
                             <div class="col-6 col-lg-6" data-aos="fade-up">

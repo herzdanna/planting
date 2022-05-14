@@ -39,7 +39,7 @@
         <nav class="mt-2">
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                <li class="nav-item">
-                    <a href="pages/widgets.html" class="nav-link">
+                    <a href="/user" class="nav-link">
                         <i class="nav-icon fas fa-users"></i>
                         <p>
                             Users
@@ -49,7 +49,7 @@
                 </li>
          
                 <li class="nav-item">
-                    <a href="pages/widgets.html" class="nav-link">
+                    <a href="/slider" class="nav-link">
                         <i class="nav-icon fas fa-image"></i>
                         <p>
                             Sliders
@@ -59,7 +59,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="pages/widgets.html" class="nav-link">
+                    <a href="/numbers-what" class="nav-link">
                         <i class="nav-icon fas fa-copy"></i>
                         <p>
                             Numbers / What
@@ -69,7 +69,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="pages/widgets.html" class="nav-link">
+                    <a href="/post" class="nav-link">
                         <i class="nav-icon fas fa-edit"></i>
                         <p>
                             Stories

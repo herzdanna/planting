@@ -45,11 +45,12 @@ return [
     "finalcial" => [
         "title" => "Financial Transparency",
         "text" => "We work hard to ensure your generous donations are being used in the most effective and transparent way possible. We adhere to a strict finance manual to guide all of our processes and use an external accountant to review our finances and send finance reports every quarter. Please take a look at our yearly financial reports.",
-        "subtitle1" => "Statement of Financial Position",
+        "subtitle1" => "Financial Reports",
         "subtitle2" => "Annual Reports",
     ], 
     "downloadFinancial" => [
         "doc1" => "/assets/download/statementFinancial/Statement_of_Financial_Position_2020.pdf",
+        "doc2" => "/assets/download/statementFinancial/Statement_of_Financial_Position_2021.pdf",
     ], 
     "downloadAnualReport" => [
         "doc1" => "/assets/download/annualReports/Annual_Report_V6_2021_USA.pdf",

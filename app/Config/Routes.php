@@ -51,6 +51,10 @@ $routes->add('privacy-policies','Page::privacyPolicies');
 
 $routes->add('admin','Page::login');
 $routes->add('panel','Page::panel');
+$routes->add('user','Page::user');
+$routes->add('slider','Page::slider');
+$routes->add('numbers-what','Page::numbersWhat');
+$routes->add('post','Page::post');
 
 
 

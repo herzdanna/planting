@@ -56,13 +56,13 @@
         <div class="row g-0">
             <div class="col-6 col-lg-3">
                 <div class="bg-secondary text-primary text-center py-5 px-3 px-md-4 h-100">
-                    <h2 class="display-3 fw-bold mb-3"><span class="js-counter" data-counter="6">0</span></h2>
+                    <h2 class="display-3 fw-bold mb-3"><span class="js-counter" data-counter="8">0</span></h2>
                     <p class="tx-3 tx-md-4 mb-0"><?=lang("Home.square.square1")?></p>
                 </div>
             </div>
             <div class="col-6 col-lg-3">
                 <div class="bg-green text-primary text-center py-5 px-3 px-md-4 h-100">
-                    <h2 class="display-3 fw-bold mb-3"><span class="js-counter" data-counter="200">0</span>+</h2>
+                    <h2 class="display-3 fw-bold mb-3"><span class="js-counter" data-counter="250">0</span>+</h2>
                     <p class="tx-3 tx-md-4 mb-0"><?=lang("Home.square.square2")?></p>
                 </div>
             </div>

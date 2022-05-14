@@ -70,7 +70,20 @@
             
             <div class="row gx-4">
                 <div class="col-md-5">
-                    <div class="accordion accordion-flush custom-accordion mb-4" id="programsAccordion">
+                    <div class="accordion accordion-flush custom-accordion mb-4" id="programs">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button js-acc-btn collapsed" type="button" data-img="dualExchange.jpg" data-bs-toggle="collapse" data-bs-target="#flush-collapseCero" aria-expanded="false">
+                                <?=lang("JoinUs.title2")?>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseCero" class="accordion-collapse collapse" data-bs-parent="#programsAccordion">
+                                <div class="accordion-body tx-4">
+                                    <p><?=lang("JoinUs.program1.content")?></p>
+                                    <p><?=lang("JoinUs.program1.content2")?></p>
+                                </div>
+                            </div>
+                        </div>
                         <div class="accordion-item collapse">
                             <h2 class="accordion-header">
                                 <button class="accordion-button js-acc-btn collapsed" type="button" data-img="dualExchange.jpg" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false">

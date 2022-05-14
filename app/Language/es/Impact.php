@@ -50,6 +50,7 @@ return [
     ], 
     "downloadFinancial" => [
         "doc1" => "/assets/download/statementFinancial/Statement_of_Financial_Position_2020.pdf",
+        "doc2" => "/assets/download/statementFinancial/Statement_of_Financial_Position_2021.pdf",
     ], 
     "downloadAnualReport" => [
         "doc1" => "/assets/download/annualReports/es/Reporte_Anual_Español_2021.pdf",
