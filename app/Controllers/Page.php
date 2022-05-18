@@ -20,19 +20,12 @@ class Page extends BaseController
         return view('template/header',$data);
     }
 
-    private function setHeaderAdmin($data){
-        return view('admin/template/header',$data);
-    }
 
     private function setTitle($key){
         $title = ['','Home','Work','About Us','Join Us','Our Stories','Donate', 'Resources','Our Offices','Donate USA','Donate Canada','Blog','Privacy Policies'];
         return ['title' => $title[$key]];
     }
 
-    private function setTitleAdmin($key){
-        $title = ['','Administrator','Users','Sliders','numbers-what','stories','Our Stories','Donate', 'Resources','Our Offices','Donate USA','Donate Canada'];
-        return ['title' => $title[$key]];
-    }
     private function setFooter(Array $data = []){
         return view("template/footer");
     }
@@ -150,30 +143,7 @@ class Page extends BaseController
     }
 
 
-    /*******************************  VIEWS  BACK END   ************************************/
+    /*******************************  VIEWS  PANEL   ************************************/
 
-    public function login(){
-        return view('admin/login');
-    }
-
-    public function panel(){
-        return $this->setHeaderAdmin($this->setTitleAdmin(1)).view('admin/template/menu').view('admin/panel').$this->footerAdmin;
-    }
-
-    public function user(){
-        return $this->setHeaderAdmin($this->setTitleAdmin(2)).view('admin/template/menu').view('admin/user').$this->footerAdmin;
-    }
-
-    public function slider(){
-        return $this->setHeaderAdmin($this->setTitleAdmin(3)).view('admin/template/menu').view('admin/slider').$this->footerAdmin;
-    }
-
-    public function numberswhat(){
-        return $this->setHeaderAdmin($this->setTitleAdmin(4)).view('admin/template/menu').view('admin/numberWhat').$this->footerAdmin;
-    }
-
-    public function post (){
-        return $this->setHeaderAdmin($this->setTitleAdmin(5)).view('admin/template/menu').view('admin/post').$this->footerAdmin;
-    }
 
 }

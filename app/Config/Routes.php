@@ -49,12 +49,12 @@ $routes->add('privacy-policies','Page::privacyPolicies');
 
 // routes admin
 
-$routes->add('admin','Page::login');
-$routes->add('panel','Page::panel');
-$routes->add('user','Page::user');
-$routes->add('slider','Page::slider');
-$routes->add('numbers-what','Page::numbersWhat');
-$routes->add('post','Page::post');
+$routes->add('login','Admin::login');
+$routes->add('dashboard','Admin::panel');
+$routes->add('user','Admin::user');
+$routes->add('slider','Admin::slider');
+$routes->add('numbers-what','Admin::numbersWhat');
+$routes->add('post','Admin::post');
 
 
 
