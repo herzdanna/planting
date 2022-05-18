@@ -55,6 +55,8 @@ $routes->add('user','Page::user');
 $routes->add('slider','Page::slider');
 $routes->add('numbers-what','Page::numbersWhat');
 $routes->add('post','Page::post');
+$routes->add('download','Page::download');
+$routes->add('partners','Page::partners');
 
 
 

@@ -73,7 +73,7 @@
           <div class="col-md-12">
           <div class="card">
               <div class="card-header border-transparent">
-                <h3 class="card-title">Lats contact</h3>
+                <h3 class="card-title">Last contact</h3>
 
                 <div class="card-tools">
                   <button type="button" class="btn btn-tool" data-card-widget="collapse">

@@ -34,23 +34,23 @@
                   
                   <div class="card-footer">
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Title</label>
-                        <input type="text" name="title" class="form-control" id="exampleInputEmail1" placeholder="Enter the link">
+                        <label for="title">Title</label>
+                        <input type="text" name="title" class="form-control" id="title" placeholder="Enter the link">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Description</label>
-                        <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        <label for="description">Description</label>
+                        <input type="text" name="description" class="form-control" id="description" placeholder="Description">
                     </div>
                   </div>
                   <hr>
                   <div class="card-footer">
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Título</label>
-                        <input type="text" name="link" class="form-control" id="exampleInputEmail1" placeholder="Enter the link">
+                        <label for="titulo">Título</label>
+                        <input type="text" name="titulo" class="form-control" id="titulo" placeholder="Enter the link">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Descripción</label>
-                        <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        <label for="descripcion">Descripción</label>
+                        <input type="text" name="descripcion" class="form-control" id="descripcion" placeholder="Descripción">
                     </div>
                   </div>
                  
@@ -207,13 +207,13 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalCenterTitle">Update Slider</h5>
+        <h5 class="modal-title" id="exampleModalCenterTitle">Update Our numbers / What</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-      <form id="quickForm">
+      <form id="quickForm2">
                 <div class="card-body">
 
                 <div class="form-group">
@@ -227,23 +227,23 @@
                   
                   <div class="card-footer">
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Title</label>
-                        <input type="text" name="title" class="form-control" id="exampleInputEmail1" placeholder="Enter the link">
+                        <label for="title">Title</label>
+                        <input type="text" name="title" class="form-control" id="title" placeholder="Enter the link">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Description</label>
-                        <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        <label for="description">Description</label>
+                        <input type="text" name="description" class="form-control" id="description" placeholder="Description">
                     </div>
                   </div>
                   <hr>
                   <div class="card-footer">
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Título</label>
-                        <input type="text" name="link" class="form-control" id="exampleInputEmail1" placeholder="Enter the link">
+                        <label for="titulo">Título</label>
+                        <input type="text" name="titulo" class="form-control" id="titulo" placeholder="Enter the link">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Descripción</label>
-                        <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        <label for="descripcion">Descripción</label>
+                        <input type="text" name="descripcion" class="form-control" id="descripcion" placeholder="Descripción">
                     </div>
                   </div>
                  

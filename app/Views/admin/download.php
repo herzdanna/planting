@@ -4,7 +4,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Add Slider</h1>
+            <h1>Add Download</h1>
           </div>
   
         </div>
@@ -24,35 +24,42 @@
                 <div class="card-body">
 
                 <div class="form-group">
-                    <label for="exampleInputFile">Choose slider</label>
-                    <div class="input-group">
-                      <div class="custom-file">
-                        <input type="file" class="custom-file-input" id="exampleInputFile">
-                        <label class="custom-file-label" for="exampleInputFile">Choose file</label>
-                      </div>
+                  <label for="exampleSelectRounded0">Select page</code></label>
+                  <select class="custom-select rounded-0" id="exampleSelectRounded0">
+                    <option>Financial Reports / Reporte Financiero</option>
+                    <option>Annual Reportst / Reporte Anual</option>
+                  </select>
+                </div>
 
-                    </div>
-                  </div>
-                  
                   <div class="card-footer">
                     <div class="form-group">
-                        <label for="linkImg">Link</label>
-                        <input type="text" name="link" class="form-control" id="linkImg" placeholder="Enter the link">
+                        <label for="exampleInputFile">Choose slider</label>
+                        <div class="input-group">
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="file">
+                                <label class="custom-file-label" for="file">Choose file</label>
+                            </div>
+                        </div>
                     </div>
                     <div class="form-group">
-                        <label for="buttonName">button's name</label>
-                        <input type="text" name="buttonName" class="form-control" id="buttonName" placeholder="Password">
+                        <label for="fileName">files's name</label>
+                        <input type="text" name="fileName" class="form-control" id="fileName" placeholder="Enter the file name">
                     </div>
                   </div>
                   <hr>
                   <div class="card-footer">
                     <div class="form-group">
-                        <label for="EnlaceImg">Enlace</label>
-                        <input type="text" name="EnlaceImg" class="form-control" id="EnlaceImg" placeholder="Enter the link">
+                            <label for="exampleInputFile">Seleccione el archivo</label>
+                            <div class="input-group">
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="archivo">
+                                    <label class="custom-file-label" for="exampleInputFile">Seleccione</label>
+                                </div>
+                            </div>
                     </div>
                     <div class="form-group">
-                        <label for="nombreBoton">Nombre del botón</label>
-                        <input type="text" name="nombreBoton" class="form-control" id="nombreBoton" placeholder="Password">
+                        <label for="nombreArchivo">Nombre del archivo</label>
+                        <input type="text" name="nombreArchivo" class="form-control" id="nombreArchivo" placeholder="Password">
                     </div>
                   </div>
                  
@@ -81,7 +88,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Slider's list</h1>
+            <h1>Download's list</h1>
           </div>
   
         </div>
@@ -97,22 +104,22 @@
                         <thead>
                         <tr>
                         <th>Id</th>
-                        <th>Image </th>
-                        <th>link </th>
-                        <th>button's name</th>
-                        <th>Enlace</th>
-                        <th>nombre de enlace</th>
+                        <th>type </th>
+                        <th>route file </th>
+                        <th>file name </th>
+                        <th>ruta </th>
+                        <th>nombre del archivo</th>
                         <th>Actions</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
                         <td>1</td>
-                        <td><img src="https://via.placeholder.com/100x50" alt=""></td>
+                        <td>Financial Reports</td>
+                        <td><a href="" target="_blank">My link</a></td>
+                        <td class="align-middle">annual Report</td>
                         <td class="align-middle"><a href="" target="_blank">My link</a></td>
-                        <td class="align-middle">Donate Now</td>
-                        <td class="align-middle"><a href="" target="_blank">Mi enlace</a></td>
-                        <td class="align-middle">user@gmail.com</td>
+                        <td class="align-middle">Reporte anual</td>
                         <td class="align-middle">
                             <button type="button" class="btn btn-default btn-sm">
                             <i class="far fa-trash-alt"></i>
@@ -141,7 +148,7 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalCenterTitle">Update Slider</h5>
+        <h5 class="modal-title" id="exampleModalCenterTitle">Update Download</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -151,35 +158,42 @@
                 <div class="card-body">
 
                 <div class="form-group">
-                    <label for="exampleInputFile">Choose slider</label>
-                    <div class="input-group">
-                      <div class="custom-file">
-                        <input type="fileUpdate" class="custom-file-input" id="fileUpdate">
-                        <label class="custom-file-label" for="fileUpdate">Choose file</label>
-                      </div>
+                  <label for="exampleSelectRounded0">Select page</code></label>
+                  <select class="custom-select rounded-0" id="exampleSelectRounded0">
+                    <option>Financial Reports / Reporte Financiero</option>
+                    <option>Annual Reportst / Reporte Anual</option>
+                  </select>
+                </div>
 
-                    </div>
-                  </div>
-                  
                   <div class="card-footer">
                     <div class="form-group">
-                        <label for="linkImgUpdate">Link</label>
-                        <input type="text" name="linkUpdate" class="form-control" id="linkImgUpdate" placeholder="Enter the link">
+                        <label for="exampleInputFile">Choose slider</label>
+                        <div class="input-group">
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="file">
+                                <label class="custom-file-label" for="file">Choose file</label>
+                            </div>
+                        </div>
                     </div>
                     <div class="form-group">
-                        <label for="buttonNameUpdate">button's name</label>
-                        <input type="text" name="buttonNameUpdate" class="form-control" id="buttonNameUpdate" placeholder="Password">
+                        <label for="fileName">files's name</label>
+                        <input type="text" name="fileName" class="form-control" id="fileName" placeholder="Enter the file name">
                     </div>
                   </div>
                   <hr>
                   <div class="card-footer">
                     <div class="form-group">
-                        <label for="EnlaceImgUpdate">Enlace</label>
-                        <input type="text" name="EnlaceImgUpdate" class="form-control" id="EnlaceImgUpdate" placeholder="Enter the link">
+                            <label for="exampleInputFile">Seleccione el archivo</label>
+                            <div class="input-group">
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="archivo">
+                                    <label class="custom-file-label" for="exampleInputFile">Seleccione</label>
+                                </div>
+                            </div>
                     </div>
                     <div class="form-group">
-                        <label for="nombreBotonUpdate">Nombre del botón</label>
-                        <input type="text" name="nombreBotonUpdate" class="form-control" id="nombreBotonUpdate" placeholder="Password">
+                        <label for="nombreArchivo">Nombre del archivo</label>
+                        <input type="text" name="nombreArchivo" class="form-control" id="nombreArchivo" placeholder="Password">
                     </div>
                   </div>
                  
@@ -189,6 +203,7 @@
                   <button type="submit" class="btn btn-secondary">Submit</button>
                 </div>
               </form>
+             
       </div>
     </div>
   </div>

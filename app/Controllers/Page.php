@@ -175,5 +175,11 @@ class Page extends BaseController
     public function post (){
         return $this->setHeaderAdmin($this->setTitleAdmin(5)).view('admin/template/menu').view('admin/post').$this->footerAdmin;
     }
+    public function download (){
+        return $this->setHeaderAdmin($this->setTitleAdmin(5)).view('admin/template/menu').view('admin/download').$this->footerAdmin;
+    }
+    public function partners (){
+        return $this->setHeaderAdmin($this->setTitleAdmin(5)).view('admin/template/menu').view('admin/partners').$this->footerAdmin;
+    }
 
 }

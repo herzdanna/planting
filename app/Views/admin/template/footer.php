@@ -23,7 +23,21 @@ $(document).ready(function() {
         }
     });
 
+    $('#historiaUpdate').summernote({
+        height: 200,   //set editable area's height
+        codemirror: { // codemirror options
+            theme: 'monokai'
+        }
+    });
+
   $('#storie').summernote({
+        height: 200,   //set editable area's height
+        codemirror: { // codemirror options
+            theme: 'monokai'
+        }
+    });
+
+    $('#storieUpdate').summernote({
         height: 200,   //set editable area's height
         codemirror: { // codemirror options
             theme: 'monokai'
