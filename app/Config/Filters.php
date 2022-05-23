@@ -2,6 +2,7 @@
 
 namespace Config;
 
+use App\Filters\Admin;
 use CodeIgniter\Config\BaseConfig;
 use CodeIgniter\Filters\CSRF;
 use CodeIgniter\Filters\DebugToolbar;
@@ -19,7 +20,7 @@ class Filters extends BaseConfig
         'csrf'     => CSRF::class,
         'toolbar'  => DebugToolbar::class,
         'honeypot' => Honeypot::class,
-        'panel'=>     Page::class
+        'panel'=>     Admin::class
     ];
 
     /**
@@ -60,6 +61,6 @@ class Filters extends BaseConfig
      * @var array
      */
     public $filters = [
-        "panel"=>["before"=>["panel"]]
+        "panel"=>["before"=>["/dashboard","/post","/slider","/user"]]
     ];
 }

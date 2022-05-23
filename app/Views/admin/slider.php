@@ -20,7 +20,7 @@
             <!-- jquery validation -->
             <div class="card card-primary">
               <!-- form start -->
-              <form id="quickForm">
+              <form id="slider/create" method="POST">
                 <div class="card-body">
 
                 <div class="form-group">

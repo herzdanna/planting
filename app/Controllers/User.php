@@ -14,16 +14,22 @@ class User extends \CodeIgniter\Controller
     }
     public function create()
     {
+        $valid = $this->validate([
+            "email"=>"required",
+            "password"=>"required"]);
+        if($valid){
+            try{
 
-        if(!$this->validate())
+                return $this->response->setJSON( $this->user->insert($user));
+            }
+            catch (\ReflectionException $e) {
+                return $this->response->setStatusCode(400)->setJSON(["success" => false, "message" => $e]);
+            }
+        }
+
+
         $user= $this->request->getPost();
-        try{
 
-           return $this->response->setJSON( $this->user->insert($user));
-        }
-        catch (\ReflectionException $e) {
-            return $this->response->setStatusCode(400)->setJSON(["success" => false, "message" => $e]);
-        }
 
 
     }
@@ -41,9 +47,10 @@ class User extends \CodeIgniter\Controller
     }
     public function login()
     {
-        if ($this->request->isAJAX()) {
-            "nada";
-        }
+        $valid =$this->validate([
+            "email"=>"required",
+            "password"=>"required"
+        ]);
 
         $user  = $this->user->getWhere(["email"=>$this->request->getPost("email")])->getResult("array")[0];
 
@@ -53,6 +60,11 @@ class User extends \CodeIgniter\Controller
         session()->set("credentials",$user);
         return $this->response
         ->setJSON(["success"=>true,"user"=>session("credentials")]);
+    }
+    public function logout()
+    {
+        session()->destroy();
+        return redirect()->to("login");
     }
 
 }

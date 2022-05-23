@@ -89,7 +89,7 @@ $("form").on("submit",function(e){
 
     }).done(function(response){
         if(response.success){
-           location.href =  "panel";
+           location.href =  "dashboard";
         }
     })
 

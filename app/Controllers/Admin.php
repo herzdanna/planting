@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 
+use App\Models\storyModel;
 use CodeIgniter\Controller;
 
 class Admin extends Controller
@@ -51,7 +52,10 @@ class Admin extends Controller
     }
 
     public function post (){
-        return $this->setHeaderAdmin($this->setTitleAdmin(5)).view('admin/template/menu').view('admin/post').$this->footerAdmin;
+        $data = [
+            "stories"=> (new storyModel)->findAll()
+        ];
+        return $this->setHeaderAdmin($this->setTitleAdmin(5)).view('admin/template/menu').view('admin/post',$data).$this->footerAdmin;
     }
 
 }

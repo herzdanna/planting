@@ -20,24 +20,24 @@
             <!-- jquery validation -->
             <div class="card card-primary">
               <!-- form start -->
-              <form id="quickForm">
+              <form id="user/create" method="POST">
                 <div class="card-body">
                   <div class="form-group">
                     <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputPassword1">User name</label>
-                    <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    <input type="email" name="email"  class="form-control" id="exampleInputEmail1" placeholder="Enter email" required>
                   </div>
                   <div class="form-group">
                     <label for="exampleInputPassword1">Password</label>
-                    <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    <input type="password" name="password" class="form-control" id="pass" placeholder="Password" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Confirm Password</label>
+                    <input type="password" name="password2" class="form-control" id="passMatch" placeholder="Password" required>
                   </div>
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer">
-                  <button type="submit" class="btn btn-secondary">Submit</button>
+                  <button   class="btn btn-secondary">Submit</button>
                 </div>
               </form>
             </div>

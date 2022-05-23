@@ -20,7 +20,7 @@
             <!-- jquery validation -->
             <div class="card card-primary">
               <!-- form start -->
-              <form id="quickForm">
+              <form id="story/create" method="POST">
                 <div class="card-body">
                   
 
@@ -28,7 +28,7 @@
                   <div class="card-footer">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Title</label>
-                        <input type="text" name="title" class="form-control" id="exampleInputEmail1" placeholder="Enter the link">
+                        <input type="text" name="title_en" class="form-control"  placeholder="Enter the link">
                     </div>
                     <div class="mb-3">
                       <textarea class="form-control" id="storie" placeholder="Please enter the content" ></textarea>
@@ -39,7 +39,7 @@
                   <div class="card-footer">
                     <div class="form-group">
                         <label for="titulo">Título</label>
-                        <input type="text" name="titulo" class="form-control" id="titulo" placeholder="Escriba un título">
+                        <input type="text" name="title_es" class="form-control"  placeholder="Escriba un título">
                     </div>
 
                     <div class="mb-3">
@@ -209,7 +209,7 @@
         </button>
       </div>
       <div class="modal-body">
-      <form id="quickForm">
+      <form id="stories/edit" method="POST">
                 <div class="card-body">
 
                 <div class="form-group">
