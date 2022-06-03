@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Controllers;
+use App\Models\storyModel;
 use MailchimpMarketing\ApiClient;
 
 class Page extends BaseController
@@ -82,7 +83,13 @@ class Page extends BaseController
     }
 
     public function stories(){
-        return $this->setHeader($this->setTitle(5)).view('ourstories').$this->setFooter();
+        $locale = session()->get("lang")?? $this->request->getLocale();
+        $data["stories"] = (new storyModel)
+          //  ->select("id, routeImg,title_${locale}, description_${locale}, ")
+            ->orderBy("1","DESC")
+            ->get(5)->getResult("array");
+        $data["locale"] =$locale;
+        return $this->setHeader($this->setTitle(5)).view('ourstories',$data).$this->setFooter();
     }
     public function blog(){
         return $this->setHeader($this->setTitle(11)).view('blog').$this->setFooter();

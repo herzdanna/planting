@@ -15,26 +15,28 @@
     <section class="bg-secondary py-6" id="post1">
         <div class="container">
             <div class="text-center mb-5" data-aos="fade-up">
-                <h1 class="text-primary h3 fw-bold mb-0"><?=lang("Blog.post1.title")?></h1>
+                <h1 id="post1-title" class="text-primary h3 fw-bold mb-0"><?=lang("Blog.post1.title")?></h1>
             </div>
             <div class="clearfix">
-                <img src="/assets/img/story-1.jpg" class="col-md-6 float-md-start mb-3 me-md-3 img-fluid" alt="...">
+                <img id="post1-img" src="/assets/img/story-1.jpg" class="col-md-6 float-md-start mb-3 me-md-3 img-fluid" alt="...">
+                    <div id="post1-content">
 
-                <p><?=lang("Blog.post1.paragraph1")?></p>
+                        <p><?=lang("Blog.post1.paragraph1")?></p>
 
-                <p><?=lang("Blog.post1.paragraph2")?></p>
+                        <p><?=lang("Blog.post1.paragraph2")?></p>
 
-                <p><?=lang("Blog.post1.paragraph3")?></p>
+                        <p><?=lang("Blog.post1.paragraph3")?></p>
 
-                <p><?=lang("Blog.post1.paragraph4")?></p>
+                        <p><?=lang("Blog.post1.paragraph4")?></p>
 
-                <p><?=lang("Blog.post1.paragraph5")?></p>
+                        <p><?=lang("Blog.post1.paragraph5")?></p>
 
-                <p><?=lang("Blog.post1.paragraph6")?> </p>
-                
-                <p><?=lang("Blog.post1.paragraph7")?></p>
+                        <p><?=lang("Blog.post1.paragraph6")?> </p>
 
-                <p><?=lang("Blog.post1.paragraph8")?>!</p>
+                        <p><?=lang("Blog.post1.paragraph7")?></p>
+
+                        <p><?=lang("Blog.post1.paragraph8")?>!</p>
+                    </div>
             </div>
             
         </div>
@@ -65,20 +67,20 @@
     <section class="bg-blue py-6" id="post3">
         <div class="container">
             <div class="text-center mb-5" data-aos="fade-up">
-                <h1 class="text-primary h3 fw-bold mb-0"><?=lang("Blog.post3.title")?></h1>
+                <h1 id="post3-title" class="text-primary h3 fw-bold mb-0"><?=lang("Blog.post3.title")?></h1>
             </div>
             <div class="clearfix">
-                <img src="/assets/img/story-3.jpg" class="col-md-6 float-md-start mb-3 me-md-3 img-fluid" alt="...">
+                <img id="post3-img" src="/assets/img/story-3.jpg" class="col-md-6 float-md-start mb-3 me-md-3 img-fluid" alt="...">
+                <div id="post3-content">
+                    <p><?=lang("Blog.post3.paragraph1")?></p>
 
-                <p><?=lang("Blog.post3.paragraph1")?></p>
+                    <p><?=lang("Blog.post3.paragraph2")?></p>
 
-                <p><?=lang("Blog.post3.paragraph2")?></p>
+                    <p><?=lang("Blog.post3.paragraph3")?></p>
 
-                <p><?=lang("Blog.post3.paragraph3")?></p>
-
-                <p><?=lang("Blog.post3.paragraph4")?></p>
+                    <p><?=lang("Blog.post3.paragraph4")?></p>
+                </div>
             </div>
-            
         </div>
     </section>
 

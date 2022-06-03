@@ -11,7 +11,7 @@ class UserModel extends \CodeIgniter\Model
         'created_by', 'updated_by',
         'deleted_by'
     ];
-    protected  $returnType = "Object";
+    protected  $returnType = "object";
     protected $useSoftDeletes = true;
     protected $createdField  = 'created_at';
     protected $updatedField  = 'updated_at';

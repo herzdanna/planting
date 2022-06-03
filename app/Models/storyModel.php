@@ -12,7 +12,6 @@ class storyModel extends \CodeIgniter\Model
         "updated_by",        "deleted_by"];
     protected $useSoftDeletes = true;
     protected $skipValidation = true;
-    protected $useTimestamps = true;
     protected $updatedField = "updated_at";
     protected $createdField = "created_at";
     protected $deletedField = "deleted_at";

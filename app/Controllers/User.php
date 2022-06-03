@@ -17,18 +17,26 @@ class User extends \CodeIgniter\Controller
         $valid = $this->validate([
             "email"=>"required",
             "password"=>"required"]);
-        if($valid){
+        $user= $this->request->getPost();
+        $available = $this->availableUser($user);
+        if($valid && $available){
+            $user["password"] = $this->setPassword($user["password"]);
+            $user["created_by"] = session()->get("credentials")["id"];
             try{
-
-                return $this->response->setJSON( $this->user->insert($user));
+                $return= ["success"=>true,"message"=> $this->user->insert($user)];
             }
             catch (\ReflectionException $e) {
-                return $this->response->setStatusCode(400)->setJSON(["success" => false, "message" => $e]);
+                $this->response->setStatusCode(400);
+                $return = ["success" => false, "message" => $e];
+
             }
+        }else{
+            $return = ["success"=>false, "message"=>"Ya existe el usuario"];
         }
+        return $this->response->setJSON($return);
 
 
-        $user= $this->request->getPost();
+
 
 
 
@@ -65,6 +73,29 @@ class User extends \CodeIgniter\Controller
     {
         session()->destroy();
         return redirect()->to("login");
+    }
+
+    /**
+     * @param string $password
+     * @return string
+     */
+    private function setPassword($password): string
+    {
+        return password_hash($password,PASSWORD_DEFAULT);
+    }
+
+    /**
+     * @param array $user
+     * @return bool
+     */
+    private function availableUser($user): bool
+    {
+        $available = true;
+        $found = $this->user->getWhere(["email  "=>$user["email"]])->getResult("array");
+        if(count($found)>0){
+            $available = false;
+        }
+        return $available;
     }
 
 }

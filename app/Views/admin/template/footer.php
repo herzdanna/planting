@@ -24,8 +24,10 @@
 
     forms.on("submit",function(e){
         e.preventDefault();
+        debugger;
         toggleLoader(true);
         let postData = $(this).serializeArray();
+        debugger;
         switch ($(this).attr("id")){
             case "story/create" :
             postData.push({
@@ -73,13 +75,16 @@ function request(form,postData)
             }
         }
     }
+    if($form.attr("id")==="story/create"){
+        settings.contentType = false;
+        settings.cache = false;
+        settings.processData = false;
+    }
     $.ajax(settings).done(function(response){
         console.log(response);
-        if(response.success)
-        {
-            toggleLoader(false);
-            alert(response.message);
-        }
+        toggleLoader(false);
+        alert(response.message);
+
     })
 
 
@@ -89,8 +94,8 @@ function toggleLoader(on)
 
     on?preloader.css("height","").children().show():preloader.css("height","0").children().hide();
 }
-    function inputMatch()
-    {
+function inputMatch()
+{
         let match = false
         let i = $("#pass").val();
         let c = $("#passMatch").val();

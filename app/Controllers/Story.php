@@ -10,9 +10,7 @@ class Story extends \CodeIgniter\Controller
     public function __construct()
     {
         $this->story = new storyModel();
-        if($this->request->isAJAX()){
 
-        }
 
     }
 
@@ -22,6 +20,7 @@ class Story extends \CodeIgniter\Controller
     public function create()
     {
         $isValidForm = $this->validate([
+            "banner"=>"required",
             "title_en"=>"required",
             "description_en"=>"required",
             "title_es"=>"required",
@@ -29,9 +28,10 @@ class Story extends \CodeIgniter\Controller
             ]);
         if($isValidForm){
             $insert = $this->request->getPost();
-            $insert["created_by"] = session()->get("id_user")??0;
+            $insert["created_by"] = session()->get("credentials")["id"];
             try {
                 $inserted = $this->story->insert($insert);
+
                 $response = ["success"=>true,"message"=>"inserted ${inserted} "];
             } catch (\ReflectionException $e) {
                 $response = ["success"=>false,"message"=>"No se pudo insertar"];
@@ -47,17 +47,39 @@ class Story extends \CodeIgniter\Controller
         return $this->response->setJSON($response);
 
     }
-    public function read($type,$search)
+    public function read($id= null,$limit= 0,$search = null)
     {
+        $this->story->find($story);
+        return $this->response->setJSON([]);
 
     }
-    public function edit()
+    public function getStoriesToWeb(){
+
+    }
+    public function getAll()
     {
+        return $this->story->findAll();
+    }
+    public function update()
+    {
+
+        $data = $this->request->getPost();
+        $valid = $this->validate([
+            "id_story"=>"required",
+            "field"=>"required",
+            "value"=>"required"
+        ]);
+        if($valid){
+            $this->story->update($data["id_story"],[$data["field"]=>$data["value"]]);
+        }
 
     }
     public function delete()
     {
+        return $this->story->delete($this->request->getPost("id_story"));
 
     }
+
+
 
 }

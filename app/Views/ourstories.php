@@ -11,12 +11,12 @@
     </header>
 
     <a href="" role="article" class="section-bg text-center text-decoration-none link-white py-8 py-lg-10">
-        <img src="/assets/img/story-1.jpg" alt="" class="section-bg-img">
+        <img src="<?=$stories[0]["routeImg"]?>" alt="" class="section-bg-img">
         <div class="container position-relative" style="z-index: 10;">
             <div class="row justify-content-center">
                 <div class="col-lg-10 col-xl-8">
-                    <h1 class="fw-bold" data-aos="fade-up"><?=lang("Stories.banner.title")?></h1>
-                    <p data-aos="fade-up" data-aos-delay="200"><?=lang("Stories.banner.text1")?></p>
+                    <h1 class="fw-bold" data-aos="fade-up"><?=$stories[0]["title_${locale}"]?></h1>
+                    <p data-aos="fade-up" data-aos-delay="200"><?=$stories[0]["description_${locale}"]?></p>
                 </div>
             </div>
         </div>
@@ -32,25 +32,25 @@
                 <div class="col-4 col-sm-4 col-md-4 col-lg-4">
                     <a href="/blog#post1" class="post-card link-primary text-center" data-aos="fade-up">
                         <div class="post-card-img ratio ratio-4x3 mb-3 mb-lg-4">
-                            <img class="h-100 w-100 object-cover" src="/assets/img/story-1.jpg">
+                            <img class="h-100 w-100 object-cover" src="<?=@$stories[0]["routeImg"]?>">
                         </div>
-                        <h4 class="tx-3 tx-md-4 mb-0 "><?=lang("Stories.articles.article1")?></h4>
+                        <h4 class="tx-3 tx-md-4 mb-0 "><?=$stories[0]["title_${locale}"]?></h4>
                     </a>
                 </div>
                 <div class="col-4 col-sm-4 col-md-4 col-lg-4">
                     <a href="/blog#post2" class="post-card link-primary text-center" data-aos="fade-up">
                         <div class="post-card-img ratio ratio-4x3 mb-3 mb-lg-4">
-                            <img class="h-100 w-100 object-cover" src="/assets/img/story-2.jpg">
+                            <img class="h-100 w-100 object-cover" src="<?=@$stories[1]["routeImg"]?>">
                         </div>
-                        <h4 class="tx-3 tx-md-4 mb-0 "><?=lang("Stories.articles.article2")?></h4>
+                        <h4 class="tx-3 tx-md-4 mb-0 "><?=$stories[1]["title_${locale}"]?></h4>
                     </a>
                 </div>
                 <div class="col-4 col-sm-4 col-md-4 col-lg-4">
                     <a href="/blog#post3" class="post-card link-primary text-center" data-aos="fade-up">
                         <div class="post-card-img ratio ratio-4x3 mb-3 mb-lg-4">
-                            <img class="h-100 w-100 object-cover" src="/assets/img/story-3.jpg">
+                            <img class="h-100 w-100 object-cover" src="<?=@$stories[2]["routeImg"]?>">
                         </div>
-                        <h4 class="tx-3 tx-md-4 mb-0 "><?=lang("Stories.articles.article3")?></h4>
+                        <h4 class="tx-3 tx-md-4 mb-0 "><?=$stories[2]["title_${locale}"]?></h4>
                     </a>
                 </div>
 
@@ -129,5 +129,7 @@
 
 </div>
 
-
+<script>
+    localStorage.setItem("stories",JSON.stringify(<?=json_encode($stories)?>));
+</script>
 

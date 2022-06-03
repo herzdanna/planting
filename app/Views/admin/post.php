@@ -20,10 +20,12 @@
             <!-- jquery validation -->
             <div class="card card-primary">
               <!-- form start -->
-              <form id="story/create" method="POST">
+              <form id="story/create" method="POST" enctype="multipart/form-data">
                 <div class="card-body">
-                  
-
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Banner Story</label>
+                        <input type="file" name="banner" class="form-control"  placeholder="Upload an image" required>
+                    </div>
                 
                   <div class="card-footer">
                     <div class="form-group">

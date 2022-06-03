@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\storyModel;
+use App\Models\UserModel;
 use CodeIgniter\Controller;
 
 class Admin extends Controller
@@ -40,7 +41,11 @@ class Admin extends Controller
     }
 
     public function user(){
-        return $this->setHeaderAdmin($this->setTitleAdmin(2)).view('admin/template/menu').view('admin/user').$this->footerAdmin;
+        $data["users"] = (new UserModel)->findAll();
+        return $this->setHeaderAdmin($this->setTitleAdmin(2))
+            .view('admin/template/menu')
+            .view('admin/user',$data)
+            .$this->footerAdmin;
     }
 
     public function slider(){
