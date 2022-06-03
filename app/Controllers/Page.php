@@ -84,15 +84,21 @@ class Page extends BaseController
 
     public function stories(){
         $locale = session()->get("lang")?? $this->request->getLocale();
-        $data["stories"] = (new storyModel)
-          //  ->select("id, routeImg,title_${locale}, description_${locale}, ")
-            ->orderBy("1","DESC")
-            ->get(5)->getResult("array");
+        $data["stories"] = $this->getStories();
         $data["locale"] =$locale;
         return $this->setHeader($this->setTitle(5)).view('ourstories',$data).$this->setFooter();
     }
     public function blog(){
-        return $this->setHeader($this->setTitle(11)).view('blog').$this->setFooter();
+        $data["stories"] = $this->getStories();
+        $data["locale"] = session()->get("lang")?? $this->request->getLocale();
+        return $this->setHeader($this->setTitle(11)).view('blog',$data).$this->setFooter();
+    }
+    public function getStories()
+    {
+       return (new storyModel)
+            //  ->select("id, routeImg,title_${locale}, description_${locale}, ")
+            ->orderBy("1","DESC")
+            ->get(5)->getResult("array");
     }
 
     public function donate(){
