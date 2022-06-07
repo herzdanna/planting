@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 
+use App\Models\SliderModel;
 use App\Models\storyModel;
 use App\Models\UserModel;
 use CodeIgniter\Controller;
@@ -49,7 +50,8 @@ class Admin extends Controller
     }
 
     public function slider(){
-        return $this->setHeaderAdmin($this->setTitleAdmin(3)).view('admin/template/menu').view('admin/slider').$this->footerAdmin;
+        $data["sliders"] = (new SliderModel)->findAll();
+        return $this->setHeaderAdmin($this->setTitleAdmin(3)).view('admin/template/menu').view('admin/slider',$data).$this->footerAdmin;
     }
 
     public function numberswhat(){

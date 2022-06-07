@@ -10,10 +10,12 @@
 <script src="/assets/admin/plugins/jquery-mapael/maps/usa_states.min.js"></script>
 <script src="/assets/admin/dist/js/pages/dashboard2.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
+<script src="/assets/dropify/js/dropify.js"></script>
 
 <script>
     var forms = $("form")
     var preloader = $(".preloader");
+    var host = '<?=base_url()?>';
     $(function() {
         $('#historia, #storie').summernote({
             height: 200,   //set editable area's height
@@ -51,7 +53,60 @@
         request(this,postData);
     });
 
+    $(".dropify").dropify();
+    $(".dropify").on("change",function(){
+       let formData = new FormData();
+       formData.append("slider",$(this)[0].files[0])
+    });
+
+    $(".modal").on('show.bs.modal',function(e){
+        console.log(e);
+        debugger;
+        // e.relatedTarget.data("controller");
+
+    });
+
 });
+function updateSlider(element)
+{
+    debugger;
+    let $data = new FormData();
+    let $id = $(element).attr("data-path").split("-")[1];
+    $data.append("id",$id);
+    $data.append("slider",$(element)[0].files[0])
+    $data.append("field","routeImg")
+    $data.append("value","file")
+    console.log($id);
+    $.ajax({
+        method : "POST",
+        url : host+'/slider/update/routeImg',
+        dataType : "JSON",
+        data:$data,
+        processData: false,  // tell jQuery not to process the data
+        contentType: false,  // tell jQuery not to set contentType
+        statusCode :{
+            400 : function(){
+                toggleLoader(false);
+                alert("se envió mal");
+            },
+            500 : function(){
+                toggleLoader(false);
+                alert("falló en el servidor ");
+            },
+            404: function(){
+                toggleLoader(false);
+                alert("Ruta o recurso no encontrado");
+            }
+        }
+    }).done(function(response){
+        if(response.success){
+            console.log(response.message);
+        }
+    });
+
+
+}
+
 function request(form,postData)
 {
     let $form = $(form);
@@ -110,9 +165,7 @@ function inputMatch()
         }
 
         return match
-    }
-</script>
+}
+
 
 </script>
-</body>
-</html>

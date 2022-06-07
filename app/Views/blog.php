@@ -20,22 +20,7 @@
             <div class="clearfix">
                 <img id="post1-img" src="<?=$stories[0]["routeImg"]?>" class="col-md-6 float-md-start mb-3 me-md-3 img-fluid" alt="...">
                     <div id="post1-content">
-
-                        <p><?=lang("Blog.post1.paragraph1")?></p>
-
-                        <p><?=lang("Blog.post1.paragraph2")?></p>
-
-                        <p><?=lang("Blog.post1.paragraph3")?></p>
-
-                        <p><?=lang("Blog.post1.paragraph4")?></p>
-
-                        <p><?=lang("Blog.post1.paragraph5")?></p>
-
-                        <p><?=lang("Blog.post1.paragraph6")?> </p>
-
-                        <p><?=lang("Blog.post1.paragraph7")?></p>
-
-                        <p><?=lang("Blog.post1.paragraph8")?>!</p>
+                        <?=$stories[0]["description_${locale}"]?>
                     </div>
             </div>
             
@@ -50,15 +35,7 @@
             <div class="clearfix">
                 <img src="<?=$stories[1]["routeImg"]?>" class="col-md-6 float-md-end mb-3 ms-md-3 img-fluid" alt="...">
 
-                <p><?=lang("Blog.post2.paragraph1")?></p>
-
-                <p><?=lang("Blog.post2.paragraph2")?></p>
-
-                <p><?=lang("Blog.post2.paragraph3")?></p>
-                
-                <p><?=lang("Blog.post2.paragraph4")?></p>
-
-                <p><?=lang("Blog.post2.paragraph5")?></p>
+                <?=$stories[1]["description_${locale}"]?>
             </div>
             
         </div>

@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Controllers;
+use App\Models\SliderModel;
 use App\Models\storyModel;
 use MailchimpMarketing\ApiClient;
 
@@ -61,7 +62,8 @@ class Page extends BaseController
 
         $data = $response->getDecodedBody(); */
 
-        return $this->setHeader($this->setTitle(1)).view('home').$this->setFooter();
+        $data["sliders"] = (new SliderModel)->findAll();
+        return $this->setHeader($this->setTitle(1)).view('home',$data).$this->setFooter();
     }
 
     public function work(string $section = 'what')
