@@ -168,6 +168,10 @@ function request(form,postData)
         }
     }
     if($form.attr("id")==="story/create"){
+        let formData = new FormData($form[0]);
+        formData.append("description_es", $("#historia").val());
+        formData.append("description_en", $("#storie").val());
+        settings.data = formData;
         settings.contentType = false;
         settings.cache = false;
         settings.processData = false;

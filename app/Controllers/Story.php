@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\storyModel;
+use CodeIgniter\HTTP\Files\UploadedFile;
 
 class Story extends \CodeIgniter\Controller
 {
@@ -20,15 +21,19 @@ class Story extends \CodeIgniter\Controller
     public function create()
     {
         $isValidForm = $this->validate([
-            "banner"=>"required",
             "title_en"=>"required",
             "description_en"=>"required",
             "title_es"=>"required",
             "description_es"=>"required"
             ]);
         if($isValidForm){
+            if(!is_null($this->request->getFile("banner"))){
+                $routeImg = $this->saveFile($this->request->getFile("banner"));
+            }
+
             $insert = $this->request->getPost();
             $insert["created_by"] = session()->get("credentials")["id"];
+            $insert["routeImg"] = $routeImg;
             try {
                 $inserted = $this->story->insert($insert);
 
@@ -77,6 +82,16 @@ class Story extends \CodeIgniter\Controller
     public function delete()
     {
         return $this->story->delete($this->request->getPost("id_story"));
+
+    }
+    private function saveFile(UploadedFile $file): string
+    {
+        $newName = $file->getRandomName();
+        $path = "/assets/img/stories/";
+        $file->move(FCPATH.$path,$newName);
+
+        return $path.$newName;
+
 
     }
 
