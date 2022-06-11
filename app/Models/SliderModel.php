@@ -7,7 +7,7 @@ class SliderModel extends \CodeIgniter\Model
 
     protected $table = "sliders";
     protected $primaryKey = "id";
-    protected $allowedFields = ["id", "routeImg", "link_es", "textBtn_es", "textBetn_en", "link_en",
+    protected $allowedFields = ["id", "routeImg", "link_es", "textBtn_es", "textBtn_en", "link_en",
         "created_at","updated_at",        "deleted_at",        "created_by",
         "updated_by",        "deleted_by"];
     protected $useSoftDeletes = true;

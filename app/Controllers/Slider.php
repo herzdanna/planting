@@ -24,9 +24,15 @@ class Slider extends \CodeIgniter\Controller
             "value"=>"required"
             ]);
         if($valid){
-            $routeImg = $this->saveFile($this->request->getFile("slider"));
-            $success = $this->model->update($this->request->getPost("id"),[$field=>$routeImg]);
-            $return = ["success"=>$success];
+            if(!is_null($this->request->getFile("slider"))){
+
+                $routeImg = $this->saveFile($this->request->getFile("slider"));
+                $success = $this->model->update($this->request->getPost("id"),[$field=>$routeImg]);
+                $return = ["success"=>$success];
+            }else{
+                $success = $this->model->update($this->request->getPost("id"),[$field=>$this->request->getPost("value")]);
+                $return = ["success"=>$success];
+            }
 
         }else{
             $this->response->setStatusCode(400);

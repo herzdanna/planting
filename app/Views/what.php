@@ -32,9 +32,9 @@
             <div id="philosophy-and-methodology" class="row g-0">
                 <div class="col-6 col-lg-3">
                     <a class="d-flex flex-column justify-content-center bg-green text-primary text-center py-5 px-3 px-md-4 h-100 w-100 text-decoration-none" style="aspect-ratio: 4/3;" data-bs-toggle="collapse" href="#ourwork-what-collapse-1" role="button" aria-expanded="false">
-                        <h4 class="fw-bold mb-3 e" data-aos="fade-up"><?=lang("What.flipingSquares.square1.title")?></h4>
+                        <h4 class="fw-bold mb-3 e" data-aos="fade-up"><?=@$what[0]["title_${locale}"] ?></h4>
                         <div class="collapse" id="ourwork-what-collapse-1">
-                            <p class="tx-3 mb-0"><?=lang("What.flipingSquares.square1.content")?></p>
+                            <p class="tx-3 mb-0"><?=@$what[0]["description_${locale}"] ?></p>
                         </div>
                     </a>
                 </div>

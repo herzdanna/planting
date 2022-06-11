@@ -112,7 +112,7 @@
                                         <button type="button" class="btn btn-default btn-sm">
                                             <i class="far fa-trash-alt"></i>
                                         </button>
-                                        <button type="button" class="btn btn-default btn-sm" data-controller="slider" data-toggle="modal" data-target="#exampleModalCenter">
+                                        <button type="button" class="btn btn-default btn-sm" data-controller="slider"  data-slider="1" data-toggle="modal" data-target="#exampleModalCenter">
                                             <i class="fa fa-edit"></i>
                                         </button>
                                     </td>
@@ -133,7 +133,7 @@
                                         <button type="button" class="btn btn-default btn-sm">
                                             <i class="far fa-trash-alt"></i>
                                         </button>
-                                        <button type="button" class="btn btn-default btn-sm" data-toggle="modal"  data-target="#exampleModalCenter">
+                                        <button type="button" class="btn btn-default btn-sm" data-controller="slider" data-slider="2" data-toggle="modal"  data-target="#exampleModalCenter">
                                             <i class="fa fa-edit"></i>
                                         </button>
                                     </td>
@@ -154,7 +154,7 @@
                                         <button type="button" class="btn btn-default btn-sm">
                                             <i class="far fa-trash-alt"></i>
                                         </button>
-                                        <button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-origin="slider" data-target="#exampleModalCenter">
+                                        <button type="button" class="btn btn-default btn-sm" data-controller="slider" data-slider="3" data-toggle="modal" data-origin="slider" data-target="#exampleModalCenter">
                                             <i class="fa fa-edit"></i>
                                         </button>
                                     </td>
@@ -186,29 +186,30 @@
                 <div class="card-body">
                     <div class="card-footer">
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Link</label>
-                            <input type="text" name="link" class="form-control" id="exampleInputEmail1" placeholder="Enter the link">
+                            <label for="exampleInputEmail1">Link english</label>
+                            <input type="text" id="slider-link_en" name="link_en" class="form-control" id="exampleInputEmail1" placeholder="Enter the link">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputPassword1">button's name</label>
-                            <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            <input type="text" id="slider-text_en" name="textBtn_en" class="form-control" id="exampleInputPassword1" placeholder="Password">
                         </div>
                     </div>
                     <hr>
                     <div class="card-footer">
                         <div class="form-group">
                             <label for="exampleInputEmail1">Enlace</label>
-                            <input type="text" name="link" class="form-control" id="exampleInputEmail1" placeholder="Enter the link">
+                            <input type="text" id="slider-link_es" name="link_es" class="form-control" id="exampleInputEmail1" placeholder="Enter the link">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputPassword1">Nombre del botón</label>
-                            <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            <input type="text" id="slider-text_es" name="textBtn_es" class="form-control" id="exampleInputPassword1" placeholder="Password">
                         </div>
                     </div>
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer">
-                    <button type="submit" class="btn btn-secondary">Submit</button>
+                    <button type="submit" id="update-screen" class="btn btn-secondary">Submit</button>
+                    <input type="hidden" id="slider-id">
                 </div>
             </div>
         </div>
@@ -218,7 +219,7 @@
 
 <script>
 
-        localStorage.setItem("sliders",JSON.stringify(<?=json_encode($sliders)?>));
+        localStorage.setItem("slider",JSON.stringify(<?=json_encode($sliders)?>));
 
 
 </script>

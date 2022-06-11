@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 
+use App\Models\NumberModel;
 use App\Models\SliderModel;
 use App\Models\storyModel;
 use App\Models\UserModel;
@@ -55,7 +56,12 @@ class Admin extends Controller
     }
 
     public function numberswhat(){
-        return $this->setHeaderAdmin($this->setTitleAdmin(4)).view('admin/template/menu').view('admin/numberWhat').$this->footerAdmin;
+        $model = (new NumberModel);
+        $data =[
+            "numbers" => $model->getWhere(["page"=>"home"])->getResult("array"),
+            "what" => $model->getWhere(["page"=>"what"])->getResult("array")
+        ];
+        return $this->setHeaderAdmin($this->setTitleAdmin(4)).view('admin/template/menu').view('admin/numberWhat',$data).$this->footerAdmin;
     }
 
     public function post (){

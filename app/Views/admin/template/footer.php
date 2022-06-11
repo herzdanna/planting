@@ -17,7 +17,7 @@
     var preloader = $(".preloader");
     var host = '<?=base_url()?>';
     $(function() {
-        $('#historia, #storie').summernote({
+        $('#historia, #storie,#storieUpdate').summernote({
             height: 200,   //set editable area's height
             codemirror: { // codemirror options
                 theme: 'monokai'
@@ -62,9 +62,31 @@
     $(".modal").on('show.bs.modal',function(e){
         console.log(e);
         debugger;
-        // e.relatedTarget.data("controller");
+         let storage  = $(e.relatedTarget).data("controller");
+         let sliderNumber  = $(e.relatedTarget).data("slider");
+         let sliderObj = JSON.parse( localStorage.getItem(storage));
+        console.log(sliderObj[sliderNumber-1]);
+        $("#slider-link_en").val(sliderObj[sliderNumber-1].link_en);
+        $("#slider-text_en").val(sliderObj[sliderNumber-1].textBtn_en);
+        $("#slider-link_es").val(sliderObj[sliderNumber-1].link_es);
+        $("#slider-text_es").val(sliderObj[sliderNumber-1].textBtn_es);
+        $("#slider-id").val(sliderObj[sliderNumber-1].id);
 
     });
+    $("input[id^='slider']").on("change",function(e){
+       e.preventDefault();
+       debugger;
+       let controller = "slider";
+       let id = $("#slider-id").val();
+       let field = $(this).attr("name");
+       let value = $(this).val();
+       updateInfo(controller,id,field,value);
+
+    });
+    $("#update-screen").click(function(e){
+        e.preventDefault();
+        location.reload();
+    })
 
 });
 function updateSlider(element)
@@ -106,13 +128,28 @@ function updateSlider(element)
 
 
 }
+function updateInfo(controller,id,field,value)
+{
+    $.ajax({
+        method:"POST",
+        url: host+"/"+controller+"/update/"+field,
+        data: {id:id,value:value},
+        dataType : "JSON",
+    }).done(function(response){
+        console.log(response);
+        //let objToUpd = JSON.parse( localStorage.getItem(controller));
 
+    });
+
+
+
+}
 function request(form,postData)
 {
     let $form = $(form);
     var settings = {
         method : $form.attr("method"),
-        url : '<?=base_url()?>/'+$form.attr("id"),
+        url : host+"/"+$form.attr("id"),
         dataType : "JSON",
         data:postData,
         statusCode :{
@@ -165,6 +202,23 @@ function inputMatch()
         }
 
         return match
+}
+function updateNumber(element)
+{
+
+    let id = $(element).attr("data-table");
+    let field = $(element).attr("name");
+    let value = $(this).is("textarea")?$(element).text():$(element).val();
+
+
+    $.ajax({
+        method :"POST",
+        url : host+"/number/update",
+        data :{id:id,field:field, value:value},
+        dataType :"JSON"
+    }).done(function(response){
+        console.log(response);
+    })
 }
 
 

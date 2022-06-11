@@ -55,7 +55,8 @@ $routes->add('user','Admin::user');
 $routes->add('slider','Admin::slider');
 $routes->add('numbers-what','Admin::numbersWhat');
 $routes->add('post','Admin::post');
-
+$routes->add('download','Admin::download');
+$routes->add('partners','Admin::partners');
 
 
 /*

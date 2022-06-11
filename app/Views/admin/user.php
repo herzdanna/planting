@@ -23,16 +23,16 @@
               <form id="user/create" method="POST">
                 <div class="card-body">
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" name="email"  class="form-control" id="exampleInputEmail1" placeholder="Enter email" required>
+                    <label for="email">Email address</label>
+                    <input type="email" name="email" class="form-control" id="email" placeholder="Enter email">
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" name="password" class="form-control" id="pass" placeholder="Password" required>
+                    <label for="user">User name</label>
+                    <input type="text" name="user" class="form-control" id="user" placeholder="Password">
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputPassword1">Confirm Password</label>
-                    <input type="password" name="password2" class="form-control" id="passMatch" placeholder="Password" required>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" class="form-control" id="password" placeholder="Password">
                   </div>
                 </div>
                 <!-- /.card-body -->
@@ -122,16 +122,16 @@
             <form id="quickForm">
                 <div class="card-body">
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                    <label for="emailUpdate">Email address</label>
+                    <input type="email" name="emailUpdate" class="form-control" id="emailUpdate" placeholder="Enter email">
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputPassword1">User name</label>
-                    <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    <label for="userUpdate">User name</label>
+                    <input type="text" name="userUpdate" class="form-control" id="userUpdate" placeholder="Password">
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    <label for="passwordUpdate">Password</label>
+                    <input type="password" name="passwordUpdate" class="form-control" id="passwordUpdate" placeholder="Password">
                   </div>
                 </div>
                 <!-- /.card-body -->

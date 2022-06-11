@@ -1,14 +1,13 @@
 
-<header>
     <div class="container-fluid px-0">
         <div id="hero-slider" class="swiper hero-slider">
             <div class="swiper-wrapper">
                 <section class="swiper-slide">
-                    <img src="/assets/img/home/banner-1.jpg" class="hero-slider-img">
+                    <img src="<?=$sliders[0]["routeImg"]?>" class="hero-slider-img">
                     <div class="hero-slider-content py-4 pb-lg-8">
                         <div class="container">
                             <div class="text-center">
-                                <a href="/donate" class="btn btn-secondary btn-lg"><?=lang("Header.donate")?></a>
+                                <a href="<?=$sliders[0]["link_${locale}"]?>" class="btn btn-secondary btn-lg"><?=$sliders[0]["textBtn_${locale}"]?></a>
                             </div>
                         </div>
                     </div>
@@ -18,7 +17,8 @@
                     <div class="hero-slider-content py-4 pb-lg-8">
                         <div class="container">
                             <div class="text-center">
-                                <a href="/donate" class="btn btn-secondary btn-lg"><?=lang("Header.donate")?></a>
+                                <a href="<?=$sliders[1]["link_${locale}"]?>" class="btn btn-secondary btn-lg"><?=$sliders[1]["textBtn_${locale}"]?></a>
+
                             </div>
                         </div>
                     </div>
@@ -28,7 +28,8 @@
                     <div class="hero-slider-content py-4 pb-lg-8">
                         <div class="container">
                             <div class="text-center">
-                                <a href="/donate" class="btn btn-secondary btn-lg"><?=lang("Header.donate")?></a>
+                                <a href="<?=$sliders[2]["link_${locale}"]?>" class="btn btn-secondary btn-lg"><?=$sliders[2]["textBtn_${locale}"]?></a>
+
                             </div>
                         </div>
                     </div>
@@ -39,7 +40,6 @@
             <div class="swiper-button-prev"></div>
         </div>
     </div>
-</header>
 
 <section class="text-center">
     <div class="py-5" data-aos="fade-up">
@@ -56,27 +56,30 @@
         <div class="row g-0">
             <div class="col-6 col-lg-3">
                 <div class="bg-secondary text-primary text-center py-5 px-3 px-md-4 h-100">
-                    <h2 class="display-3 fw-bold mb-3"><span class="js-counter" data-counter="8">0</span></h2>
-                    <p class="tx-3 tx-md-4 mb-0"><?=lang("Home.square.square1")?></p>
+                    <h2 class="display-3 fw-bold mb-3"><span class="js-counter" data-counter="<?=@$numbers[0]->title_es?>"></span><?=@$numbers[0]->title_en?></h2>
+                    <p class="tx-3 tx-md-4 mb-0"><?=@$locale==="es"?$numbers[0]->description_es:$numbers[0]->description_en?></p>
                 </div>
             </div>
             <div class="col-6 col-lg-3">
                 <div class="bg-green text-primary text-center py-5 px-3 px-md-4 h-100">
-                    <h2 class="display-3 fw-bold mb-3"><span class="js-counter" data-counter="250">0</span>+</h2>
-                    <p class="tx-3 tx-md-4 mb-0"><?=lang("Home.square.square2")?></p>
+                    <h2 class="display-3 fw-bold mb-3"><span class="js-counter" data-counter="<?=@$numbers[1]->title_es?>"">0</span><?=@$numbers[1]->title_en?></h2>
+                    <p class="tx-3 tx-md-4 mb-0"><?=@$locale==="es"?$numbers[1]->description_es:$numbers[1]->description_en?></p>
+
                 </div>
             </div>
             <div class="col-6 col-lg-3">
                 <div class="bg-blue text-primary text-center py-5 px-3 px-md-4 h-100">
-                    <h2 class="display-3 fw-bold mb-3"><span class="js-counter" data-counter="650">0</span>+</h2>
-                    <p class="tx-3 tx-md-4 mb-0"><?=lang("Home.square.square3")?></p>
+                    <h2 class="display-3 fw-bold mb-3"><span class="js-counter" data-counter="<?=@$numbers[2]->title_es?>"">0</span><?=@$numbers[2]->title_en?></h2>
+                    <p class="tx-3 tx-md-4 mb-0"><?=@$locale==="es"?$numbers[2]->description_es:$numbers[2]->description_en?></p>
+
                 </div>
             </div>
             <div class="col-6 col-lg-3">
             	<div class="bg-yellow text-primary text-center py-5 px-3 px-md-4 h-100">
-                	<h2 class="display-3 fw-bold mb-3"><span class="js-counter" data-counter="97">0</span>%</h2>
-                	<p class="tx-3 tx-md-4 mb-0"><?=lang("Home.square.square4")?></p>
-            	</div>
+                	<h2 class="display-3 fw-bold mb-3"><span class="js-counter" data-counter="<?=@$numbers[3]->title_es?>"">0</span><?=@$numbers[3]->title_en?></h2>
+                    <p class="tx-3 tx-md-4 mb-0"><?=@$locale==="es"?$numbers[3]->description_es:$numbers[3]->description_en?></p>
+
+                </div>
         	</div>
     	</div>
     </div>

@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Controllers;
+use App\Models\NumberModel;
 use App\Models\SliderModel;
 use App\Models\storyModel;
 use MailchimpMarketing\ApiClient;
@@ -63,13 +64,20 @@ class Page extends BaseController
         $data = $response->getDecodedBody(); */
 
         $data["sliders"] = (new SliderModel)->findAll();
+        $data["locale"] = $this->request->getLocale();
+        $data["numbers"] = (new NumberModel)->getWhere(["page"=>"home"])->getResult();
+        $locale = session()->get("lang")?? $this->request->getLocale();
+        $data["locale"] = $locale;
+
         return $this->setHeader($this->setTitle(1)).view('home',$data).$this->setFooter();
     }
 
     public function work(string $section = 'what')
     {
         if($section == 'what' || $section == 'where'){
-            return $this->setHeader(['title' => ucfirst($section)]).view($section).view('currentPrograms').$this->setFooter();
+            $data["locale"] = session()->get("lang")?? $this->request->getLocale();
+            $data["what"]= (new NumberModel)->getWhere(["page"=>"what"])->getResult("array");
+            return $this->setHeader(['title' => ucfirst($section)]).view($section,$data).view('currentPrograms',).$this->setFooter();
         }else{
             return $this->setHeader(['title' => ucfirst($section)]).view($section).$this->setFooter();
         }
