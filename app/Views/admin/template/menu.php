@@ -99,7 +99,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="pages/widgets.html" class="nav-link">
+                    <a href="/video" class="nav-link">
                         <i class="nav-icon fas fa-play"></i>
                             <p>
                                 Videos

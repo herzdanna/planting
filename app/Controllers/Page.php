@@ -182,4 +182,9 @@ class Page extends BaseController
         return $this->setHeaderAdmin($this->setTitleAdmin(5)).view('admin/template/menu').view('admin/partners').$this->footerAdmin;
     }
 
+    public function video (){
+        return $this->setHeaderAdmin($this->setTitleAdmin(5)).view('admin/template/menu').view('admin/video').$this->footerAdmin;
+    }
+    
+
 }
